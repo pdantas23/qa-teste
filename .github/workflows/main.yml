@@ -1,0 +1,193 @@
+name: Suite de Automação QA
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      suite:
+        description: "Suite de testes a executar"
+        required: true
+        default: "all"
+        type: choice
+        options: [all, api, web]
+      environment:
+        description: "Ambiente alvo"
+        required: true
+        default: "staging"
+        type: choice
+        options: [staging, prod]
+
+env:
+  PYTHON_VERSION: "3.11"
+  ENV: ${{ github.event.inputs.environment || 'staging' }}
+  URL_BASE_PETSTORE: ${{ secrets.PETSTORE_BASE_URL || 'https://petstore.swagger.io/v2' }}
+  URL_BASE_SAUCEDEMO: ${{ secrets.SAUCEDEMO_BASE_URL || 'https://www.saucedemo.com' }}
+  USUARIO_SAUCEDEMO: ${{ secrets.SAUCEDEMO_USER || 'standard_user' }}
+  SENHA_SAUCEDEMO: ${{ secrets.SAUCEDEMO_PASSWORD || 'secret_sauce' }}
+
+jobs:
+  testes-api:
+    name: Testes de API — Petstore
+    runs-on: ubuntu-latest
+    if: >
+      github.event.inputs.suite == 'api' ||
+      github.event.inputs.suite == 'all' ||
+      github.event.inputs.suite == ''
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install .
+
+      - name: Executar suite de testes de API
+        run: |
+          mkdir -p reports/allure-results reports/html
+          pytest tests/api/ \
+            -m api \
+            -n auto \
+            --alluredir=reports/allure-results \
+            --html=reports/html/relatorio-api.html \
+            --self-contained-html \
+            -v
+        env:
+          TIMEOUT_API: 30
+          PYTHONPATH: ${{ github.workspace }}
+
+      - name: Publicar resultados Allure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-api
+          path: reports/allure-results/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Publicar relatório HTML
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-html-api
+          path: reports/html/
+          retention-days: 30
+          if-no-files-found: warn
+
+  testes-web:
+    name: Testes Web — SauceDemo (Headless)
+    runs-on: ubuntu-latest
+    if: >
+      github.event.inputs.suite == 'web' ||
+      github.event.inputs.suite == 'all' ||
+      github.event.inputs.suite == ''
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Instalar Google Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Instalar dependências
+        run: pip install .
+
+      - name: Executar suite de testes Web (headless)
+        run: |
+          mkdir -p reports/allure-results reports/html
+          pytest tests/web/ \
+            -m web \
+            --alluredir=reports/allure-results \
+            --html=reports/html/relatorio-web.html \
+            --self-contained-html \
+            -v
+        env:
+          NAVEGADOR: chrome
+          NAVEGADOR_SEM_INTERFACE: "true"
+          TIMEOUT_PADRAO: 15
+          PYTHONPATH: ${{ github.workspace }}
+
+      - name: Publicar screenshots de falha
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots-falha
+          path: reports/falha_*.png
+          retention-days: 7
+          if-no-files-found: warn
+
+      - name: Publicar resultados Allure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-web
+          path: reports/allure-results/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Publicar relatório HTML
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-html-web
+          path: reports/html/
+          retention-days: 30
+          if-no-files-found: warn
+
+  publicar-relatorio-allure:
+    name: Publicar Relatório Allure
+    runs-on: ubuntu-latest
+    needs: [testes-api, testes-web]
+    if: always() && github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: Baixar resultados Allure — API
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results-api
+          path: reports/allure-results/
+        continue-on-error: true
+
+      - name: Baixar resultados Allure — Web
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results-web
+          path: reports/allure-results/
+        continue-on-error: true
+
+      - name: Instalar Allure CLI
+        run: |
+          wget -qO allure.tgz https://github.com/allure-framework/allure2/releases/download/2.27.0/allure-2.27.0.tgz
+          tar -xzf allure.tgz
+          sudo mv allure-2.27.0 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/local/bin/allure
+
+      - name: Gerar relatório Allure
+        run: allure generate reports/allure-results -o allure-report --clean
+
+      - name: Publicar no GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: allure-report
+          publish_branch: gh-pages

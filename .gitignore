@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+reports/
+.venv/
+.venv311/
+dist/
+build/
+*.egg-info/
+allure-report/
+CLAUDE.md
+claude.md
+presentation.html
