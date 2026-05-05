@@ -1,0 +1,6 @@
+2026-05-05 15:51:21.919 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 51607, 'name': 'Lorenzo', 'status': 'available', 'photoUrls': ['https://placekittens.com/873/193'], 'category': {'id': 2, 'name': 'veniam'}, 'tags': [{'id': 15, 'name': 'quidem'}]}
+2026-05-05 15:51:22.020 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (99.1ms)
+2026-05-05 15:51:22.022 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/51607 | payload: None
+2026-05-05 15:51:22.032 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/51607 → 200 (8.2ms)
+2026-05-05 15:51:22.036 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/51607 | payload: None
+2026-05-05 15:51:22.045 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/51607 → 200 (7.9ms)

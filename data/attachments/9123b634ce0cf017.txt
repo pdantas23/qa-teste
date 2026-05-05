@@ -1,0 +1,4 @@
+2026-05-05 15:51:22.027 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 478577, 'name': 'Heloísa', 'status': 'available', 'photoUrls': ['https://placekittens.com/480/155'], 'category': {'id': 7, 'name': 'neque'}, 'tags': [{'id': 30, 'name': 'quisquam'}]}
+2026-05-05 15:51:22.036 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (8.2ms)
+2026-05-05 15:51:22.036 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/478577 | payload: None
+2026-05-05 15:51:22.045 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/478577 → 200 (8.0ms)

@@ -1,0 +1,2 @@
+2026-05-05 15:51:21.919 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 166212, 'name': 'Ravy', 'status': 'available', 'photoUrls': ['https://placekittens.com/683/302'], 'category': {'id': 8, 'name': 'rerum'}, 'tags': [{'id': 68, 'name': 'magnam'}]}
+2026-05-05 15:51:22.020 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (99.8ms)
