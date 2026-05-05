@@ -1,0 +1,4 @@
+2026-05-05 15:54:51.271 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 42042, 'name': 'Renan', 'status': 'available', 'photoUrls': ['https://picsum.photos/442/236'], 'category': {'id': 9, 'name': 'omnis'}, 'tags': [{'id': 24, 'name': 'quam'}]}
+2026-05-05 15:54:51.341 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (68.6ms)
+2026-05-05 15:54:51.342 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/42042 | payload: None
+2026-05-05 15:54:51.411 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/42042 → 200 (68.9ms)

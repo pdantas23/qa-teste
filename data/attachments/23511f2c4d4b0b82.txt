@@ -1,6 +1,0 @@
-2026-05-05 15:51:22.163 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 730723, 'username': 'duartemarcos-vinicius395', 'firstName': 'Bárbara', 'lastName': 'da Conceição', 'email': 'nogueiraisaac@example.net', 'password': 'dC2(rn5HM^ZW', 'phone': '71 4750-6445', 'userStatus': 1}
-2026-05-05 15:51:22.172 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (7.9ms)
-2026-05-05 15:51:22.173 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/user/duartemarcos-vinicius395 | payload: {'id': 730723, 'username': 'duartemarcos-vinicius395', 'firstName': 'NomeAtualizado', 'lastName': 'da Conceição', 'email': 'nogueiraisaac@example.net', 'password': 'dC2(rn5HM^ZW', 'phone': '71 4750-6445', 'userStatus': 1}
-2026-05-05 15:51:22.182 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/user/duartemarcos-vinicius395 → 200 (7.9ms)
-2026-05-05 15:51:22.183 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/duartemarcos-vinicius395 | payload: None
-2026-05-05 15:51:22.192 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/duartemarcos-vinicius395 → 200 (7.8ms)
