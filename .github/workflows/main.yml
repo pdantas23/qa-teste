@@ -57,6 +57,8 @@ jobs:
           pytest tests/api/ \
             -m api \
             -n auto \
+            --reruns 2 \
+            --reruns-delay 3 \
             --alluredir=reports/allure-results \
             --html=reports/html/relatorio-api.html \
             --self-contained-html \
