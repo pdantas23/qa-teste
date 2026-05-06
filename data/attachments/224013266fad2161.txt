@@ -1,6 +1,0 @@
-2026-05-05 15:54:50.784 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 268279, 'name': 'Luana', 'status': 'available', 'photoUrls': ['https://dummyimage.com/459x724'], 'category': {'id': 4, 'name': 'asperiores'}, 'tags': [{'id': 81, 'name': 'eius'}]}
-2026-05-05 15:54:51.157 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (371.3ms)
-2026-05-05 15:54:51.158 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/268279 | payload: None
-2026-05-05 15:54:51.236 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/268279 → 200 (76.6ms)
-2026-05-05 15:54:51.239 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/268279 | payload: None
-2026-05-05 15:54:51.316 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/268279 → 200 (76.4ms)

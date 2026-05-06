@@ -1,7 +1,0 @@
-2026-05-05 15:54:51.318 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 316586, 'name': 'Luiz Felipe', 'status': 'available', 'photoUrls': ['https://picsum.photos/605/377'], 'category': {'id': 9, 'name': 'velit'}, 'tags': [{'id': 20, 'name': 'incidunt'}]}
-2026-05-05 15:54:51.394 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (75.3ms)
-2026-05-05 15:54:51.395 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/316586 | payload: None
-2026-05-05 15:54:51.470 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/316586 → 200 (75.0ms)
-2026-05-05 15:54:51.471 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/316586 | payload: None
-2026-05-05 15:54:51.547 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/316586 → 404 (75.2ms)
-2026-05-05 15:54:51.547 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
