@@ -1,0 +1,4 @@
+2026-05-07 08:24:30.673 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 566890, 'name': 'Nina', 'status': 'available', 'photoUrls': ['https://placekittens.com/884/750'], 'category': {'id': 7, 'name': 'recusandae'}, 'tags': [{'id': 57, 'name': 'dicta'}]}
+2026-05-07 08:24:30.740 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (66.3ms)
+2026-05-07 08:24:30.740 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/566890 | payload: None
+2026-05-07 08:24:30.807 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/566890 → 200 (66.3ms)
