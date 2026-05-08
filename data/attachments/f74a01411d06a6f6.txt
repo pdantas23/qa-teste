@@ -1,8 +1,0 @@
-2026-05-07 08:24:30.782 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 154899, 'name': 'Lucca', 'status': 'available', 'photoUrls': ['https://picsum.photos/800/697'], 'category': {'id': 9, 'name': 'cumque'}, 'tags': [{'id': 14, 'name': 'quidem'}]}
-2026-05-07 08:24:30.852 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (69.7ms)
-2026-05-07 08:24:30.852 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 979569, 'petId': 154899, 'quantity': 4, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
-2026-05-07 08:24:30.923 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (70.0ms)
-2026-05-07 08:24:30.925 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/979569 | payload: None
-2026-05-07 08:24:30.995 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/979569 → 200 (69.5ms)
-2026-05-07 08:24:30.995 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/154899 | payload: None
-2026-05-07 08:24:31.066 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/154899 → 200 (69.6ms)

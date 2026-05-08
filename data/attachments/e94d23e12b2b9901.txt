@@ -1,7 +1,0 @@
-2026-05-07 08:24:30.719 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 195066, 'name': 'Antonella', 'status': 'available', 'photoUrls': ['https://placekittens.com/789/730'], 'category': {'id': 1, 'name': 'fugit'}, 'tags': [{'id': 41, 'name': 'exercitationem'}]}
-2026-05-07 08:24:30.793 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (73.2ms)
-2026-05-07 08:24:30.794 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/195066 | payload: None
-2026-05-07 08:24:30.867 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/195066 → 200 (73.0ms)
-2026-05-07 08:24:30.868 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/195066 | payload: None
-2026-05-07 08:24:30.942 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/195066 → 404 (73.1ms)
-2026-05-07 08:24:30.942 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

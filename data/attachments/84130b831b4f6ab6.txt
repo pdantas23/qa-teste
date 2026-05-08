@@ -1,2 +1,0 @@
-2026-05-07 08:24:30.200 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 139248, 'name': 'Luiz Felipe', 'status': 'available', 'photoUrls': ['https://picsum.photos/54/56'], 'category': {'id': 4, 'name': 'eligendi'}, 'tags': [{'id': 92, 'name': 'repudiandae'}]}
-2026-05-07 08:24:30.559 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (357.2ms)
