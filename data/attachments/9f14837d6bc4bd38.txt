@@ -1,4 +1,0 @@
-2026-05-08 07:21:02.329 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 807106, 'name': 'Ana Laura', 'status': 'available', 'photoUrls': ['https://placekittens.com/535/573'], 'category': {'id': 6, 'name': 'rem'}, 'tags': [{'id': 49, 'name': 'explicabo'}]}
-2026-05-08 07:21:02.396 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (65.8ms)
-2026-05-08 07:21:02.396 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/807106 | payload: None
-2026-05-08 07:21:02.463 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/807106 → 200 (66.0ms)

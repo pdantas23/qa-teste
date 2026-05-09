@@ -1,3 +1,0 @@
-2026-05-08 07:21:03.090 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/user/usuario_que_nao_existe_xyz_999 | payload: None
-2026-05-08 07:21:03.162 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/user/usuario_que_nao_existe_xyz_999 → 404 (71.3ms)
-2026-05-08 07:21:03.162 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"User not found"}

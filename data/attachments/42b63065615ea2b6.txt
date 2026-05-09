@@ -1,0 +1,4 @@
+2026-05-09 07:47:53.016 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 441200, 'name': 'Lucas Gabriel', 'status': 'available', 'photoUrls': ['https://picsum.photos/420/619'], 'category': {'id': 8, 'name': 'soluta'}, 'tags': [{'id': 87, 'name': 'ab'}]}
+2026-05-09 07:47:53.021 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.9ms)
+2026-05-09 07:47:53.022 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/441200 | payload: None
+2026-05-09 07:47:53.028 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/441200 → 200 (4.9ms)

@@ -1,6 +1,0 @@
-2026-05-08 07:21:01.857 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 82382, 'name': 'Kaique', 'status': 'available', 'photoUrls': ['https://picsum.photos/60/666'], 'category': {'id': 7, 'name': 'commodi'}, 'tags': [{'id': 89, 'name': 'accusantium'}]}
-2026-05-08 07:21:02.203 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (343.8ms)
-2026-05-08 07:21:02.204 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/82382 | payload: None
-2026-05-08 07:21:02.276 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/82382 → 200 (71.2ms)
-2026-05-08 07:21:02.278 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/82382 | payload: None
-2026-05-08 07:21:02.350 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/82382 → 200 (71.1ms)

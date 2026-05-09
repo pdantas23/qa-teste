@@ -1,0 +1,4 @@
+2026-05-09 07:47:53.028 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 954242, 'name': 'Davi Miguel', 'status': 'available', 'photoUrls': ['https://picsum.photos/344/666'], 'category': {'id': 6, 'name': 'deleniti'}, 'tags': [{'id': 5, 'name': 'voluptatem'}]}
+2026-05-09 07:47:53.034 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.3ms)
+2026-05-09 07:47:53.034 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/954242 | payload: None
+2026-05-09 07:47:53.040 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/954242 → 200 (4.6ms)

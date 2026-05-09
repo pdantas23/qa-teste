@@ -1,4 +1,0 @@
-2026-05-08 07:21:02.185 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 12671, 'name': 'Ana Cecília', 'status': 'available', 'photoUrls': ['https://picsum.photos/148/39'], 'category': {'id': 6, 'name': 'odit'}, 'tags': [{'id': 98, 'name': 'tempore'}]}
-2026-05-08 07:21:02.252 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (66.2ms)
-2026-05-08 07:21:02.253 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/12671 | payload: None
-2026-05-08 07:21:02.319 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/12671 → 200 (65.5ms)
