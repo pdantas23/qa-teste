@@ -1,2 +1,0 @@
-2026-05-10 08:01:10.169 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 382827, 'name': 'Samuel', 'status': 'available', 'photoUrls': ['https://picsum.photos/974/171'], 'category': {'id': 8, 'name': 'harum'}, 'tags': [{'id': 95, 'name': 'magni'}]}
-2026-05-10 08:01:10.493 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (321.9ms)
