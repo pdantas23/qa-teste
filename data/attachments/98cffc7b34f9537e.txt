@@ -1,4 +1,0 @@
-2026-05-11 09:29:53.265 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 72898, 'name': 'Sara', 'status': 'available', 'photoUrls': ['https://placekittens.com/336/189'], 'category': {'id': 2, 'name': 'veritatis'}, 'tags': [{'id': 100, 'name': 'officia'}]}
-2026-05-11 09:29:53.339 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (72.4ms)
-2026-05-11 09:29:53.339 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/72898 | payload: None
-2026-05-11 09:29:53.412 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/72898 → 200 (72.3ms)

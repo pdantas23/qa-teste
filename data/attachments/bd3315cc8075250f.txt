@@ -1,0 +1,6 @@
+2026-05-12 08:31:20.630 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 910842, 'name': 'Davi Lucca', 'status': 'available', 'photoUrls': ['https://picsum.photos/8/916'], 'category': {'id': 2, 'name': 'qui'}, 'tags': [{'id': 11, 'name': 'inventore'}]}
+2026-05-12 08:31:20.944 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (312.6ms)
+2026-05-12 08:31:20.945 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/910842 | payload: None
+2026-05-12 08:31:20.965 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/910842 → 200 (18.4ms)
+2026-05-12 08:31:20.968 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/910842 | payload: None
+2026-05-12 08:31:20.987 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/910842 → 200 (18.3ms)

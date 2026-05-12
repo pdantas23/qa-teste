@@ -1,6 +1,0 @@
-2026-05-11 09:29:52.762 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 378094, 'name': 'Catarina', 'status': 'available', 'photoUrls': ['https://picsum.photos/2/346'], 'category': {'id': 10, 'name': 'dicta'}, 'tags': [{'id': 25, 'name': 'occaecati'}]}
-2026-05-11 09:29:53.100 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (335.5ms)
-2026-05-11 09:29:53.101 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/378094 | payload: None
-2026-05-11 09:29:53.170 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/378094 → 200 (67.8ms)
-2026-05-11 09:29:53.173 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/378094 | payload: None
-2026-05-11 09:29:53.242 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/378094 → 200 (68.3ms)

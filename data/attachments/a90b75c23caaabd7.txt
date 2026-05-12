@@ -1,0 +1,4 @@
+2026-05-12 08:31:20.953 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 52633, 'name': 'Luiz Fernando', 'status': 'available', 'photoUrls': ['https://dummyimage.com/81x127'], 'category': {'id': 2, 'name': 'officia'}, 'tags': [{'id': 28, 'name': 'labore'}]}
+2026-05-12 08:31:20.973 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (18.7ms)
+2026-05-12 08:31:20.973 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/52633 | payload: None
+2026-05-12 08:31:20.993 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/52633 → 200 (18.4ms)
