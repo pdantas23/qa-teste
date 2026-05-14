@@ -1,4 +1,0 @@
-2026-05-13 08:37:50.538 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 170586, 'name': 'Raul', 'status': 'available', 'photoUrls': ['https://picsum.photos/594/388'], 'category': {'id': 10, 'name': 'enim'}, 'tags': [{'id': 15, 'name': 'aliquid'}]}
-2026-05-13 08:37:50.548 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (8.9ms)
-2026-05-13 08:37:50.548 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/170586 | payload: None
-2026-05-13 08:37:50.558 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/170586 → 200 (9.0ms)
