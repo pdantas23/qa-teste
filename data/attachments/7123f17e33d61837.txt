@@ -1,8 +1,0 @@
-2026-05-14 08:30:48.450 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 150178, 'name': 'Amanda', 'status': 'available', 'photoUrls': ['https://placekittens.com/277/408'], 'category': {'id': 3, 'name': 'natus'}, 'tags': [{'id': 96, 'name': 'reprehenderit'}]}
-2026-05-14 08:30:48.501 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (50.1ms)
-2026-05-14 08:30:48.501 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 728168, 'petId': 150178, 'quantity': 5, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
-2026-05-14 08:30:48.552 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (50.0ms)
-2026-05-14 08:30:48.553 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/728168 | payload: None
-2026-05-14 08:30:48.604 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/728168 → 200 (50.0ms)
-2026-05-14 08:30:48.604 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/150178 | payload: None
-2026-05-14 08:30:48.655 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/150178 → 200 (50.0ms)
