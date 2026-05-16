@@ -1,6 +1,0 @@
-2026-05-15 08:42:21.498 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 226597, 'name': 'Maria Luiza', 'status': 'available', 'photoUrls': ['https://picsum.photos/831/558'], 'category': {'id': 1, 'name': 'doloremque'}, 'tags': [{'id': 82, 'name': 'eaque'}]}
-2026-05-15 08:42:21.793 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (293.5ms)
-2026-05-15 08:42:21.794 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/226597 | payload: None
-2026-05-15 08:42:21.839 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/226597 → 200 (44.0ms)
-2026-05-15 08:42:21.842 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/226597 | payload: None
-2026-05-15 08:42:21.887 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/226597 → 200 (43.9ms)

@@ -1,0 +1,4 @@
+2026-05-16 07:54:42.456 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 522951, 'name': 'Jade', 'status': 'available', 'photoUrls': ['https://picsum.photos/698/717'], 'category': {'id': 7, 'name': 'eius'}, 'tags': [{'id': 89, 'name': 'neque'}]}
+2026-05-16 07:54:42.507 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (50.3ms)
+2026-05-16 07:54:42.507 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/522951 | payload: None
+2026-05-16 07:54:42.558 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/522951 → 200 (50.0ms)

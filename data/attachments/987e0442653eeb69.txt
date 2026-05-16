@@ -1,0 +1,6 @@
+2026-05-16 07:54:42.122 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 48991, 'name': 'Dante', 'status': 'available', 'photoUrls': ['https://picsum.photos/494/229'], 'category': {'id': 3, 'name': 'cum'}, 'tags': [{'id': 80, 'name': 'ab'}]}
+2026-05-16 07:54:42.453 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (328.5ms)
+2026-05-16 07:54:42.454 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/48991 | payload: None
+2026-05-16 07:54:42.504 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/48991 → 200 (49.9ms)
+2026-05-16 07:54:42.506 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/48991 | payload: None
+2026-05-16 07:54:42.557 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/48991 → 200 (49.8ms)

@@ -1,0 +1,4 @@
+2026-05-16 07:54:42.557 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 276362, 'name': 'Ravi', 'status': 'available', 'photoUrls': ['https://dummyimage.com/21x445'], 'category': {'id': 2, 'name': 'facere'}, 'tags': [{'id': 39, 'name': 'repellat'}]}
+2026-05-16 07:54:42.607 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (49.8ms)
+2026-05-16 07:54:42.607 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/276362 | payload: None
+2026-05-16 07:54:42.658 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/276362 → 200 (49.7ms)
