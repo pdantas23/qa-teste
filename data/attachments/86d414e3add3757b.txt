@@ -1,0 +1,2 @@
+2026-05-19 09:31:58.469 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 169373, 'name': 'Ester', 'status': 'available', 'photoUrls': ['https://placekittens.com/960/201'], 'category': {'id': 4, 'name': 'voluptates'}, 'tags': [{'id': 49, 'name': 'nostrum'}]}
+2026-05-19 09:31:58.679 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (207.3ms)

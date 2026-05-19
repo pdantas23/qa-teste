@@ -1,4 +1,0 @@
-2026-05-18 09:48:09.361 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 371581, 'name': 'Yuri', 'status': 'available', 'photoUrls': ['https://picsum.photos/121/541'], 'category': {'id': 2, 'name': 'veniam'}, 'tags': [{'id': 96, 'name': 'earum'}]}
-2026-05-18 09:48:09.367 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.2ms)
-2026-05-18 09:48:09.368 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/371581 | payload: None
-2026-05-18 09:48:09.373 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/371581 → 200 (4.1ms)

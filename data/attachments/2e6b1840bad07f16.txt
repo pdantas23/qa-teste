@@ -1,6 +1,0 @@
-2026-05-18 09:48:09.081 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 553280, 'name': 'Aurora', 'status': 'available', 'photoUrls': ['https://placekittens.com/515/194'], 'category': {'id': 7, 'name': 'tenetur'}, 'tags': [{'id': 9, 'name': 'dolor'}]}
-2026-05-18 09:48:09.343 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (259.7ms)
-2026-05-18 09:48:09.344 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/553280 | payload: None
-2026-05-18 09:48:09.351 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/553280 → 200 (4.7ms)
-2026-05-18 09:48:09.354 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/553280 | payload: None
-2026-05-18 09:48:09.360 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/553280 → 200 (4.3ms)
