@@ -1,6 +1,0 @@
-2026-05-19 09:31:58.469 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 90561, 'name': 'Luiz Felipe', 'status': 'available', 'photoUrls': ['https://placekittens.com/594/702'], 'category': {'id': 7, 'name': 'sapiente'}, 'tags': [{'id': 47, 'name': 'distinctio'}]}
-2026-05-19 09:31:58.678 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (207.1ms)
-2026-05-19 09:31:58.679 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/90561 | payload: None
-2026-05-19 09:31:58.685 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/90561 → 200 (4.5ms)
-2026-05-19 09:31:58.688 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/90561 | payload: None
-2026-05-19 09:31:58.694 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/90561 → 200 (4.8ms)

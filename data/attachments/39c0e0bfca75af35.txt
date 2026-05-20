@@ -1,4 +1,0 @@
-2026-05-19 09:31:58.686 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 268791, 'name': 'Henry Gabriel', 'status': 'available', 'photoUrls': ['https://picsum.photos/859/202'], 'category': {'id': 3, 'name': 'provident'}, 'tags': [{'id': 84, 'name': 'saepe'}]}
-2026-05-19 09:31:58.693 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.8ms)
-2026-05-19 09:31:58.693 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/268791 | payload: None
-2026-05-19 09:31:58.700 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/268791 → 200 (5.7ms)

@@ -1,4 +1,0 @@
-2026-05-19 09:31:58.696 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 381701, 'name': 'Evelyn', 'status': 'available', 'photoUrls': ['https://dummyimage.com/103x697'], 'category': {'id': 4, 'name': 'fugiat'}, 'tags': [{'id': 63, 'name': 'nobis'}]}
-2026-05-19 09:31:58.702 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.6ms)
-2026-05-19 09:31:58.702 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/381701 | payload: None
-2026-05-19 09:31:58.708 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/381701 → 200 (4.2ms)
