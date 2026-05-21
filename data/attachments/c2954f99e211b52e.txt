@@ -1,0 +1,2 @@
+2026-05-21 09:27:13.171 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 690783, 'name': 'Antony', 'status': 'available', 'photoUrls': ['https://picsum.photos/192/195'], 'category': {'id': 9, 'name': 'voluptas'}, 'tags': [{'id': 16, 'name': 'enim'}]}
+2026-05-21 09:27:13.490 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (316.4ms)

@@ -1,4 +1,0 @@
-2026-05-20 08:57:34.063 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 828091, 'name': 'Maysa', 'status': 'available', 'photoUrls': ['https://picsum.photos/15/238'], 'category': {'id': 7, 'name': 'quasi'}, 'tags': [{'id': 28, 'name': 'excepturi'}]}
-2026-05-20 08:57:34.107 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (41.8ms)
-2026-05-20 08:57:34.107 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/828091 | payload: None
-2026-05-20 08:57:34.149 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/828091 → 200 (41.2ms)
