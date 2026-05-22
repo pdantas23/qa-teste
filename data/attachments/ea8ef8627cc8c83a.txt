@@ -1,0 +1,2 @@
+2026-05-22 08:52:55.949 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 588459, 'name': 'Ana Júlia', 'status': 'available', 'photoUrls': ['https://placekittens.com/592/642'], 'category': {'id': 2, 'name': 'eligendi'}, 'tags': [{'id': 34, 'name': 'debitis'}]}
+2026-05-22 08:52:56.287 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (334.8ms)

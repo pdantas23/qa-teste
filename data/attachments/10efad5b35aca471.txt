@@ -1,6 +1,0 @@
-2026-05-21 09:27:13.171 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 25611, 'name': 'Pietro', 'status': 'available', 'photoUrls': ['https://dummyimage.com/1x147'], 'category': {'id': 4, 'name': 'ipsam'}, 'tags': [{'id': 40, 'name': 'nesciunt'}]}
-2026-05-21 09:27:13.483 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (309.9ms)
-2026-05-21 09:27:13.484 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/25611 | payload: None
-2026-05-21 09:27:13.533 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/25611 → 200 (47.7ms)
-2026-05-21 09:27:13.536 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/25611 | payload: None
-2026-05-21 09:27:13.585 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/25611 → 200 (47.6ms)
