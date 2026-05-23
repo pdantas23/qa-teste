@@ -1,7 +1,0 @@
-2026-05-22 08:52:56.444 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 876979, 'name': 'Maria Luiza', 'status': 'available', 'photoUrls': ['https://placekittens.com/355/963'], 'category': {'id': 7, 'name': 'mollitia'}, 'tags': [{'id': 16, 'name': 'soluta'}]}
-2026-05-22 08:52:56.518 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (72.8ms)
-2026-05-22 08:52:56.518 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/876979 | payload: None
-2026-05-22 08:52:56.591 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/876979 → 200 (72.5ms)
-2026-05-22 08:52:56.592 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/876979 | payload: None
-2026-05-22 08:52:56.665 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/876979 → 404 (72.4ms)
-2026-05-22 08:52:56.665 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

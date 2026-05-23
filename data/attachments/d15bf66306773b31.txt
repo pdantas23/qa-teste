@@ -1,6 +1,0 @@
-2026-05-22 08:52:55.948 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 138165, 'name': 'João Lucas', 'status': 'available', 'photoUrls': ['https://picsum.photos/623/156'], 'category': {'id': 10, 'name': 'minima'}, 'tags': [{'id': 46, 'name': 'nemo'}]}
-2026-05-22 08:52:56.282 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (332.4ms)
-2026-05-22 08:52:56.283 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/138165 | payload: None
-2026-05-22 08:52:56.354 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/138165 → 200 (70.2ms)
-2026-05-22 08:52:56.357 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/138165 | payload: None
-2026-05-22 08:52:56.427 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/138165 → 200 (69.9ms)
