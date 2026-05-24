@@ -1,0 +1,6 @@
+2026-05-24 08:21:16.906 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 52518, 'name': 'Ana Sophia', 'status': 'available', 'photoUrls': ['https://dummyimage.com/64x832'], 'category': {'id': 8, 'name': 'aliquam'}, 'tags': [{'id': 13, 'name': 'doloribus'}]}
+2026-05-24 08:21:17.076 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (167.7ms)
+2026-05-24 08:21:17.077 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/52518 | payload: None
+2026-05-24 08:21:17.101 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/52518 → 200 (22.8ms)
+2026-05-24 08:21:17.104 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/52518 | payload: None
+2026-05-24 08:21:17.127 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/52518 → 200 (22.7ms)

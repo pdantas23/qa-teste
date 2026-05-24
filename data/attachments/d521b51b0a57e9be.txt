@@ -1,4 +1,0 @@
-2026-05-23 08:09:42.851 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 501276, 'name': 'Cauã', 'status': 'available', 'photoUrls': ['https://picsum.photos/365/511'], 'category': {'id': 10, 'name': 'aspernatur'}, 'tags': [{'id': 93, 'name': 'eum'}]}
-2026-05-23 08:09:42.904 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.9ms)
-2026-05-23 08:09:42.904 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/501276 | payload: None
-2026-05-23 08:09:42.957 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/501276 → 200 (52.0ms)

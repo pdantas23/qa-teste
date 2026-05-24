@@ -1,6 +1,0 @@
-2026-05-23 08:09:42.410 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 504359, 'name': 'Luna', 'status': 'available', 'photoUrls': ['https://dummyimage.com/219x994'], 'category': {'id': 4, 'name': 'architecto'}, 'tags': [{'id': 71, 'name': 'sapiente'}]}
-2026-05-23 08:09:42.738 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (326.3ms)
-2026-05-23 08:09:42.739 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/pet | payload: {'id': 504359, 'name': 'Lorena', 'status': 'sold', 'photoUrls': ['https://dummyimage.com/80x791']}
-2026-05-23 08:09:42.792 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/pet → 200 (51.8ms)
-2026-05-23 08:09:42.793 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/504359 | payload: None
-2026-05-23 08:09:42.845 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/504359 → 200 (51.7ms)

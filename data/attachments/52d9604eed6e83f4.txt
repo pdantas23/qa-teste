@@ -1,2 +1,0 @@
-2026-05-23 08:09:42.414 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 218861, 'name': 'Isadora', 'status': 'available', 'photoUrls': ['https://picsum.photos/634/737'], 'category': {'id': 5, 'name': 'quos'}, 'tags': [{'id': 57, 'name': 'molestias'}]}
-2026-05-23 08:09:42.732 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (316.0ms)

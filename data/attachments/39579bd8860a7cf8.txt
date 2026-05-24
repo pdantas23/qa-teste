@@ -1,0 +1,2 @@
+2026-05-24 08:21:16.906 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 642082, 'name': 'Murilo', 'status': 'available', 'photoUrls': ['https://placekittens.com/584/618'], 'category': {'id': 7, 'name': 'quae'}, 'tags': [{'id': 17, 'name': 'quos'}]}
+2026-05-24 08:21:17.060 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (151.7ms)
