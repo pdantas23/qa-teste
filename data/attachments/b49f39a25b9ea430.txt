@@ -1,7 +1,0 @@
-2026-05-25 09:55:07.830 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 807851, 'name': 'João Felipe', 'status': 'available', 'photoUrls': ['https://placekittens.com/300/433'], 'category': {'id': 7, 'name': 'voluptatibus'}, 'tags': [{'id': 52, 'name': 'eos'}]}
-2026-05-25 09:55:07.903 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (72.2ms)
-2026-05-25 09:55:07.903 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/807851 | payload: None
-2026-05-25 09:55:07.976 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/807851 → 200 (71.8ms)
-2026-05-25 09:55:07.976 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/807851 | payload: None
-2026-05-25 09:55:08.048 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/807851 → 404 (71.7ms)
-2026-05-25 09:55:08.049 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
