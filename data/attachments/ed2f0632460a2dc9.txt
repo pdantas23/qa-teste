@@ -1,2 +1,0 @@
-2026-05-27 09:35:16.933 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/user/logout | payload: None
-2026-05-27 09:35:16.941 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/user/logout → 200 (7.5ms)
