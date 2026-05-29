@@ -1,4 +1,0 @@
-2026-05-28 09:52:14.442 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 303617, 'name': 'Hadassa', 'status': 'available', 'photoUrls': ['https://dummyimage.com/119x507'], 'category': {'id': 9, 'name': 'fugiat'}, 'tags': [{'id': 99, 'name': 'quam'}]}
-2026-05-28 09:52:14.497 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (54.1ms)
-2026-05-28 09:52:14.497 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/303617 | payload: None
-2026-05-28 09:52:14.552 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/303617 → 200 (54.2ms)
