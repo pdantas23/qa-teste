@@ -1,0 +1,6 @@
+2026-05-30 08:20:59.747 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 583096, 'name': 'Ana', 'status': 'available', 'photoUrls': ['https://placekittens.com/878/214'], 'category': {'id': 9, 'name': 'quod'}, 'tags': [{'id': 72, 'name': 'odio'}]}
+2026-05-30 08:21:00.059 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (310.0ms)
+2026-05-30 08:21:00.060 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/583096 | payload: None
+2026-05-30 08:21:00.111 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/583096 → 200 (49.8ms)
+2026-05-30 08:21:00.114 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/583096 | payload: None
+2026-05-30 08:21:00.164 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/583096 → 200 (49.9ms)

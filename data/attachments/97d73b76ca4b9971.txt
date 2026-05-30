@@ -1,0 +1,4 @@
+2026-05-30 08:21:00.158 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 665733, 'name': 'Maria Luísa', 'status': 'available', 'photoUrls': ['https://dummyimage.com/220x752'], 'category': {'id': 4, 'name': 'quidem'}, 'tags': [{'id': 81, 'name': 'maxime'}]}
+2026-05-30 08:21:00.208 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (48.8ms)
+2026-05-30 08:21:00.208 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/665733 | payload: None
+2026-05-30 08:21:00.258 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/665733 → 200 (48.6ms)

@@ -1,0 +1,4 @@
+2026-05-30 08:21:00.059 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 343281, 'name': 'Bella', 'status': 'available', 'photoUrls': ['https://picsum.photos/596/556'], 'category': {'id': 5, 'name': 'expedita'}, 'tags': [{'id': 33, 'name': 'velit'}]}
+2026-05-30 08:21:00.109 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (48.4ms)
+2026-05-30 08:21:00.109 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/343281 | payload: None
+2026-05-30 08:21:00.159 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/343281 → 200 (49.3ms)
