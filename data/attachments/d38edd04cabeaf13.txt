@@ -1,0 +1,4 @@
+2026-05-31 08:37:29.653 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 215944, 'name': 'Emanuelly', 'status': 'available', 'photoUrls': ['https://dummyimage.com/203x77'], 'category': {'id': 4, 'name': 'quae'}, 'tags': [{'id': 31, 'name': 'illo'}]}
+2026-05-31 08:37:29.672 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (18.7ms)
+2026-05-31 08:37:29.673 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/215944 | payload: None
+2026-05-31 08:37:29.692 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/215944 → 200 (18.7ms)
