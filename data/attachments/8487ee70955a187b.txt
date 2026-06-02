@@ -1,7 +1,0 @@
-2026-06-01 11:19:24.905 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 893279, 'name': 'Marcos Vinicius', 'status': 'available', 'photoUrls': ['https://picsum.photos/451/980'], 'category': {'id': 4, 'name': 'odit'}, 'tags': [{'id': 50, 'name': 'impedit'}]}
-2026-06-01 11:19:24.928 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (22.1ms)
-2026-06-01 11:19:24.929 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/893279 | payload: None
-2026-06-01 11:19:24.951 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/893279 → 200 (21.2ms)
-2026-06-01 11:19:24.951 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/893279 | payload: None
-2026-06-01 11:19:24.974 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/893279 → 404 (21.5ms)
-2026-06-01 11:19:24.974 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

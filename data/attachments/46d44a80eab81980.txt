@@ -1,4 +1,0 @@
-2026-06-01 11:19:24.855 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 714214, 'name': 'Guilherme', 'status': 'available', 'photoUrls': ['https://picsum.photos/703/800'], 'category': {'id': 7, 'name': 'natus'}, 'tags': [{'id': 7, 'name': 'beatae'}]}
-2026-06-01 11:19:24.876 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (20.4ms)
-2026-06-01 11:19:24.876 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/714214 | payload: None
-2026-06-01 11:19:24.897 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/714214 → 200 (20.2ms)
