@@ -1,4 +1,0 @@
-2026-06-02 10:11:05.081 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 370609, 'name': 'Arthur Miguel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/257x610'], 'category': {'id': 5, 'name': 'iste'}, 'tags': [{'id': 98, 'name': 'similique'}]}
-2026-06-02 10:11:05.091 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.0ms)
-2026-06-02 10:11:05.091 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/370609 | payload: None
-2026-06-02 10:11:05.098 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/370609 → 200 (4.6ms)

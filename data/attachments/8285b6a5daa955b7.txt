@@ -1,0 +1,6 @@
+2026-06-03 10:47:26.457 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 461213, 'name': 'Heitor', 'status': 'available', 'photoUrls': ['https://picsum.photos/168/551'], 'category': {'id': 5, 'name': 'non'}, 'tags': [{'id': 55, 'name': 'quo'}]}
+2026-06-03 10:47:26.772 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (312.4ms)
+2026-06-03 10:47:26.773 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/461213 | payload: None
+2026-06-03 10:47:26.824 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/461213 → 200 (50.4ms)
+2026-06-03 10:47:26.828 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/461213 | payload: None
+2026-06-03 10:47:26.880 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/461213 → 200 (50.4ms)

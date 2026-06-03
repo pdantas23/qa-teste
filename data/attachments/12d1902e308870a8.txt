@@ -1,0 +1,4 @@
+2026-06-03 10:47:26.893 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 979588, 'name': 'Letícia', 'status': 'available', 'photoUrls': ['https://dummyimage.com/663x601'], 'category': {'id': 4, 'name': 'quos'}, 'tags': [{'id': 9, 'name': 'reiciendis'}]}
+2026-06-03 10:47:26.946 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.3ms)
+2026-06-03 10:47:26.946 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/979588 | payload: None
+2026-06-03 10:47:26.998 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/979588 → 200 (50.8ms)
