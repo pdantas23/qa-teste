@@ -1,0 +1,2 @@
+2026-06-04 09:47:19.674 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 54499, 'name': 'Ravi Lucca', 'status': 'available', 'photoUrls': ['https://dummyimage.com/748x282'], 'category': {'id': 4, 'name': 'similique'}, 'tags': [{'id': 18, 'name': 'distinctio'}]}
+2026-06-04 09:47:19.985 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (309.0ms)

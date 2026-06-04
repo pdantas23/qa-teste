@@ -1,4 +1,0 @@
-2026-06-03 10:47:26.779 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 189321, 'name': 'João Gabriel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/309x923'], 'category': {'id': 3, 'name': 'necessitatibus'}, 'tags': [{'id': 70, 'name': 'culpa'}]}
-2026-06-03 10:47:26.830 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (50.1ms)
-2026-06-03 10:47:26.831 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/189321 | payload: None
-2026-06-03 10:47:26.881 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/189321 → 200 (49.8ms)

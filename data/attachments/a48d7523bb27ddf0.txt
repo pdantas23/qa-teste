@@ -1,0 +1,2 @@
+2026-06-04 09:47:20.127 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/findByStatus | payload: None
+2026-06-04 09:47:20.186 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold → 200 (58.6ms)

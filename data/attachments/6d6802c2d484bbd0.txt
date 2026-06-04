@@ -1,0 +1,4 @@
+2026-06-04 09:47:20.109 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 402150, 'name': 'Antonella', 'status': 'available', 'photoUrls': ['https://picsum.photos/635/339'], 'category': {'id': 6, 'name': 'omnis'}, 'tags': [{'id': 84, 'name': 'atque'}]}
+2026-06-04 09:47:20.167 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (57.0ms)
+2026-06-04 09:47:20.167 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/402150 | payload: None
+2026-06-04 09:47:20.225 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/402150 → 200 (56.9ms)
