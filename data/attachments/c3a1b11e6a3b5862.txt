@@ -1,0 +1,9 @@
+2026-06-05 09:36:04.079 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 794760, 'name': 'Ian', 'status': 'available', 'photoUrls': ['https://dummyimage.com/534x142'], 'category': {'id': 10, 'name': 'molestias'}, 'tags': [{'id': 44, 'name': 'sunt'}]}
+2026-06-05 09:36:04.399 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (317.7ms)
+2026-06-05 09:36:04.399 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

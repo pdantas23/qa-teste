@@ -1,6 +1,0 @@
-2026-06-04 09:47:19.674 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 179967, 'name': 'Maria Sophia', 'status': 'available', 'photoUrls': ['https://placekittens.com/565/853'], 'category': {'id': 1, 'name': 'tempore'}, 'tags': [{'id': 73, 'name': 'ea'}]}
-2026-06-04 09:47:19.996 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (319.2ms)
-2026-06-04 09:47:19.996 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/179967 | payload: None
-2026-06-04 09:47:20.056 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/179967 → 200 (58.5ms)
-2026-06-04 09:47:20.058 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/179967 | payload: None
-2026-06-04 09:47:20.118 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/179967 → 200 (58.6ms)

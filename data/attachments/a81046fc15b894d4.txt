@@ -1,0 +1,27 @@
+2026-06-05 09:36:23.076 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 876801, 'name': 'Alexandre', 'status': 'available', 'photoUrls': ['https://placekittens.com/362/720'], 'category': {'id': 8, 'name': 'laborum'}, 'tags': [{'id': 43, 'name': 'eum'}]}
+2026-06-05 09:36:23.126 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (49.3ms)
+2026-06-05 09:36:23.126 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-06-05 09:36:26.156 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 475953, 'name': 'Dom', 'status': 'available', 'photoUrls': ['https://placekittens.com/611/330'], 'category': {'id': 5, 'name': 'veritatis'}, 'tags': [{'id': 46, 'name': 'ratione'}]}
+2026-06-05 09:36:26.206 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (49.2ms)
+2026-06-05 09:36:26.206 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-06-05 09:36:29.235 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 517188, 'name': 'Emilly', 'status': 'available', 'photoUrls': ['https://placekittens.com/455/108'], 'category': {'id': 8, 'name': 'deleniti'}, 'tags': [{'id': 16, 'name': 'non'}]}
+2026-06-05 09:36:29.285 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (49.2ms)
+2026-06-05 09:36:29.286 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

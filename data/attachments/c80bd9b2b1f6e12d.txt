@@ -1,0 +1,27 @@
+2026-06-05 09:36:04.081 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 758422, 'name': 'Bella', 'status': 'available', 'photoUrls': ['https://dummyimage.com/718x55'], 'category': {'id': 6, 'name': 'voluptate'}, 'tags': [{'id': 26, 'name': 'error'}]}
+2026-06-05 09:36:04.401 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (318.0ms)
+2026-06-05 09:36:04.401 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-06-05 09:36:07.471 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 875298, 'name': 'Vitor Gabriel', 'status': 'available', 'photoUrls': ['https://picsum.photos/327/542'], 'category': {'id': 2, 'name': 'perspiciatis'}, 'tags': [{'id': 79, 'name': 'unde'}]}
+2026-06-05 09:36:07.522 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (49.8ms)
+2026-06-05 09:36:07.522 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-06-05 09:36:10.532 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 438032, 'name': 'Luiz Miguel', 'status': 'available', 'photoUrls': ['https://picsum.photos/798/796'], 'category': {'id': 6, 'name': 'excepturi'}, 'tags': [{'id': 57, 'name': 'repellendus'}]}
+2026-06-05 09:36:10.583 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (49.9ms)
+2026-06-05 09:36:10.583 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
