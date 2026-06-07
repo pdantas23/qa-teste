@@ -1,4 +1,0 @@
-2026-06-06 08:27:03.042 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 531740, 'name': 'Lunna', 'status': 'available', 'photoUrls': ['https://placekittens.com/672/155'], 'category': {'id': 4, 'name': 'voluptates'}, 'tags': [{'id': 2, 'name': 'fugit'}]}
-2026-06-06 08:27:03.048 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.3ms)
-2026-06-06 08:27:03.048 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/531740 | payload: None
-2026-06-06 08:27:03.052 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/531740 → 200 (4.0ms)
