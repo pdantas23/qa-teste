@@ -1,9 +1,0 @@
-2026-06-08 10:24:02.974 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 569761, 'name': 'Hadassa', 'status': 'available', 'photoUrls': ['https://picsum.photos/586/214'], 'category': {'id': 6, 'name': 'cupiditate'}, 'tags': [{'id': 95, 'name': 'ea'}]}
-2026-06-08 10:24:03.302 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (326.2ms)
-2026-06-08 10:24:03.303 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
-<head><title>403 Forbidden</title></head>
-<body>
-<center><h1>403 Forbidden</h1></center>
-</body>
-</html>
-

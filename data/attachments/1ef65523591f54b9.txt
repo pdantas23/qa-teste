@@ -1,0 +1,2 @@
+2026-06-09 09:30:34.183 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 934523, 'name': 'Ana Lívia', 'status': 'available', 'photoUrls': ['https://dummyimage.com/690x229'], 'category': {'id': 9, 'name': 'repellat'}, 'tags': [{'id': 33, 'name': 'laudantium'}]}
+2026-06-09 09:30:34.488 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (303.1ms)

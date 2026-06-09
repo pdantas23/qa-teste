@@ -1,9 +1,0 @@
-2026-06-08 10:24:21.991 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 688162, 'name': 'Bianca', 'status': 'available', 'photoUrls': ['https://placekittens.com/499/587'], 'category': {'id': 7, 'name': 'rem'}, 'tags': [{'id': 32, 'name': 'in'}]}
-2026-06-08 10:24:22.060 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (68.7ms)
-2026-06-08 10:24:22.060 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
-<head><title>403 Forbidden</title></head>
-<body>
-<center><h1>403 Forbidden</h1></center>
-</body>
-</html>
-

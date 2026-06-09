@@ -1,9 +1,0 @@
-2026-06-08 10:24:22.102 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 78179, 'name': 'Allana', 'status': 'available', 'photoUrls': ['https://dummyimage.com/838x413'], 'category': {'id': 6, 'name': 'voluptas'}, 'tags': [{'id': 96, 'name': 'veritatis'}]}
-2026-06-08 10:24:22.170 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (67.1ms)
-2026-06-08 10:24:22.171 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
-<head><title>403 Forbidden</title></head>
-<body>
-<center><h1>403 Forbidden</h1></center>
-</body>
-</html>
-

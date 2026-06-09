@@ -1,9 +1,0 @@
-2026-06-08 10:24:34.613 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 226887, 'username': 'brayanramos535', 'firstName': 'Davi Lucas', 'lastName': 'Siqueira', 'email': 'theo30@example.com', 'password': '6E8v%rmzj^*N', 'phone': '0500 037 4480', 'userStatus': 1}
-2026-06-08 10:24:34.685 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 403 (71.0ms)
-2026-06-08 10:24:34.685 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
-<head><title>403 Forbidden</title></head>
-<body>
-<center><h1>403 Forbidden</h1></center>
-</body>
-</html>
-

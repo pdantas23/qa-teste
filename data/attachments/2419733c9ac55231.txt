@@ -1,9 +1,0 @@
-2026-06-08 10:24:09.529 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/999999999 | payload: None
-2026-06-08 10:24:09.599 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/999999999 → 403 (69.2ms)
-2026-06-08 10:24:09.599 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
-<head><title>403 Forbidden</title></head>
-<body>
-<center><h1>403 Forbidden</h1></center>
-</body>
-</html>
-
