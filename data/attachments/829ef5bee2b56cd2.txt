@@ -1,0 +1,4 @@
+2026-06-11 10:13:14.467 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 907163, 'name': 'Dante', 'status': 'available', 'photoUrls': ['https://placekittens.com/106/409'], 'category': {'id': 1, 'name': 'corrupti'}, 'tags': [{'id': 1, 'name': 'voluptates'}]}
+2026-06-11 10:13:14.518 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (49.8ms)
+2026-06-11 10:13:14.518 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/907163 | payload: None
+2026-06-11 10:13:14.569 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/907163 → 200 (49.7ms)

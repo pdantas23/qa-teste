@@ -1,4 +1,0 @@
-2026-06-10 09:44:15.036 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 825735, 'name': 'Aylla', 'status': 'available', 'photoUrls': ['https://picsum.photos/917/316'], 'category': {'id': 10, 'name': 'blanditiis'}, 'tags': [{'id': 50, 'name': 'omnis'}]}
-2026-06-10 09:44:15.045 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (7.8ms)
-2026-06-10 09:44:15.045 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/825735 | payload: None
-2026-06-10 09:44:15.053 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/825735 → 200 (7.7ms)
