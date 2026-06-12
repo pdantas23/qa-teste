@@ -1,0 +1,2 @@
+2026-06-12 10:00:53.560 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 156292, 'name': 'Maria Eduarda', 'status': 'available', 'photoUrls': ['https://placekittens.com/392/1015'], 'category': {'id': 7, 'name': 'non'}, 'tags': [{'id': 20, 'name': 'ipsam'}]}
+2026-06-12 10:00:53.696 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (134.8ms)
