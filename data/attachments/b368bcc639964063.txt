@@ -1,4 +1,0 @@
-2026-06-12 10:00:53.723 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 270447, 'name': 'Gael', 'status': 'available', 'photoUrls': ['https://placekittens.com/958/507'], 'category': {'id': 7, 'name': 'dolorum'}, 'tags': [{'id': 39, 'name': 'dolor'}]}
-2026-06-12 10:00:53.732 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (8.2ms)
-2026-06-12 10:00:53.732 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/270447 | payload: None
-2026-06-12 10:00:53.742 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/270447 → 200 (8.3ms)
