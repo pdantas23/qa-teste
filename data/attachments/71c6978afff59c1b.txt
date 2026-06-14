@@ -1,4 +1,0 @@
-2026-06-13 08:49:48.649 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 125716, 'name': 'Júlia', 'status': 'available', 'photoUrls': ['https://dummyimage.com/1006x623'], 'category': {'id': 3, 'name': 'architecto'}, 'tags': [{'id': 53, 'name': 'accusantium'}]}
-2026-06-13 08:49:48.703 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (52.7ms)
-2026-06-13 08:49:48.703 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/125716 | payload: None
-2026-06-13 08:49:48.755 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/125716 → 200 (50.5ms)

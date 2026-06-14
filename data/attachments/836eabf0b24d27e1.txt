@@ -1,0 +1,18 @@
+2026-06-14 09:23:56.887 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 898657, 'username': 'tmelo781', 'firstName': 'Erick', 'lastName': 'Moura', 'email': 'maria-sophia39@example.org', 'password': 'l4lAQJQh_vDh', 'phone': '+55 (041) 2095-8688', 'userStatus': 1}
+2026-06-14 09:23:56.938 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 403 (49.3ms)
+2026-06-14 09:23:56.938 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-06-14 09:23:59.946 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 226722, 'username': 'luiz-fernandogomes504', 'firstName': 'Lorenzo', 'lastName': 'Barros', 'email': 'britoluna@example.org', 'password': '(+KB!+cwF2Im', 'phone': '+55 41 7923-5840', 'userStatus': 1}
+2026-06-14 09:23:59.996 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 403 (49.1ms)
+2026-06-14 09:23:59.996 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

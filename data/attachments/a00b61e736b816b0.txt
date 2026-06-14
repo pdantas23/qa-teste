@@ -1,0 +1,27 @@
+2026-06-14 09:23:25.456 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 900392, 'name': 'Manuela', 'status': 'available', 'photoUrls': ['https://picsum.photos/376/392'], 'category': {'id': 7, 'name': 'deserunt'}, 'tags': [{'id': 1, 'name': 'quod'}]}
+2026-06-14 09:23:25.816 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (358.0ms)
+2026-06-14 09:23:25.817 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-06-14 09:23:28.886 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 426073, 'name': 'Thales', 'status': 'available', 'photoUrls': ['https://dummyimage.com/483x235'], 'category': {'id': 10, 'name': 'sequi'}, 'tags': [{'id': 59, 'name': 'magnam'}]}
+2026-06-14 09:23:28.938 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (50.3ms)
+2026-06-14 09:23:28.938 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-06-14 09:23:31.948 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 439918, 'name': 'Ravi Lucca', 'status': 'available', 'photoUrls': ['https://dummyimage.com/139x991'], 'category': {'id': 5, 'name': 'aliquam'}, 'tags': [{'id': 60, 'name': 'libero'}]}
+2026-06-14 09:23:31.999 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (50.2ms)
+2026-06-14 09:23:31.999 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
