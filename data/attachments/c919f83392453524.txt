@@ -1,9 +1,0 @@
-2026-06-14 09:23:25.457 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 974497, 'name': 'Lara', 'status': 'available', 'photoUrls': ['https://picsum.photos/678/857'], 'category': {'id': 7, 'name': 'rerum'}, 'tags': [{'id': 6, 'name': 'officiis'}]}
-2026-06-14 09:23:25.816 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (357.4ms)
-2026-06-14 09:23:25.816 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
-<head><title>403 Forbidden</title></head>
-<body>
-<center><h1>403 Forbidden</h1></center>
-</body>
-</html>
-

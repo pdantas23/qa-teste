@@ -1,0 +1,4 @@
+2026-06-15 11:51:40.508 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 152372, 'name': 'Ágatha', 'status': 'available', 'photoUrls': ['https://dummyimage.com/940x891'], 'category': {'id': 4, 'name': 'pariatur'}, 'tags': [{'id': 29, 'name': 'officia'}]}
+2026-06-15 11:51:40.528 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (18.9ms)
+2026-06-15 11:51:40.528 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/152372 | payload: None
+2026-06-15 11:51:40.548 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/152372 → 200 (18.8ms)
