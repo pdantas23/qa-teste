@@ -1,4 +1,0 @@
-2026-06-15 11:51:40.472 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 649101, 'name': 'Allana', 'status': 'available', 'photoUrls': ['https://picsum.photos/696/102'], 'category': {'id': 3, 'name': 'explicabo'}, 'tags': [{'id': 71, 'name': 'quis'}]}
-2026-06-15 11:51:40.492 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (18.9ms)
-2026-06-15 11:51:40.492 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/649101 | payload: None
-2026-06-15 11:51:40.512 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/649101 → 200 (18.5ms)
