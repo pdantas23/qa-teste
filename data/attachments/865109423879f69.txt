@@ -1,0 +1,4 @@
+2026-06-17 10:43:30.187 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 707128, 'name': 'Luiz Gustavo', 'status': 'available', 'photoUrls': ['https://picsum.photos/413/720'], 'category': {'id': 3, 'name': 'asperiores'}, 'tags': [{'id': 3, 'name': 'saepe'}]}
+2026-06-17 10:43:30.225 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (36.5ms)
+2026-06-17 10:43:30.225 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/707128 | payload: None
+2026-06-17 10:43:30.262 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/707128 → 200 (36.4ms)
