@@ -1,6 +1,0 @@
-2026-06-17 10:43:29.897 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 945257, 'name': 'Raul', 'status': 'available', 'photoUrls': ['https://picsum.photos/192/787'], 'category': {'id': 10, 'name': 'quam'}, 'tags': [{'id': 69, 'name': 'unde'}]}
-2026-06-17 10:43:30.177 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (277.8ms)
-2026-06-17 10:43:30.178 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/945257 | payload: None
-2026-06-17 10:43:30.215 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/945257 → 200 (36.0ms)
-2026-06-17 10:43:30.218 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/945257 | payload: None
-2026-06-17 10:43:30.255 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/945257 → 200 (35.8ms)

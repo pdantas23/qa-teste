@@ -1,0 +1,6 @@
+2026-06-18 10:12:02.417 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 591445, 'name': 'Daniel', 'status': 'available', 'photoUrls': ['https://placekittens.com/898/798'], 'category': {'id': 8, 'name': 'dolor'}, 'tags': [{'id': 65, 'name': 'exercitationem'}]}
+2026-06-18 10:12:02.750 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (330.9ms)
+2026-06-18 10:12:02.751 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/591445 | payload: None
+2026-06-18 10:12:02.821 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/591445 → 200 (69.4ms)
+2026-06-18 10:12:02.824 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/591445 | payload: None
+2026-06-18 10:12:02.894 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/591445 → 200 (69.2ms)

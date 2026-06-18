@@ -1,7 +1,0 @@
-2026-06-17 10:43:30.267 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 656642, 'name': 'Caleb', 'status': 'available', 'photoUrls': ['https://picsum.photos/32/444'], 'category': {'id': 9, 'name': 'facilis'}, 'tags': [{'id': 26, 'name': 'qui'}]}
-2026-06-17 10:43:30.304 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (36.8ms)
-2026-06-17 10:43:30.305 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/656642 | payload: None
-2026-06-17 10:43:30.341 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/656642 → 200 (36.0ms)
-2026-06-17 10:43:30.342 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/656642 | payload: None
-2026-06-17 10:43:30.379 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/656642 → 404 (36.1ms)
-2026-06-17 10:43:30.379 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
