@@ -1,6 +1,0 @@
-2026-06-18 10:12:03.691 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 761556, 'username': 'montenegromaria-flor177', 'firstName': 'Anthony Gabriel', 'lastName': 'das Neves', 'email': 'joao-vitorrezende@example.com', 'password': '59b9Awfq)7Th', 'phone': '+55 (011) 8213-9860', 'userStatus': 1}
-2026-06-18 10:12:03.761 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (69.0ms)
-2026-06-18 10:12:03.761 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/user/montenegromaria-flor177 | payload: {'id': 761556, 'username': 'montenegromaria-flor177', 'firstName': 'NomeAtualizado', 'lastName': 'das Neves', 'email': 'joao-vitorrezende@example.com', 'password': '59b9Awfq)7Th', 'phone': '+55 (011) 8213-9860', 'userStatus': 1}
-2026-06-18 10:12:03.832 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/user/montenegromaria-flor177 → 200 (69.3ms)
-2026-06-18 10:12:03.832 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/montenegromaria-flor177 | payload: None
-2026-06-18 10:12:03.903 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/montenegromaria-flor177 → 200 (69.5ms)

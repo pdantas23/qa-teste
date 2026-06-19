@@ -1,4 +1,0 @@
-2026-06-18 10:12:02.759 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 804917, 'name': 'Rhavi', 'status': 'available', 'photoUrls': ['https://placekittens.com/36/949'], 'category': {'id': 1, 'name': 'veniam'}, 'tags': [{'id': 8, 'name': 'sequi'}]}
-2026-06-18 10:12:02.829 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (69.6ms)
-2026-06-18 10:12:02.829 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/804917 | payload: None
-2026-06-18 10:12:02.900 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/804917 → 200 (69.9ms)

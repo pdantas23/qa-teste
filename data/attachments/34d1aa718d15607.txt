@@ -1,0 +1,4 @@
+2026-06-19 10:17:11.188 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 273235, 'name': 'Enzo', 'status': 'available', 'photoUrls': ['https://placekittens.com/686/143'], 'category': {'id': 9, 'name': 'dignissimos'}, 'tags': [{'id': 60, 'name': 'totam'}]}
+2026-06-19 10:17:11.209 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (20.4ms)
+2026-06-19 10:17:11.210 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/273235 | payload: None
+2026-06-19 10:17:11.230 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/273235 → 200 (20.0ms)

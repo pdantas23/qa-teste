@@ -1,6 +1,0 @@
-2026-06-18 10:12:02.416 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 383186, 'name': 'Enzo Gabriel', 'status': 'available', 'photoUrls': ['https://placekittens.com/61/547'], 'category': {'id': 5, 'name': 'itaque'}, 'tags': [{'id': 27, 'name': 'eius'}]}
-2026-06-18 10:12:02.753 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (334.7ms)
-2026-06-18 10:12:02.754 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/pet | payload: {'id': 383186, 'name': 'Emanuelly', 'status': 'sold', 'photoUrls': ['https://placekittens.com/378/559']}
-2026-06-18 10:12:02.825 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/pet → 200 (70.2ms)
-2026-06-18 10:12:02.826 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/383186 | payload: None
-2026-06-18 10:12:02.897 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/383186 → 200 (70.0ms)
