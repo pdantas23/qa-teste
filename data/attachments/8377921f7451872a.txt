@@ -1,6 +1,0 @@
-2026-06-19 10:17:10.972 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 552579, 'name': 'Leandro', 'status': 'available', 'photoUrls': ['https://dummyimage.com/907x866'], 'category': {'id': 8, 'name': 'facere'}, 'tags': [{'id': 99, 'name': 'aperiam'}]}
-2026-06-19 10:17:11.135 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (160.7ms)
-2026-06-19 10:17:11.136 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/552579 | payload: None
-2026-06-19 10:17:11.157 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/552579 → 200 (19.9ms)
-2026-06-19 10:17:11.161 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/552579 | payload: None
-2026-06-19 10:17:11.182 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/552579 → 200 (19.8ms)

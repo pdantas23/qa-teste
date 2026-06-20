@@ -1,6 +1,0 @@
-2026-06-19 10:17:11.476 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 373397, 'username': 'luiz-fernandofernandes857', 'firstName': 'André', 'lastName': 'da Rocha', 'email': 'samuelcardoso@example.net', 'password': 'O#V(0CYn%ekI', 'phone': '+55 (041) 6456-7807', 'userStatus': 1}
-2026-06-19 10:17:11.496 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (19.7ms)
-2026-06-19 10:17:11.497 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/user/luiz-fernandofernandes857 | payload: {'id': 373397, 'username': 'luiz-fernandofernandes857', 'firstName': 'NomeAtualizado', 'lastName': 'da Rocha', 'email': 'samuelcardoso@example.net', 'password': 'O#V(0CYn%ekI', 'phone': '+55 (041) 6456-7807', 'userStatus': 1}
-2026-06-19 10:17:11.518 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/user/luiz-fernandofernandes857 → 200 (19.6ms)
-2026-06-19 10:17:11.518 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/luiz-fernandofernandes857 | payload: None
-2026-06-19 10:17:11.539 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/luiz-fernandofernandes857 → 200 (19.6ms)
