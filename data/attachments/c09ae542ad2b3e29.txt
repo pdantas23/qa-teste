@@ -1,0 +1,4 @@
+2026-06-21 09:40:18.874 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 879038, 'name': 'Arthur Miguel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/20x13'], 'category': {'id': 3, 'name': 'mollitia'}, 'tags': [{'id': 82, 'name': 'aut'}]}
+2026-06-21 09:40:18.899 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (23.9ms)
+2026-06-21 09:40:18.899 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/879038 | payload: None
+2026-06-21 09:40:18.924 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/879038 → 200 (24.0ms)
