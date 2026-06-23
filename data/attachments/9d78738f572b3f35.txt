@@ -1,2 +1,0 @@
-2026-06-22 11:40:49.489 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 412828, 'name': 'Aylla', 'status': 'available', 'photoUrls': ['https://placekittens.com/852/135'], 'category': {'id': 1, 'name': 'placeat'}, 'tags': [{'id': 13, 'name': 'voluptate'}]}
-2026-06-22 11:40:49.723 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (231.5ms)

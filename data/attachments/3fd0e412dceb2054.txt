@@ -1,7 +1,0 @@
-2026-06-22 11:40:49.771 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 2603, 'name': 'Maria Vitória', 'status': 'available', 'photoUrls': ['https://picsum.photos/624/992'], 'category': {'id': 4, 'name': 'ullam'}, 'tags': [{'id': 84, 'name': 'quidem'}]}
-2026-06-22 11:40:49.779 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.7ms)
-2026-06-22 11:40:49.779 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/2603 | payload: None
-2026-06-22 11:40:49.785 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/2603 → 200 (5.0ms)
-2026-06-22 11:40:49.785 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/2603 | payload: None
-2026-06-22 11:40:49.791 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/2603 → 404 (5.1ms)
-2026-06-22 11:40:49.791 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
