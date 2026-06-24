@@ -1,0 +1,6 @@
+2026-06-24 08:56:58.274 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 775868, 'name': 'Gustavo Henrique', 'status': 'available', 'photoUrls': ['https://dummyimage.com/424x109'], 'category': {'id': 5, 'name': 'sed'}, 'tags': [{'id': 46, 'name': 'beatae'}]}
+2026-06-24 08:56:58.628 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (352.8ms)
+2026-06-24 08:56:58.629 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/775868 | payload: None
+2026-06-24 08:56:58.703 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/775868 → 200 (73.0ms)
+2026-06-24 08:56:58.706 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/775868 | payload: None
+2026-06-24 08:56:58.780 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/775868 → 200 (73.1ms)

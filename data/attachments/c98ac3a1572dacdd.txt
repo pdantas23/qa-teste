@@ -1,0 +1,7 @@
+2026-06-24 08:56:58.795 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 834965, 'name': 'Ian', 'status': 'available', 'photoUrls': ['https://placekittens.com/640/90'], 'category': {'id': 9, 'name': 'ipsa'}, 'tags': [{'id': 68, 'name': 'illo'}]}
+2026-06-24 08:56:58.870 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (75.0ms)
+2026-06-24 08:56:58.871 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/834965 | payload: None
+2026-06-24 08:56:58.946 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/834965 → 200 (74.8ms)
+2026-06-24 08:56:58.947 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/834965 | payload: None
+2026-06-24 08:56:59.023 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/834965 → 404 (74.7ms)
+2026-06-24 08:56:59.023 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
