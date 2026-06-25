@@ -1,4 +1,0 @@
-2026-06-24 08:56:58.639 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 397760, 'name': 'Calebe', 'status': 'available', 'photoUrls': ['https://dummyimage.com/129x559'], 'category': {'id': 7, 'name': 'laudantium'}, 'tags': [{'id': 47, 'name': 'deleniti'}]}
-2026-06-24 08:56:58.715 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (75.0ms)
-2026-06-24 08:56:58.715 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/397760 | payload: None
-2026-06-24 08:56:58.791 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/397760 → 200 (74.8ms)
