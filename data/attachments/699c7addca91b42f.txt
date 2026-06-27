@@ -1,0 +1,2 @@
+2026-06-27 08:29:18.783 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 454000, 'name': 'Gabriela', 'status': 'available', 'photoUrls': ['https://placekittens.com/282/962'], 'category': {'id': 2, 'name': 'unde'}, 'tags': [{'id': 38, 'name': 'voluptatibus'}]}
+2026-06-27 08:29:19.086 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (301.8ms)
