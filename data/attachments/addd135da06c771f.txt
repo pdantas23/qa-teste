@@ -1,0 +1,6 @@
+2026-06-28 08:44:14.565 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 241457, 'name': 'Kevin', 'status': 'available', 'photoUrls': ['https://dummyimage.com/171x531'], 'category': {'id': 4, 'name': 'iste'}, 'tags': [{'id': 61, 'name': 'voluptates'}]}
+2026-06-28 08:44:14.902 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (335.0ms)
+2026-06-28 08:44:14.903 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/241457 | payload: None
+2026-06-28 08:44:14.974 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/241457 → 200 (70.6ms)
+2026-06-28 08:44:14.977 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/241457 | payload: None
+2026-06-28 08:44:15.049 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/241457 → 200 (70.5ms)
