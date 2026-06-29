@@ -1,4 +1,0 @@
-2026-06-28 08:44:14.895 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 841339, 'name': 'Davi', 'status': 'available', 'photoUrls': ['https://picsum.photos/522/729'], 'category': {'id': 6, 'name': 'dolorum'}, 'tags': [{'id': 26, 'name': 'natus'}]}
-2026-06-28 08:44:14.963 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (66.4ms)
-2026-06-28 08:44:14.963 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/841339 | payload: None
-2026-06-28 08:44:15.030 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/841339 → 200 (66.3ms)

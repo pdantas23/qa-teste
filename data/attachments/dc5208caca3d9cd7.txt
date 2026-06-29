@@ -1,2 +1,0 @@
-2026-06-28 08:44:14.563 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 37948, 'name': 'Ana Laura', 'status': 'available', 'photoUrls': ['https://dummyimage.com/711x992'], 'category': {'id': 5, 'name': 'adipisci'}, 'tags': [{'id': 4, 'name': 'dolores'}]}
-2026-06-28 08:44:14.889 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (323.5ms)
