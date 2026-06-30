@@ -1,2 +1,0 @@
-2026-06-29 10:29:22.075 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 948728, 'name': 'Davi Lucca', 'status': 'available', 'photoUrls': ['https://picsum.photos/366/429'], 'category': {'id': 6, 'name': 'quaerat'}, 'tags': [{'id': 16, 'name': 'unde'}]}
-2026-06-29 10:29:22.495 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (418.4ms)

@@ -1,0 +1,2 @@
+2026-06-30 09:22:20.616 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 938233, 'name': 'Maria Helena', 'status': 'available', 'photoUrls': ['https://placekittens.com/212/850'], 'category': {'id': 5, 'name': 'temporibus'}, 'tags': [{'id': 57, 'name': 'corporis'}]}
+2026-06-30 09:22:20.851 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (233.6ms)

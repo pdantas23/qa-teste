@@ -1,0 +1,6 @@
+2026-06-30 09:22:20.617 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 685609, 'name': 'Maria Sophia', 'status': 'available', 'photoUrls': ['https://dummyimage.com/212x1005'], 'category': {'id': 6, 'name': 'accusantium'}, 'tags': [{'id': 38, 'name': 'doloribus'}]}
+2026-06-30 09:22:20.837 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (218.5ms)
+2026-06-30 09:22:20.838 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/685609 | payload: None
+2026-06-30 09:22:20.865 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/685609 → 200 (26.1ms)
+2026-06-30 09:22:20.868 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/685609 | payload: None
+2026-06-30 09:22:20.894 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/685609 → 200 (26.1ms)
