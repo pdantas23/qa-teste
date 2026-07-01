@@ -1,4 +1,0 @@
-2026-06-30 09:22:20.858 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 869509, 'name': 'Enzo Gabriel', 'status': 'available', 'photoUrls': ['https://placekittens.com/338/66'], 'category': {'id': 2, 'name': 'molestiae'}, 'tags': [{'id': 64, 'name': 'iure'}]}
-2026-06-30 09:22:20.888 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (29.1ms)
-2026-06-30 09:22:20.889 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/869509 | payload: None
-2026-06-30 09:22:20.918 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/869509 → 200 (28.6ms)

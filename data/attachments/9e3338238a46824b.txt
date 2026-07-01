@@ -1,4 +1,0 @@
-2026-06-30 09:22:20.917 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 543944, 'name': 'Luiz Fernando', 'status': 'available', 'photoUrls': ['https://dummyimage.com/147x911'], 'category': {'id': 2, 'name': 'voluptatem'}, 'tags': [{'id': 34, 'name': 'omnis'}]}
-2026-06-30 09:22:20.949 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (29.8ms)
-2026-06-30 09:22:20.949 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/543944 | payload: None
-2026-06-30 09:22:20.978 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/543944 → 200 (28.7ms)

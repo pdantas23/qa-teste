@@ -1,6 +1,0 @@
-2026-06-30 09:22:20.615 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 669204, 'name': 'Lucas Gabriel', 'status': 'available', 'photoUrls': ['https://picsum.photos/669/523'], 'category': {'id': 7, 'name': 'ut'}, 'tags': [{'id': 96, 'name': 'praesentium'}]}
-2026-06-30 09:22:20.851 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (233.8ms)
-2026-06-30 09:22:20.853 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/pet | payload: {'id': 669204, 'name': 'Benjamin', 'status': 'sold', 'photoUrls': ['https://picsum.photos/486/164']}
-2026-06-30 09:22:20.883 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/pet → 200 (28.9ms)
-2026-06-30 09:22:20.884 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/669204 | payload: None
-2026-06-30 09:22:20.913 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/669204 → 200 (28.7ms)
