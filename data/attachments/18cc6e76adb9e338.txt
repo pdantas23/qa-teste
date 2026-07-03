@@ -1,0 +1,4 @@
+2026-07-03 08:53:23.875 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 835563, 'name': 'Daniel', 'status': 'available', 'photoUrls': ['https://picsum.photos/914/975'], 'category': {'id': 10, 'name': 'amet'}, 'tags': [{'id': 58, 'name': 'dignissimos'}]}
+2026-07-03 08:53:23.928 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.6ms)
+2026-07-03 08:53:23.928 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/835563 | payload: None
+2026-07-03 08:53:23.981 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/835563 → 200 (51.8ms)

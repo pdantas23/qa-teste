@@ -1,0 +1,6 @@
+2026-07-03 08:53:24.695 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 98126, 'username': 'correiamaria-flor240', 'firstName': 'Paulo', 'lastName': 'Lima', 'email': 'rochaaylla@example.com', 'password': 'w7%8T%FvYy#9', 'phone': '+55 21 9852-3920', 'userStatus': 1}
+2026-07-03 08:53:24.748 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (52.0ms)
+2026-07-03 08:53:24.749 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/user/correiamaria-flor240 | payload: {'id': 98126, 'username': 'correiamaria-flor240', 'firstName': 'NomeAtualizado', 'lastName': 'Lima', 'email': 'rochaaylla@example.com', 'password': 'w7%8T%FvYy#9', 'phone': '+55 21 9852-3920', 'userStatus': 1}
+2026-07-03 08:53:24.801 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/user/correiamaria-flor240 → 200 (51.4ms)
+2026-07-03 08:53:24.802 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/correiamaria-flor240 | payload: None
+2026-07-03 08:53:24.855 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/correiamaria-flor240 → 200 (52.6ms)

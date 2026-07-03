@@ -1,0 +1,11 @@
+2026-07-03 08:53:24.426 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 344525, 'name': 'Maitê', 'status': 'available', 'photoUrls': ['https://picsum.photos/807/526'], 'category': {'id': 2, 'name': 'sequi'}, 'tags': [{'id': 92, 'name': 'quasi'}]}
+2026-07-03 08:53:24.478 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.6ms)
+2026-07-03 08:53:24.478 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 141335, 'petId': 344525, 'quantity': 1, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
+2026-07-03 08:53:24.531 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (51.7ms)
+2026-07-03 08:53:24.531 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/141335 | payload: None
+2026-07-03 08:53:24.584 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/141335 → 200 (51.5ms)
+2026-07-03 08:53:24.584 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/344525 | payload: None
+2026-07-03 08:53:24.637 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/344525 → 200 (51.6ms)
+2026-07-03 08:53:24.637 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/store/order/141335 | payload: None
+2026-07-03 08:53:24.689 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/store/order/141335 → 404 (51.4ms)
+2026-07-03 08:53:24.689 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Order not found"}

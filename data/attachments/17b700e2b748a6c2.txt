@@ -1,4 +1,0 @@
-2026-07-02 08:45:43.754 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 824058, 'name': 'Juliana', 'status': 'available', 'photoUrls': ['https://placekittens.com/148/803'], 'category': {'id': 6, 'name': 'quasi'}, 'tags': [{'id': 24, 'name': 'expedita'}]}
-2026-07-02 08:45:43.760 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.8ms)
-2026-07-02 08:45:43.761 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/824058 | payload: None
-2026-07-02 08:45:43.766 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/824058 → 200 (4.6ms)
