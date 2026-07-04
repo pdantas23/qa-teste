@@ -1,4 +1,0 @@
-2026-07-03 08:53:23.981 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 900765, 'name': 'Leandro', 'status': 'available', 'photoUrls': ['https://dummyimage.com/514x689'], 'category': {'id': 1, 'name': 'eveniet'}, 'tags': [{'id': 73, 'name': 'rerum'}]}
-2026-07-03 08:53:24.034 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.8ms)
-2026-07-03 08:53:24.034 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/900765 | payload: None
-2026-07-03 08:53:24.087 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/900765 → 200 (51.6ms)
