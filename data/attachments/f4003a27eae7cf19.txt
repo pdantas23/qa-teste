@@ -1,5 +1,0 @@
-2026-07-05 08:44:16.656 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/findByStatus | payload: None
-2026-07-05 08:44:16.815 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/findByStatus?status=available → 500 (156.8ms)
-2026-07-05 08:44:16.815 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":500,"type":"unknown","message":"something bad happened"}
-2026-07-05 08:44:19.862 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/findByStatus | payload: None
-2026-07-05 08:44:19.885 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/findByStatus?status=available → 200 (21.5ms)

@@ -1,0 +1,6 @@
+2026-07-06 10:02:37.851 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 323342, 'name': 'Benício', 'status': 'available', 'photoUrls': ['https://picsum.photos/330/995'], 'category': {'id': 2, 'name': 'maxime'}, 'tags': [{'id': 18, 'name': 'dolorem'}]}
+2026-07-06 10:02:38.197 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (343.9ms)
+2026-07-06 10:02:38.198 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/323342 | payload: None
+2026-07-06 10:02:38.270 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/323342 → 200 (71.0ms)
+2026-07-06 10:02:38.272 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/323342 | payload: None
+2026-07-06 10:02:38.344 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/323342 → 200 (70.7ms)
