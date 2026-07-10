@@ -1,0 +1,7 @@
+2026-07-10 09:23:02.911 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 470281, 'name': 'Enzo Gabriel', 'status': 'available', 'photoUrls': ['https://picsum.photos/530/951'], 'category': {'id': 7, 'name': 'eaque'}, 'tags': [{'id': 63, 'name': 'aliquam'}]}
+2026-07-10 09:23:02.973 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (61.3ms)
+2026-07-10 09:23:02.973 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/470281 | payload: None
+2026-07-10 09:23:03.035 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/470281 → 200 (60.8ms)
+2026-07-10 09:23:03.036 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/470281 | payload: None
+2026-07-10 09:23:03.098 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/470281 → 404 (60.9ms)
+2026-07-10 09:23:03.098 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
