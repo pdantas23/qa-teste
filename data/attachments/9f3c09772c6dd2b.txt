@@ -1,4 +1,0 @@
-2026-07-10 09:23:02.864 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 948912, 'name': 'Hadassa', 'status': 'available', 'photoUrls': ['https://placekittens.com/811/23'], 'category': {'id': 5, 'name': 'atque'}, 'tags': [{'id': 42, 'name': 'laborum'}]}
-2026-07-10 09:23:02.918 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (54.1ms)
-2026-07-10 09:23:02.919 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/948912 | payload: None
-2026-07-10 09:23:02.974 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/948912 → 200 (54.1ms)

@@ -1,4 +1,0 @@
-2026-07-10 09:23:02.782 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 167315, 'name': 'Luna', 'status': 'available', 'photoUrls': ['https://dummyimage.com/676x796'], 'category': {'id': 9, 'name': 'labore'}, 'tags': [{'id': 57, 'name': 'incidunt'}]}
-2026-07-10 09:23:02.844 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (61.1ms)
-2026-07-10 09:23:02.844 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/167315 | payload: None
-2026-07-10 09:23:02.906 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/167315 → 200 (60.9ms)
