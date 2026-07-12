@@ -1,0 +1,6 @@
+2026-07-12 08:06:04.244 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 876974, 'name': 'Ana', 'status': 'available', 'photoUrls': ['https://placekittens.com/398/632'], 'category': {'id': 2, 'name': 'ad'}, 'tags': [{'id': 63, 'name': 'ad'}]}
+2026-07-12 08:06:04.574 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (327.3ms)
+2026-07-12 08:06:04.575 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/876974 | payload: None
+2026-07-12 08:06:04.644 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/876974 → 200 (68.0ms)
+2026-07-12 08:06:04.646 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/876974 | payload: None
+2026-07-12 08:06:04.715 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/876974 → 200 (67.8ms)

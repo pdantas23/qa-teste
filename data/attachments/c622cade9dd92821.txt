@@ -1,7 +1,0 @@
-2026-07-11 07:44:46.609 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 26303, 'name': 'Rhavi', 'status': 'available', 'photoUrls': ['https://picsum.photos/251/496'], 'category': {'id': 1, 'name': 'odit'}, 'tags': [{'id': 84, 'name': 'deleniti'}]}
-2026-07-11 07:44:46.659 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (49.0ms)
-2026-07-11 07:44:46.659 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/26303 | payload: None
-2026-07-11 07:44:46.708 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/26303 → 200 (48.6ms)
-2026-07-11 07:44:46.708 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/26303 | payload: None
-2026-07-11 07:44:46.758 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/26303 → 404 (48.8ms)
-2026-07-11 07:44:46.758 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
