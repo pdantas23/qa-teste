@@ -1,0 +1,4 @@
+2026-07-14 07:51:21.928 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 459890, 'name': 'Thales', 'status': 'available', 'photoUrls': ['https://picsum.photos/405/490'], 'category': {'id': 2, 'name': 'exercitationem'}, 'tags': [{'id': 4, 'name': 'eveniet'}]}
+2026-07-14 07:51:21.948 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (18.7ms)
+2026-07-14 07:51:21.948 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/459890 | payload: None
+2026-07-14 07:51:21.967 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/459890 → 200 (18.4ms)

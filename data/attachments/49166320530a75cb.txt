@@ -1,2 +1,0 @@
-2026-07-13 08:55:58.110 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 592014, 'name': 'Sofia', 'status': 'available', 'photoUrls': ['https://placekittens.com/143/567'], 'category': {'id': 4, 'name': 'blanditiis'}, 'tags': [{'id': 65, 'name': 'asperiores'}]}
-2026-07-13 08:55:58.559 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (447.1ms)
