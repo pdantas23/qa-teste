@@ -1,4 +1,0 @@
-2026-07-15 07:55:20.607 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 269253, 'name': 'Murilo', 'status': 'available', 'photoUrls': ['https://dummyimage.com/88x74'], 'category': {'id': 5, 'name': 'nihil'}, 'tags': [{'id': 15, 'name': 'minus'}]}
-2026-07-15 07:55:20.677 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (69.4ms)
-2026-07-15 07:55:20.678 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/269253 | payload: None
-2026-07-15 07:55:20.748 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/269253 → 200 (69.1ms)
