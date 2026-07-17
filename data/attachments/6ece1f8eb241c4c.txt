@@ -1,0 +1,7 @@
+2026-07-17 07:58:16.231 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 53671, 'name': 'Maria Fernanda', 'status': 'available', 'photoUrls': ['https://dummyimage.com/731x201'], 'category': {'id': 5, 'name': 'totam'}, 'tags': [{'id': 54, 'name': 'beatae'}]}
+2026-07-17 07:58:16.240 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (8.1ms)
+2026-07-17 07:58:16.241 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/53671 | payload: None
+2026-07-17 07:58:16.249 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/53671 → 200 (7.7ms)
+2026-07-17 07:58:16.250 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/53671 | payload: None
+2026-07-17 07:58:16.259 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/53671 → 404 (8.0ms)
+2026-07-17 07:58:16.259 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

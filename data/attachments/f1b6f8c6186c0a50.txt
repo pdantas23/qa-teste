@@ -1,2 +1,0 @@
-2026-07-16 08:00:59.061 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 464866, 'name': 'Paulo', 'status': 'available', 'photoUrls': ['https://dummyimage.com/210x950'], 'category': {'id': 6, 'name': 'rem'}, 'tags': [{'id': 57, 'name': 'aut'}]}
-2026-07-16 08:00:59.392 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (329.5ms)

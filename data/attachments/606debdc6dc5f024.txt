@@ -1,0 +1,6 @@
+2026-07-17 07:58:16.062 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 329284, 'name': 'Gustavo Henrique', 'status': 'available', 'photoUrls': ['https://picsum.photos/716/323'], 'category': {'id': 9, 'name': 'dolorem'}, 'tags': [{'id': 6, 'name': 'itaque'}]}
+2026-07-17 07:58:16.182 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (117.0ms)
+2026-07-17 07:58:16.183 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/329284 | payload: None
+2026-07-17 07:58:16.192 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/329284 → 200 (7.5ms)
+2026-07-17 07:58:16.195 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/329284 | payload: None
+2026-07-17 07:58:16.204 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/329284 → 200 (7.5ms)

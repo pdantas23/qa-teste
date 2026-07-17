@@ -1,7 +1,0 @@
-2026-07-16 08:00:59.520 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 788644, 'name': 'Agatha', 'status': 'available', 'photoUrls': ['https://dummyimage.com/951x356'], 'category': {'id': 5, 'name': 'mollitia'}, 'tags': [{'id': 16, 'name': 'dolore'}]}
-2026-07-16 08:00:59.579 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (57.0ms)
-2026-07-16 08:00:59.579 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/788644 | payload: None
-2026-07-16 08:00:59.637 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/788644 → 200 (56.8ms)
-2026-07-16 08:00:59.638 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/788644 | payload: None
-2026-07-16 08:00:59.695 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/788644 → 404 (56.5ms)
-2026-07-16 08:00:59.695 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
