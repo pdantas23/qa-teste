@@ -1,7 +1,0 @@
-2026-07-18 07:38:32.459 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 861452, 'name': 'Breno', 'status': 'available', 'photoUrls': ['https://dummyimage.com/468x703'], 'category': {'id': 10, 'name': 'possimus'}, 'tags': [{'id': 50, 'name': 'suscipit'}]}
-2026-07-18 07:38:32.511 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (50.9ms)
-2026-07-18 07:38:32.512 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/861452 | payload: None
-2026-07-18 07:38:32.563 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/861452 → 200 (50.6ms)
-2026-07-18 07:38:32.563 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/861452 | payload: None
-2026-07-18 07:38:32.614 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/861452 → 404 (50.7ms)
-2026-07-18 07:38:32.615 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

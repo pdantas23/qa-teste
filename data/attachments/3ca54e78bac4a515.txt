@@ -1,4 +1,0 @@
-2026-07-18 07:38:32.496 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 841161, 'name': 'Ana Vitória', 'status': 'available', 'photoUrls': ['https://placekittens.com/47/53'], 'category': {'id': 9, 'name': 'quibusdam'}, 'tags': [{'id': 77, 'name': 'itaque'}]}
-2026-07-18 07:38:32.555 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (57.7ms)
-2026-07-18 07:38:32.555 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/841161 | payload: None
-2026-07-18 07:38:32.613 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/841161 → 200 (57.1ms)

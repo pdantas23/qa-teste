@@ -1,4 +1,0 @@
-2026-07-18 07:38:32.351 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 583969, 'name': 'Gustavo Henrique', 'status': 'available', 'photoUrls': ['https://picsum.photos/552/781'], 'category': {'id': 9, 'name': 'aliquid'}, 'tags': [{'id': 62, 'name': 'explicabo'}]}
-2026-07-18 07:38:32.403 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.8ms)
-2026-07-18 07:38:32.404 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/583969 | payload: None
-2026-07-18 07:38:32.455 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/583969 → 200 (50.8ms)
