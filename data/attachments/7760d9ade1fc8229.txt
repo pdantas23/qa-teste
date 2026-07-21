@@ -1,2 +1,0 @@
-2026-07-20 08:46:05.880 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/store/inventory | payload: None
-2026-07-20 08:46:05.900 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/store/inventory → 200 (19.6ms)
