@@ -1,0 +1,4 @@
+2026-07-22 08:14:12.017 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 58325, 'name': 'Lavínia', 'status': 'available', 'photoUrls': ['https://picsum.photos/196/55'], 'category': {'id': 5, 'name': 'reprehenderit'}, 'tags': [{'id': 100, 'name': 'placeat'}]}
+2026-07-22 08:14:12.074 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (54.7ms)
+2026-07-22 08:14:12.074 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/58325 | payload: None
+2026-07-22 08:14:12.129 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/58325 → 200 (54.6ms)

@@ -1,7 +1,0 @@
-2026-07-21 08:13:40.334 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 163851, 'name': 'Maria Liz', 'status': 'available', 'photoUrls': ['https://picsum.photos/685/160'], 'category': {'id': 5, 'name': 'modi'}, 'tags': [{'id': 61, 'name': 'sunt'}]}
-2026-07-21 08:13:40.403 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (67.5ms)
-2026-07-21 08:13:40.403 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/163851 | payload: None
-2026-07-21 08:13:40.472 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/163851 → 200 (67.7ms)
-2026-07-21 08:13:40.472 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/163851 | payload: None
-2026-07-21 08:13:40.541 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/163851 → 404 (67.4ms)
-2026-07-21 08:13:40.541 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
