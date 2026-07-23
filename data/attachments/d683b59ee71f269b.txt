@@ -1,0 +1,2 @@
+2026-07-23 08:18:25.561 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 727072, 'name': 'Pedro Henrique', 'status': 'available', 'photoUrls': ['https://picsum.photos/427/458'], 'category': {'id': 3, 'name': 'occaecati'}, 'tags': [{'id': 87, 'name': 'quod'}]}
+2026-07-23 08:18:25.924 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (361.8ms)

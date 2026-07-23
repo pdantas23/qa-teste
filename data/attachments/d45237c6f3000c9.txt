@@ -1,0 +1,4 @@
+2026-07-23 08:18:26.086 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 107453, 'name': 'Apollo', 'status': 'available', 'photoUrls': ['https://picsum.photos/18/218'], 'category': {'id': 3, 'name': 'quidem'}, 'tags': [{'id': 36, 'name': 'iusto'}]}
+2026-07-23 08:18:26.160 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (73.2ms)
+2026-07-23 08:18:26.160 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/107453 | payload: None
+2026-07-23 08:18:26.234 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/107453 → 200 (72.9ms)

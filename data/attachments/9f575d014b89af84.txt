@@ -1,2 +1,0 @@
-2026-07-22 08:14:11.624 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 675067, 'name': 'Cauã', 'status': 'available', 'photoUrls': ['https://picsum.photos/706/54'], 'category': {'id': 7, 'name': 'laudantium'}, 'tags': [{'id': 44, 'name': 'ratione'}]}
-2026-07-22 08:14:11.903 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (277.2ms)
