@@ -1,6 +1,0 @@
-2026-07-24 08:13:03.875 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 276884, 'name': 'Larissa', 'status': 'available', 'photoUrls': ['https://dummyimage.com/103x341'], 'category': {'id': 2, 'name': 'aliquid'}, 'tags': [{'id': 64, 'name': 'quae'}]}
-2026-07-24 08:13:04.173 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (296.2ms)
-2026-07-24 08:13:04.174 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/276884 | payload: None
-2026-07-24 08:13:04.184 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/276884 → 200 (8.4ms)
-2026-07-24 08:13:04.187 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/276884 | payload: None
-2026-07-24 08:13:04.196 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/276884 → 200 (8.3ms)

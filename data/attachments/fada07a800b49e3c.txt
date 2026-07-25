@@ -1,0 +1,4 @@
+2026-07-25 07:55:25.852 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 723557, 'name': 'Thiago', 'status': 'available', 'photoUrls': ['https://picsum.photos/669/145'], 'category': {'id': 9, 'name': 'occaecati'}, 'tags': [{'id': 21, 'name': 'veritatis'}]}
+2026-07-25 07:55:25.874 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (21.5ms)
+2026-07-25 07:55:25.874 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/723557 | payload: None
+2026-07-25 07:55:25.896 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/723557 → 200 (21.5ms)

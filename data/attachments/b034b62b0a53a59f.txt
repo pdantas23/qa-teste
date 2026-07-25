@@ -1,0 +1,4 @@
+2026-07-25 07:55:25.894 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 799972, 'name': 'Maria Luiza', 'status': 'available', 'photoUrls': ['https://dummyimage.com/996x348'], 'category': {'id': 6, 'name': 'dolore'}, 'tags': [{'id': 18, 'name': 'occaecati'}]}
+2026-07-25 07:55:25.917 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (21.8ms)
+2026-07-25 07:55:25.918 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/799972 | payload: None
+2026-07-25 07:55:25.940 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/799972 → 200 (21.4ms)
