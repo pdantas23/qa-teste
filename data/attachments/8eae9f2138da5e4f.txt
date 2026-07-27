@@ -1,4 +1,0 @@
-2026-07-26 08:13:47.204 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 908116, 'name': 'Diogo', 'status': 'available', 'photoUrls': ['https://picsum.photos/154/794'], 'category': {'id': 6, 'name': 'laborum'}, 'tags': [{'id': 41, 'name': 'harum'}]}
-2026-07-26 08:13:47.271 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (66.6ms)
-2026-07-26 08:13:47.271 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/908116 | payload: None
-2026-07-26 08:13:47.338 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/908116 → 200 (66.4ms)
