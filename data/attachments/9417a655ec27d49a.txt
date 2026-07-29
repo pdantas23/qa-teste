@@ -1,4 +1,0 @@
-2026-07-28 08:21:43.937 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 96587, 'name': 'Daniel', 'status': 'available', 'photoUrls': ['https://picsum.photos/87/768'], 'category': {'id': 3, 'name': 'aut'}, 'tags': [{'id': 37, 'name': 'inventore'}]}
-2026-07-28 08:21:43.963 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (24.9ms)
-2026-07-28 08:21:43.963 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/96587 | payload: None
-2026-07-28 08:21:43.989 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/96587 → 200 (24.4ms)
