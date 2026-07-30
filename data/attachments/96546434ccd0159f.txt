@@ -1,0 +1,2 @@
+2026-07-30 08:11:58.110 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 118131, 'name': 'Luiz Gustavo', 'status': 'available', 'photoUrls': ['https://picsum.photos/444/455'], 'category': {'id': 6, 'name': 'mollitia'}, 'tags': [{'id': 78, 'name': 'temporibus'}]}
+2026-07-30 08:11:58.318 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (205.2ms)
