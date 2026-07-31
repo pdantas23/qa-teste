@@ -1,4 +1,0 @@
-2026-07-30 08:11:58.327 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 330140, 'name': 'João Lucas', 'status': 'available', 'photoUrls': ['https://dummyimage.com/14x898'], 'category': {'id': 3, 'name': 'molestiae'}, 'tags': [{'id': 40, 'name': 'nam'}]}
-2026-07-30 08:11:58.333 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.8ms)
-2026-07-30 08:11:58.333 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/330140 | payload: None
-2026-07-30 08:11:58.339 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/330140 → 200 (4.6ms)

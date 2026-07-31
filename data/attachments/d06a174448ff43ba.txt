@@ -1,0 +1,2 @@
+2026-07-31 08:39:09.885 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 347521, 'name': 'Asafe', 'status': 'available', 'photoUrls': ['https://dummyimage.com/913x378'], 'category': {'id': 3, 'name': 'dicta'}, 'tags': [{'id': 85, 'name': 'maiores'}]}
+2026-07-31 08:39:10.014 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (126.9ms)

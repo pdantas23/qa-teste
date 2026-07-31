@@ -1,0 +1,4 @@
+2026-07-31 08:39:10.039 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 645036, 'name': 'Calebe', 'status': 'available', 'photoUrls': ['https://dummyimage.com/719x37'], 'category': {'id': 3, 'name': 'placeat'}, 'tags': [{'id': 26, 'name': 'mollitia'}]}
+2026-07-31 08:39:10.048 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (8.4ms)
+2026-07-31 08:39:10.049 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/645036 | payload: None
+2026-07-31 08:39:10.058 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/645036 → 200 (8.3ms)
