@@ -1,4 +1,0 @@
-2026-07-31 08:39:10.022 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 379122, 'name': 'Alexandre', 'status': 'available', 'photoUrls': ['https://picsum.photos/413/416'], 'category': {'id': 5, 'name': 'repudiandae'}, 'tags': [{'id': 57, 'name': 'minima'}]}
-2026-07-31 08:39:10.031 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (8.2ms)
-2026-07-31 08:39:10.032 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/379122 | payload: None
-2026-07-31 08:39:10.041 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/379122 → 200 (8.1ms)

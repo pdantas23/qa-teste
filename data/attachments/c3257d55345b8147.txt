@@ -1,0 +1,4 @@
+2026-08-01 08:08:58.892 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 13519, 'name': 'Felipe', 'status': 'available', 'photoUrls': ['https://picsum.photos/177/435'], 'category': {'id': 10, 'name': 'tenetur'}, 'tags': [{'id': 95, 'name': 'repudiandae'}]}
+2026-08-01 08:08:58.962 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (68.4ms)
+2026-08-01 08:08:58.962 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/13519 | payload: None
+2026-08-01 08:08:59.031 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/13519 → 200 (68.0ms)
