@@ -1,0 +1,4 @@
+2026-08-02 08:10:32.476 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 705300, 'name': 'Bruno', 'status': 'available', 'photoUrls': ['https://placekittens.com/197/454'], 'category': {'id': 3, 'name': 'magni'}, 'tags': [{'id': 92, 'name': 'quod'}]}
+2026-08-02 08:10:32.481 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.5ms)
+2026-08-02 08:10:32.482 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/705300 | payload: None
+2026-08-02 08:10:32.488 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/705300 → 200 (4.7ms)
