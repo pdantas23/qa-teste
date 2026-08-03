@@ -1,0 +1,6 @@
+2026-08-03 09:30:43.874 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 461854, 'name': 'Mirella', 'status': 'available', 'photoUrls': ['https://placekittens.com/121/781'], 'category': {'id': 10, 'name': 'dolor'}, 'tags': [{'id': 34, 'name': 'sed'}]}
+2026-08-03 09:30:44.071 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (194.4ms)
+2026-08-03 09:30:44.072 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/461854 | payload: None
+2026-08-03 09:30:44.093 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/461854 → 200 (19.6ms)
+2026-08-03 09:30:44.096 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/461854 | payload: None
+2026-08-03 09:30:44.116 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/461854 → 200 (19.3ms)
