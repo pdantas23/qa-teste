@@ -1,4 +1,0 @@
-2026-08-03 09:30:44.151 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 230143, 'name': 'Emilly', 'status': 'available', 'photoUrls': ['https://picsum.photos/764/778'], 'category': {'id': 7, 'name': 'sequi'}, 'tags': [{'id': 23, 'name': 'beatae'}]}
-2026-08-03 09:30:44.176 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (24.2ms)
-2026-08-03 09:30:44.176 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/230143 | payload: None
-2026-08-03 09:30:44.200 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/230143 → 200 (23.8ms)
