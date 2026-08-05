@@ -1,0 +1,27 @@
+2026-08-05 08:24:46.174 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 633901, 'name': 'Eduarda', 'status': 'available', 'photoUrls': ['https://dummyimage.com/460x371'], 'category': {'id': 8, 'name': 'deserunt'}, 'tags': [{'id': 98, 'name': 'praesentium'}]}
+2026-08-05 08:24:46.471 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (295.1ms)
+2026-08-05 08:24:46.471 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:24:49.502 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 309362, 'name': 'Marcos Vinicius', 'status': 'available', 'photoUrls': ['https://placekittens.com/382/998'], 'category': {'id': 6, 'name': 'aliquam'}, 'tags': [{'id': 32, 'name': 'tempore'}]}
+2026-08-05 08:24:49.547 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (44.5ms)
+2026-08-05 08:24:49.548 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:24:52.555 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 297685, 'name': 'João Felipe', 'status': 'available', 'photoUrls': ['https://dummyimage.com/993x286'], 'category': {'id': 1, 'name': 'eum'}, 'tags': [{'id': 58, 'name': 'veritatis'}]}
+2026-08-05 08:24:52.600 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (44.3ms)
+2026-08-05 08:24:52.600 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

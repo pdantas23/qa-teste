@@ -1,0 +1,27 @@
+2026-08-05 08:24:52.655 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 337579, 'name': 'Camila', 'status': 'available', 'photoUrls': ['https://picsum.photos/821/794'], 'category': {'id': 2, 'name': 'facere'}, 'tags': [{'id': 56, 'name': 'neque'}]}
+2026-08-05 08:24:52.705 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (49.3ms)
+2026-08-05 08:24:52.706 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:24:55.712 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 56685, 'name': 'Aurora', 'status': 'available', 'photoUrls': ['https://placekittens.com/435/546'], 'category': {'id': 10, 'name': 'tenetur'}, 'tags': [{'id': 17, 'name': 'enim'}]}
+2026-08-05 08:24:55.762 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (49.2ms)
+2026-08-05 08:24:55.763 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:24:58.770 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 54364, 'name': 'Ravy', 'status': 'available', 'photoUrls': ['https://picsum.photos/267/847'], 'category': {'id': 7, 'name': 'facere'}, 'tags': [{'id': 72, 'name': 'magnam'}]}
+2026-08-05 08:24:58.820 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (49.3ms)
+2026-08-05 08:24:58.820 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

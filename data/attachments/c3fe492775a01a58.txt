@@ -1,0 +1,27 @@
+2026-08-05 08:25:04.978 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 136064, 'name': 'Otto', 'status': 'available', 'photoUrls': ['https://placekittens.com/237/645'], 'category': {'id': 9, 'name': 'sit'}, 'tags': [{'id': 99, 'name': 'perferendis'}]}
+2026-08-05 08:25:05.027 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (48.5ms)
+2026-08-05 08:25:05.027 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:25:08.068 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 143004, 'name': 'Raquel', 'status': 'available', 'photoUrls': ['https://placekittens.com/808/233'], 'category': {'id': 8, 'name': 'provident'}, 'tags': [{'id': 36, 'name': 'ad'}]}
+2026-08-05 08:25:08.117 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (48.6ms)
+2026-08-05 08:25:08.118 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:25:11.144 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 321838, 'name': 'Rafaela', 'status': 'available', 'photoUrls': ['https://picsum.photos/443/144'], 'category': {'id': 6, 'name': 'distinctio'}, 'tags': [{'id': 87, 'name': 'repudiandae'}]}
+2026-08-05 08:25:11.193 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (48.7ms)
+2026-08-05 08:25:11.194 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

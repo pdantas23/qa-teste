@@ -1,0 +1,27 @@
+2026-08-05 08:25:17.395 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/user/usuario_que_nao_existe_xyz_999 | payload: None
+2026-08-05 08:25:17.444 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/user/usuario_que_nao_existe_xyz_999 → 403 (48.3ms)
+2026-08-05 08:25:17.444 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:25:20.450 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/user/usuario_que_nao_existe_xyz_999 | payload: None
+2026-08-05 08:25:20.500 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/user/usuario_que_nao_existe_xyz_999 → 403 (48.4ms)
+2026-08-05 08:25:20.500 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:25:23.506 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/user/usuario_que_nao_existe_xyz_999 | payload: None
+2026-08-05 08:25:23.555 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/user/usuario_que_nao_existe_xyz_999 → 403 (48.3ms)
+2026-08-05 08:25:23.555 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

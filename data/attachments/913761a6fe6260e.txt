@@ -1,0 +1,27 @@
+2026-08-05 08:25:11.320 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 677703, 'username': 'emanuel89296', 'firstName': 'Noah', 'lastName': 'Cirino', 'email': 'aramos@example.com', 'password': 'r)T3FF%feB$e', 'phone': '91 8832-5573', 'userStatus': 1}
+2026-08-05 08:25:11.370 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 403 (49.7ms)
+2026-08-05 08:25:11.370 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:25:14.378 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 309630, 'username': 'gsantos554', 'firstName': 'João Gabriel', 'lastName': 'Almeida', 'email': 'vitor-hugo27@example.org', 'password': 'E_wuGLd3f2D0', 'phone': '+55 47 6722-1000', 'userStatus': 1}
+2026-08-05 08:25:14.428 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 403 (49.3ms)
+2026-08-05 08:25:14.429 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-08-05 08:25:17.435 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 392078, 'username': 'qmendonca678', 'firstName': 'Allana', 'lastName': 'Teixeira', 'email': 'lfogaca@example.net', 'password': '6tnHrNG3#ZW1', 'phone': '+55 61 1519-2953', 'userStatus': 1}
+2026-08-05 08:25:17.486 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 403 (49.3ms)
+2026-08-05 08:25:17.486 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

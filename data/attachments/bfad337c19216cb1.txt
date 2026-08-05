@@ -1,4 +1,0 @@
-2026-08-04 08:26:06.500 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 767721, 'name': 'Lucas Gabriel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/391x414'], 'category': {'id': 6, 'name': 'occaecati'}, 'tags': [{'id': 37, 'name': 'officiis'}]}
-2026-08-04 08:26:06.523 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (22.7ms)
-2026-08-04 08:26:06.523 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/767721 | payload: None
-2026-08-04 08:26:06.547 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/767721 → 200 (22.6ms)
