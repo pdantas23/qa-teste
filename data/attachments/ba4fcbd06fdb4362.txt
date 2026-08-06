@@ -1,9 +1,0 @@
-2026-08-05 08:25:05.007 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 484688, 'name': 'Lucca', 'status': 'available', 'photoUrls': ['https://dummyimage.com/609x304'], 'category': {'id': 3, 'name': 'fugit'}, 'tags': [{'id': 59, 'name': 'deleniti'}]}
-2026-08-05 08:25:05.052 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (44.1ms)
-2026-08-05 08:25:05.052 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
-<head><title>403 Forbidden</title></head>
-<body>
-<center><h1>403 Forbidden</h1></center>
-</body>
-</html>
-
