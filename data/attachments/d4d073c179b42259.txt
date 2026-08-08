@@ -1,4 +1,0 @@
-2026-08-07 07:03:43.507 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 548402, 'name': 'Laura', 'status': 'available', 'photoUrls': ['https://picsum.photos/328/607'], 'category': {'id': 8, 'name': 'placeat'}, 'tags': [{'id': 46, 'name': 'aspernatur'}]}
-2026-08-07 07:03:43.563 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (54.6ms)
-2026-08-07 07:03:43.563 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/548402 | payload: None
-2026-08-07 07:03:43.617 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/548402 → 200 (54.1ms)

@@ -1,0 +1,6 @@
+2026-08-08 06:39:00.330 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 500789, 'name': 'Pedro Henrique', 'status': 'available', 'photoUrls': ['https://picsum.photos/639/585'], 'category': {'id': 10, 'name': 'deserunt'}, 'tags': [{'id': 9, 'name': 'architecto'}]}
+2026-08-08 06:39:00.550 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (217.8ms)
+2026-08-08 06:39:00.551 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/500789 | payload: None
+2026-08-08 06:39:00.577 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/500789 → 200 (25.6ms)
+2026-08-08 06:39:00.580 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/500789 | payload: None
+2026-08-08 06:39:00.607 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/500789 → 200 (25.5ms)
