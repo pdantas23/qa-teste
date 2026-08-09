@@ -1,4 +1,0 @@
-2026-08-08 06:39:00.532 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 335015, 'name': 'Emanuelly', 'status': 'available', 'photoUrls': ['https://dummyimage.com/488x725'], 'category': {'id': 3, 'name': 'architecto'}, 'tags': [{'id': 51, 'name': 'amet'}]}
-2026-08-08 06:39:00.555 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (22.0ms)
-2026-08-08 06:39:00.555 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/335015 | payload: None
-2026-08-08 06:39:00.577 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/335015 → 200 (21.6ms)

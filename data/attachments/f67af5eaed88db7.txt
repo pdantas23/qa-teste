@@ -1,0 +1,2 @@
+2026-08-09 06:42:44.734 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 522003, 'name': 'Sabrina', 'status': 'available', 'photoUrls': ['https://placekittens.com/772/437'], 'category': {'id': 6, 'name': 'alias'}, 'tags': [{'id': 12, 'name': 'perspiciatis'}]}
+2026-08-09 06:42:45.136 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (400.3ms)

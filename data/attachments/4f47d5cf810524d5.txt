@@ -1,2 +1,0 @@
-2026-08-08 06:39:00.330 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 798037, 'name': 'Rael', 'status': 'available', 'photoUrls': ['https://placekittens.com/21/112'], 'category': {'id': 10, 'name': 'labore'}, 'tags': [{'id': 27, 'name': 'asperiores'}]}
-2026-08-08 06:39:00.525 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (193.2ms)
