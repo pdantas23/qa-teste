@@ -1,0 +1,6 @@
+2026-08-10 07:17:17.430 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 164750, 'name': 'Rhavi', 'status': 'available', 'photoUrls': ['https://picsum.photos/167/77'], 'category': {'id': 4, 'name': 'cumque'}, 'tags': [{'id': 23, 'name': 'saepe'}]}
+2026-08-10 07:17:17.891 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (458.7ms)
+2026-08-10 07:17:17.892 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/164750 | payload: None
+2026-08-10 07:17:17.947 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/164750 → 200 (53.7ms)
+2026-08-10 07:17:17.951 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/164750 | payload: None
+2026-08-10 07:17:18.003 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/164750 → 200 (51.2ms)
