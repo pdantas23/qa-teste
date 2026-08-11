@@ -1,2 +1,0 @@
-2026-08-10 07:17:17.432 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 999729, 'name': 'Henry', 'status': 'available', 'photoUrls': ['https://dummyimage.com/602x636'], 'category': {'id': 7, 'name': 'eius'}, 'tags': [{'id': 60, 'name': 'occaecati'}]}
-2026-08-10 07:17:17.886 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (451.7ms)

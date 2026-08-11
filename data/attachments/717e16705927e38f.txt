@@ -1,0 +1,4 @@
+2026-08-11 06:54:53.085 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 250073, 'name': 'Caleb', 'status': 'available', 'photoUrls': ['https://picsum.photos/555/124'], 'category': {'id': 2, 'name': 'distinctio'}, 'tags': [{'id': 35, 'name': 'porro'}]}
+2026-08-11 06:54:53.158 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (71.9ms)
+2026-08-11 06:54:53.158 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/250073 | payload: None
+2026-08-11 06:54:53.231 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/250073 → 200 (71.7ms)
