@@ -1,4 +1,0 @@
-2026-08-13 07:16:25.723 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 423697, 'name': 'Isis', 'status': 'available', 'photoUrls': ['https://placekittens.com/379/7'], 'category': {'id': 1, 'name': 'architecto'}, 'tags': [{'id': 58, 'name': 'debitis'}]}
-2026-08-13 07:16:25.729 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.1ms)
-2026-08-13 07:16:25.730 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/423697 | payload: None
-2026-08-13 07:16:25.735 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/423697 → 200 (4.5ms)
