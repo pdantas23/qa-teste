@@ -1,0 +1,4 @@
+2026-08-15 06:24:57.808 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 883677, 'name': 'Luiz Felipe', 'status': 'available', 'photoUrls': ['https://picsum.photos/637/484'], 'category': {'id': 7, 'name': 'explicabo'}, 'tags': [{'id': 3, 'name': 'iusto'}]}
+2026-08-15 06:24:57.836 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (27.3ms)
+2026-08-15 06:24:57.836 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/883677 | payload: None
+2026-08-15 06:24:57.865 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/883677 → 200 (27.6ms)
