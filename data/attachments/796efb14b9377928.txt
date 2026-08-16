@@ -1,6 +1,0 @@
-2026-08-15 06:24:57.435 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 623060, 'name': 'Alexia', 'status': 'available', 'photoUrls': ['https://picsum.photos/1004/884'], 'category': {'id': 3, 'name': 'commodi'}, 'tags': [{'id': 93, 'name': 'harum'}]}
-2026-08-15 06:24:57.734 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (296.8ms)
-2026-08-15 06:24:57.735 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/623060 | payload: None
-2026-08-15 06:24:57.760 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/623060 → 200 (24.1ms)
-2026-08-15 06:24:57.763 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/623060 | payload: None
-2026-08-15 06:24:57.787 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/623060 → 200 (23.5ms)

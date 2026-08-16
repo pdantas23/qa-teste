@@ -1,2 +1,0 @@
-2026-08-15 06:24:57.429 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 677016, 'name': 'Ana Carolina', 'status': 'available', 'photoUrls': ['https://dummyimage.com/726x789'], 'category': {'id': 10, 'name': 'itaque'}, 'tags': [{'id': 51, 'name': 'autem'}]}
-2026-08-15 06:24:57.721 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (290.1ms)
