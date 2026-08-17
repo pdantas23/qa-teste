@@ -1,0 +1,2 @@
+2026-08-17 06:39:01.396 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 487280, 'name': 'Maria Julia', 'status': 'available', 'photoUrls': ['https://picsum.photos/258/299'], 'category': {'id': 6, 'name': 'similique'}, 'tags': [{'id': 49, 'name': 'est'}]}
+2026-08-17 06:39:01.706 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (308.7ms)

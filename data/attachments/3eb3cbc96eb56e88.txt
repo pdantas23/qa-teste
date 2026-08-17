@@ -1,4 +1,0 @@
-2026-08-16 06:28:05.114 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 224531, 'name': 'Raul', 'status': 'available', 'photoUrls': ['https://picsum.photos/497/199'], 'category': {'id': 5, 'name': 'nulla'}, 'tags': [{'id': 56, 'name': 'placeat'}]}
-2026-08-16 06:28:05.121 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.9ms)
-2026-08-16 06:28:05.121 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/224531 | payload: None
-2026-08-16 06:28:05.127 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/224531 → 200 (4.8ms)
