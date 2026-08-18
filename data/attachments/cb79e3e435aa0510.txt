@@ -1,0 +1,8 @@
+2026-08-18 06:30:42.414 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 832530, 'name': 'Maitê', 'status': 'available', 'photoUrls': ['https://placekittens.com/520/320'], 'category': {'id': 4, 'name': 'laudantium'}, 'tags': [{'id': 11, 'name': 'minima'}]}
+2026-08-18 06:30:42.481 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (66.7ms)
+2026-08-18 06:30:42.482 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 423745, 'petId': 832530, 'quantity': 5, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
+2026-08-18 06:30:42.549 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (66.5ms)
+2026-08-18 06:30:42.550 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/423745 | payload: None
+2026-08-18 06:30:42.617 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/423745 → 200 (66.1ms)
+2026-08-18 06:30:42.617 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/832530 | payload: None
+2026-08-18 06:30:42.684 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/832530 → 200 (66.0ms)
