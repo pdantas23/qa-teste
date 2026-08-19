@@ -1,0 +1,4 @@
+2026-08-19 06:31:33.320 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 893767, 'name': 'João Felipe', 'status': 'available', 'photoUrls': ['https://dummyimage.com/631x708'], 'category': {'id': 9, 'name': 'libero'}, 'tags': [{'id': 41, 'name': 'ad'}]}
+2026-08-19 06:31:33.377 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (56.8ms)
+2026-08-19 06:31:33.377 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/893767 | payload: None
+2026-08-19 06:31:33.435 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/893767 → 200 (56.8ms)

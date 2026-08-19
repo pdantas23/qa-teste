@@ -1,0 +1,2 @@
+2026-08-19 06:31:32.898 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 77807, 'name': 'Maria Julia', 'status': 'available', 'photoUrls': ['https://dummyimage.com/103x432'], 'category': {'id': 2, 'name': 'accusantium'}, 'tags': [{'id': 93, 'name': 'occaecati'}]}
+2026-08-19 06:31:33.177 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (278.7ms)
