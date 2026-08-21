@@ -1,0 +1,6 @@
+2026-08-21 06:33:52.299 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 357312, 'name': 'Natália', 'status': 'available', 'photoUrls': ['https://placekittens.com/224/305'], 'category': {'id': 10, 'name': 'debitis'}, 'tags': [{'id': 13, 'name': 'dignissimos'}]}
+2026-08-21 06:33:52.787 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (486.5ms)
+2026-08-21 06:33:52.788 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/357312 | payload: None
+2026-08-21 06:33:52.842 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/357312 → 200 (52.8ms)
+2026-08-21 06:33:52.844 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/357312 | payload: None
+2026-08-21 06:33:52.898 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/357312 → 200 (53.2ms)

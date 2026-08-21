@@ -1,0 +1,4 @@
+2026-08-21 06:33:52.792 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 977571, 'name': 'Luiz Fernando', 'status': 'available', 'photoUrls': ['https://placekittens.com/662/742'], 'category': {'id': 6, 'name': 'et'}, 'tags': [{'id': 43, 'name': 'id'}]}
+2026-08-21 06:33:52.846 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (52.6ms)
+2026-08-21 06:33:52.846 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/977571 | payload: None
+2026-08-21 06:33:52.899 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/977571 → 200 (52.1ms)

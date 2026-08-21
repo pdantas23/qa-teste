@@ -1,0 +1,4 @@
+2026-08-21 06:33:52.898 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 888405, 'name': 'Eloá', 'status': 'available', 'photoUrls': ['https://placekittens.com/588/468'], 'category': {'id': 4, 'name': 'enim'}, 'tags': [{'id': 53, 'name': 'fugit'}]}
+2026-08-21 06:33:52.952 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (53.0ms)
+2026-08-21 06:33:52.953 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/888405 | payload: None
+2026-08-21 06:33:53.006 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/888405 → 200 (52.2ms)
