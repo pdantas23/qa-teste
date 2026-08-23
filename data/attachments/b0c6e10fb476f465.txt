@@ -1,0 +1,2 @@
+2026-08-23 06:28:48.967 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 302945, 'name': 'Maria Liz', 'status': 'available', 'photoUrls': ['https://placekittens.com/414/613'], 'category': {'id': 1, 'name': 'omnis'}, 'tags': [{'id': 33, 'name': 'aspernatur'}]}
+2026-08-23 06:28:49.252 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (282.7ms)

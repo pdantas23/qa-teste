@@ -1,0 +1,6 @@
+2026-08-23 06:28:48.978 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 572654, 'name': 'Maria Liz', 'status': 'available', 'photoUrls': ['https://placekittens.com/61/419'], 'category': {'id': 2, 'name': 'consequuntur'}, 'tags': [{'id': 76, 'name': 'voluptas'}]}
+2026-08-23 06:28:49.249 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (269.4ms)
+2026-08-23 06:28:49.250 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/572654 | payload: None
+2026-08-23 06:28:49.303 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/572654 → 200 (52.5ms)
+2026-08-23 06:28:49.305 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/572654 | payload: None
+2026-08-23 06:28:49.357 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/572654 → 200 (51.6ms)

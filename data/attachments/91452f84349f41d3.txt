@@ -1,4 +1,0 @@
-2026-08-22 06:27:24.175 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 74136, 'name': 'Maria Júlia', 'status': 'available', 'photoUrls': ['https://dummyimage.com/751x446'], 'category': {'id': 8, 'name': 'voluptate'}, 'tags': [{'id': 44, 'name': 'recusandae'}]}
-2026-08-22 06:27:24.181 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.9ms)
-2026-08-22 06:27:24.181 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/74136 | payload: None
-2026-08-22 06:27:24.187 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/74136 → 200 (4.8ms)
