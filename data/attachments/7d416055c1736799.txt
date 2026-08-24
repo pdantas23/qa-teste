@@ -1,0 +1,6 @@
+2026-08-24 06:41:38.107 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 711162, 'name': 'Milena', 'status': 'available', 'photoUrls': ['https://dummyimage.com/770x624'], 'category': {'id': 6, 'name': 'tempora'}, 'tags': [{'id': 30, 'name': 'autem'}]}
+2026-08-24 06:41:38.254 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (145.3ms)
+2026-08-24 06:41:38.255 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/711162 | payload: None
+2026-08-24 06:41:38.280 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/711162 → 200 (23.1ms)
+2026-08-24 06:41:38.283 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/711162 | payload: None
+2026-08-24 06:41:38.306 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/711162 → 200 (22.1ms)

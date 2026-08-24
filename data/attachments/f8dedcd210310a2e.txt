@@ -1,0 +1,4 @@
+2026-08-24 06:41:38.309 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 142992, 'name': 'Lara', 'status': 'available', 'photoUrls': ['https://placekittens.com/290/336'], 'category': {'id': 6, 'name': 'aperiam'}, 'tags': [{'id': 58, 'name': 'a'}]}
+2026-08-24 06:41:38.334 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (22.3ms)
+2026-08-24 06:41:38.335 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/142992 | payload: None
+2026-08-24 06:41:38.358 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/142992 → 200 (22.3ms)
