@@ -1,7 +1,0 @@
-2026-08-24 06:41:38.313 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 691515, 'name': 'Eloah', 'status': 'available', 'photoUrls': ['https://picsum.photos/695/492'], 'category': {'id': 4, 'name': 'enim'}, 'tags': [{'id': 45, 'name': 'eveniet'}]}
-2026-08-24 06:41:38.336 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (21.8ms)
-2026-08-24 06:41:38.337 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/691515 | payload: None
-2026-08-24 06:41:38.360 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/691515 → 200 (22.1ms)
-2026-08-24 06:41:38.360 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/691515 | payload: None
-2026-08-24 06:41:38.384 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/691515 → 404 (22.1ms)
-2026-08-24 06:41:38.384 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

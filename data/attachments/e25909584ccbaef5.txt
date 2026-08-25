@@ -1,0 +1,4 @@
+2026-08-25 06:34:33.362 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 441507, 'name': 'Heitor', 'status': 'available', 'photoUrls': ['https://dummyimage.com/1005x228'], 'category': {'id': 2, 'name': 'placeat'}, 'tags': [{'id': 78, 'name': 'id'}]}
+2026-08-25 06:34:33.413 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (50.6ms)
+2026-08-25 06:34:33.413 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/441507 | payload: None
+2026-08-25 06:34:33.465 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/441507 → 200 (50.6ms)
