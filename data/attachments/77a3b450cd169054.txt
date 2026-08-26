@@ -1,0 +1,4 @@
+2026-08-26 06:35:56.443 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 635737, 'name': 'Maria Flor', 'status': 'available', 'photoUrls': ['https://dummyimage.com/1010x421'], 'category': {'id': 5, 'name': 'ex'}, 'tags': [{'id': 34, 'name': 'ex'}]}
+2026-08-26 06:35:56.464 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (19.7ms)
+2026-08-26 06:35:56.464 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/635737 | payload: None
+2026-08-26 06:35:56.485 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/635737 → 200 (19.5ms)
