@@ -1,0 +1,4 @@
+2026-08-27 17:11:47.501 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 845553, 'name': 'Ana Sophia', 'status': 'available', 'photoUrls': ['https://picsum.photos/966/153'], 'category': {'id': 9, 'name': 'repellendus'}, 'tags': [{'id': 28, 'name': 'impedit'}]}
+2026-08-27 17:11:47.506 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.6ms)
+2026-08-27 17:11:47.507 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/845553 | payload: None
+2026-08-27 17:11:47.511 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/845553 → 200 (3.9ms)
