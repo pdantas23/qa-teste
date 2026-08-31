@@ -1,0 +1,7 @@
+2026-08-31 12:22:09.221 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 260203, 'name': 'Arthur Gabriel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/526x829'], 'category': {'id': 2, 'name': 'consequatur'}, 'tags': [{'id': 64, 'name': 'molestiae'}]}
+2026-08-31 12:22:09.226 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.5ms)
+2026-08-31 12:22:09.226 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/260203 | payload: None
+2026-08-31 12:22:09.231 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/260203 → 200 (4.2ms)
+2026-08-31 12:22:09.232 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/260203 | payload: None
+2026-08-31 12:22:09.238 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/260203 → 404 (5.0ms)
+2026-08-31 12:22:09.238 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

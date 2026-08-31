@@ -1,0 +1,4 @@
+2026-08-31 12:22:09.180 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 155129, 'name': 'Ana Júlia', 'status': 'available', 'photoUrls': ['https://placekittens.com/1018/551'], 'category': {'id': 7, 'name': 'harum'}, 'tags': [{'id': 58, 'name': 'omnis'}]}
+2026-08-31 12:22:09.186 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.0ms)
+2026-08-31 12:22:09.186 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/155129 | payload: None
+2026-08-31 12:22:09.192 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/155129 → 200 (4.4ms)

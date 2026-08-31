@@ -1,0 +1,2 @@
+2026-08-31 12:22:08.952 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 297146, 'name': 'Vitor Gabriel', 'status': 'available', 'photoUrls': ['https://picsum.photos/221/445'], 'category': {'id': 7, 'name': 'provident'}, 'tags': [{'id': 99, 'name': 'quod'}]}
+2026-08-31 12:22:09.169 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (214.4ms)

@@ -1,4 +1,0 @@
-2026-08-30 11:00:32.502 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 205820, 'name': 'Rafaela', 'status': 'available', 'photoUrls': ['https://picsum.photos/873/750'], 'category': {'id': 9, 'name': 'odio'}, 'tags': [{'id': 7, 'name': 'iusto'}]}
-2026-08-30 11:00:32.531 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (27.4ms)
-2026-08-30 11:00:32.531 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/205820 | payload: None
-2026-08-30 11:00:32.559 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/205820 → 200 (27.3ms)
