@@ -1,0 +1,6 @@
+2026-09-01 10:54:51.748 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 422845, 'name': 'Enzo Gabriel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/400x424'], 'category': {'id': 4, 'name': 'dolore'}, 'tags': [{'id': 42, 'name': 'totam'}]}
+2026-09-01 10:54:51.952 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (201.4ms)
+2026-09-01 10:54:51.953 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/422845 | payload: None
+2026-09-01 10:54:51.959 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/422845 → 200 (5.1ms)
+2026-09-01 10:54:51.964 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/422845 | payload: None
+2026-09-01 10:54:51.970 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/422845 → 200 (5.0ms)
