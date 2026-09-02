@@ -1,0 +1,7 @@
+2026-09-02 10:21:24.673 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 921319, 'username': 'ana-laura79604', 'firstName': 'João Guilherme', 'lastName': 'Teixeira', 'email': 'dommoreira@example.com', 'password': 'bqKF)e1p)8ji', 'phone': '89 8625-7490', 'userStatus': 1}
+2026-09-02 10:21:24.720 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (46.2ms)
+2026-09-02 10:21:24.721 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/ana-laura79604 | payload: None
+2026-09-02 10:21:24.768 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/ana-laura79604 → 200 (46.2ms)
+2026-09-02 10:21:24.768 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/user/ana-laura79604 | payload: None
+2026-09-02 10:21:24.815 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/user/ana-laura79604 → 404 (46.5ms)
+2026-09-02 10:21:24.815 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"User not found"}

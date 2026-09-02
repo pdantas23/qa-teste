@@ -1,4 +1,0 @@
-2026-09-01 10:54:51.974 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 689120, 'name': 'Letícia', 'status': 'available', 'photoUrls': ['https://placekittens.com/724/139'], 'category': {'id': 3, 'name': 'neque'}, 'tags': [{'id': 13, 'name': 'quod'}]}
-2026-09-01 10:54:51.980 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.9ms)
-2026-09-01 10:54:51.980 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/689120 | payload: None
-2026-09-01 10:54:51.987 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/689120 → 200 (5.7ms)
