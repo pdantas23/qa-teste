@@ -1,7 +1,0 @@
-2026-09-02 10:21:23.935 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 710435, 'name': 'Raquel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/175x731'], 'category': {'id': 10, 'name': 'saepe'}, 'tags': [{'id': 14, 'name': 'dolor'}]}
-2026-09-02 10:21:23.982 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (46.0ms)
-2026-09-02 10:21:23.982 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/710435 | payload: None
-2026-09-02 10:21:24.029 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/710435 → 200 (46.5ms)
-2026-09-02 10:21:24.030 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/710435 | payload: None
-2026-09-02 10:21:24.076 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/710435 → 404 (46.2ms)
-2026-09-02 10:21:24.077 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

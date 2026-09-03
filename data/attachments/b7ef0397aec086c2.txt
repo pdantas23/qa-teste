@@ -1,3 +1,0 @@
-2026-09-02 10:21:24.092 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/store/order/999999999 | payload: None
-2026-09-02 10:21:24.139 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/store/order/999999999 → 404 (46.4ms)
-2026-09-02 10:21:24.140 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Order not found"}
