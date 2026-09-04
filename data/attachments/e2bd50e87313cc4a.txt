@@ -1,0 +1,4 @@
+2026-09-04 10:19:17.500 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 324013, 'name': 'Dante', 'status': 'available', 'photoUrls': ['https://dummyimage.com/758x676'], 'category': {'id': 4, 'name': 'rerum'}, 'tags': [{'id': 89, 'name': 'beatae'}]}
+2026-09-04 10:19:17.553 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (53.0ms)
+2026-09-04 10:19:17.554 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/324013 | payload: None
+2026-09-04 10:19:17.607 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/324013 → 200 (52.8ms)
