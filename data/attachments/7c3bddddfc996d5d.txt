@@ -1,0 +1,7 @@
+2026-09-05 09:46:54.834 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 659000, 'name': 'Vitor Gabriel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/689x84'], 'category': {'id': 1, 'name': 'pariatur'}, 'tags': [{'id': 71, 'name': 'repellendus'}]}
+2026-09-05 09:46:54.903 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (68.1ms)
+2026-09-05 09:46:54.903 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/659000 | payload: None
+2026-09-05 09:46:54.973 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/659000 → 200 (68.3ms)
+2026-09-05 09:46:54.973 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/659000 | payload: None
+2026-09-05 09:46:55.042 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/659000 → 404 (68.0ms)
+2026-09-05 09:46:55.042 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

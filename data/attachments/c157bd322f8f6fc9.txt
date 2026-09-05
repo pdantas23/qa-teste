@@ -1,0 +1,4 @@
+2026-09-05 09:46:54.689 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 426374, 'name': 'Isabela', 'status': 'available', 'photoUrls': ['https://picsum.photos/180/284'], 'category': {'id': 9, 'name': 'debitis'}, 'tags': [{'id': 91, 'name': 'omnis'}]}
+2026-09-05 09:46:54.759 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (68.7ms)
+2026-09-05 09:46:54.760 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/426374 | payload: None
+2026-09-05 09:46:54.829 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/426374 → 200 (68.4ms)

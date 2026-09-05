@@ -1,0 +1,4 @@
+2026-09-05 09:46:54.844 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 184882, 'name': 'Anna Liz', 'status': 'available', 'photoUrls': ['https://picsum.photos/888/155'], 'category': {'id': 3, 'name': 'odio'}, 'tags': [{'id': 32, 'name': 'quos'}]}
+2026-09-05 09:46:54.916 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (70.8ms)
+2026-09-05 09:46:54.916 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/184882 | payload: None
+2026-09-05 09:46:54.988 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/184882 → 200 (70.5ms)

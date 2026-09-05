@@ -1,4 +1,0 @@
-2026-09-04 10:19:17.613 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 779487, 'name': 'Laís', 'status': 'available', 'photoUrls': ['https://dummyimage.com/381x320'], 'category': {'id': 5, 'name': 'non'}, 'tags': [{'id': 75, 'name': 'aspernatur'}]}
-2026-09-04 10:19:17.667 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (53.2ms)
-2026-09-04 10:19:17.667 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/779487 | payload: None
-2026-09-04 10:19:17.722 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/779487 → 200 (53.4ms)

@@ -1,6 +1,0 @@
-2026-09-04 10:19:17.193 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 584432, 'name': 'Ana Beatriz', 'status': 'available', 'photoUrls': ['https://picsum.photos/736/271'], 'category': {'id': 1, 'name': 'fuga'}, 'tags': [{'id': 43, 'name': 'aliquam'}]}
-2026-09-04 10:19:17.495 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (299.9ms)
-2026-09-04 10:19:17.496 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/584432 | payload: None
-2026-09-04 10:19:17.550 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/584432 → 200 (53.6ms)
-2026-09-04 10:19:17.553 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/584432 | payload: None
-2026-09-04 10:19:17.609 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/584432 → 200 (55.1ms)
