@@ -1,0 +1,6 @@
+2026-09-06 10:03:15.473 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 482406, 'name': 'Vicente', 'status': 'available', 'photoUrls': ['https://dummyimage.com/174x510'], 'category': {'id': 6, 'name': 'eveniet'}, 'tags': [{'id': 75, 'name': 'consectetur'}]}
+2026-09-06 10:03:16.029 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (553.4ms)
+2026-09-06 10:03:16.030 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/482406 | payload: None
+2026-09-06 10:03:16.103 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/482406 → 200 (71.8ms)
+2026-09-06 10:03:16.106 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/482406 | payload: None
+2026-09-06 10:03:16.180 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/482406 → 200 (72.0ms)
