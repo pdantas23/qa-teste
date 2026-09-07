@@ -1,8 +1,0 @@
-2026-09-06 10:03:16.636 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 684509, 'name': 'João Gabriel', 'status': 'available', 'photoUrls': ['https://placekittens.com/292/294'], 'category': {'id': 1, 'name': 'voluptas'}, 'tags': [{'id': 54, 'name': 'suscipit'}]}
-2026-09-06 10:03:16.710 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (72.9ms)
-2026-09-06 10:03:16.710 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 745080, 'petId': 684509, 'quantity': 2, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
-2026-09-06 10:03:16.783 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (71.9ms)
-2026-09-06 10:03:16.783 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/745080 | payload: None
-2026-09-06 10:03:16.856 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/745080 → 200 (71.5ms)
-2026-09-06 10:03:16.856 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/684509 | payload: None
-2026-09-06 10:03:16.928 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/684509 → 200 (71.3ms)

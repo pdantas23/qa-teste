@@ -1,4 +1,0 @@
-2026-09-06 10:03:16.005 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 908186, 'name': 'Guilherme', 'status': 'available', 'photoUrls': ['https://placekittens.com/816/586'], 'category': {'id': 1, 'name': 'ipsam'}, 'tags': [{'id': 49, 'name': 'deleniti'}]}
-2026-09-06 10:03:16.074 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (67.7ms)
-2026-09-06 10:03:16.074 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/908186 | payload: None
-2026-09-06 10:03:16.143 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/908186 → 200 (67.6ms)

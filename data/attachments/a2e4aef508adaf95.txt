@@ -1,0 +1,4 @@
+2026-09-07 11:16:08.239 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 981283, 'name': 'Isabela', 'status': 'available', 'photoUrls': ['https://placekittens.com/66/680'], 'category': {'id': 2, 'name': 'dolore'}, 'tags': [{'id': 57, 'name': 'ipsum'}]}
+2026-09-07 11:16:08.248 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (7.8ms)
+2026-09-07 11:16:08.248 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/981283 | payload: None
+2026-09-07 11:16:08.256 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/981283 → 200 (7.5ms)
