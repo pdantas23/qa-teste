@@ -1,0 +1,4 @@
+2026-09-08 10:24:01.368 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 704029, 'name': 'Olívia', 'status': 'available', 'photoUrls': ['https://placekittens.com/167/229'], 'category': {'id': 9, 'name': 'doloribus'}, 'tags': [{'id': 34, 'name': 'natus'}]}
+2026-09-08 10:24:01.441 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (71.7ms)
+2026-09-08 10:24:01.441 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/704029 | payload: None
+2026-09-08 10:24:01.515 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/704029 → 200 (72.5ms)

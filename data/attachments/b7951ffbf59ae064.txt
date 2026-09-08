@@ -1,7 +1,0 @@
-2026-09-07 11:16:08.264 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 243506, 'name': 'João Vitor', 'status': 'available', 'photoUrls': ['https://placekittens.com/540/575'], 'category': {'id': 1, 'name': 'beatae'}, 'tags': [{'id': 42, 'name': 'animi'}]}
-2026-09-07 11:16:08.273 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (7.9ms)
-2026-09-07 11:16:08.273 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/243506 | payload: None
-2026-09-07 11:16:08.282 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/243506 → 200 (7.7ms)
-2026-09-07 11:16:08.282 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/243506 | payload: None
-2026-09-07 11:16:08.291 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/243506 → 404 (8.2ms)
-2026-09-07 11:16:08.292 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
