@@ -1,0 +1,4 @@
+2026-09-10 10:22:12.476 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 479979, 'name': 'Marina', 'status': 'available', 'photoUrls': ['https://dummyimage.com/790x536'], 'category': {'id': 5, 'name': 'ut'}, 'tags': [{'id': 36, 'name': 'beatae'}]}
+2026-09-10 10:22:12.483 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.4ms)
+2026-09-10 10:22:12.484 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/479979 | payload: None
+2026-09-10 10:22:12.491 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/479979 → 200 (5.6ms)

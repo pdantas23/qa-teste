@@ -1,7 +1,0 @@
-2026-09-09 10:33:31.406 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 604808, 'name': 'Maria Liz', 'status': 'available', 'photoUrls': ['https://placekittens.com/4/221'], 'category': {'id': 1, 'name': 'inventore'}, 'tags': [{'id': 49, 'name': 'ullam'}]}
-2026-09-09 10:33:31.477 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (70.2ms)
-2026-09-09 10:33:31.478 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/604808 | payload: None
-2026-09-09 10:33:31.548 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/604808 → 200 (70.1ms)
-2026-09-09 10:33:31.549 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/604808 | payload: None
-2026-09-09 10:33:31.622 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/604808 → 404 (72.1ms)
-2026-09-09 10:33:31.623 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

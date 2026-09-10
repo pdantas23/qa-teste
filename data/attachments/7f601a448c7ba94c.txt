@@ -1,0 +1,4 @@
+2026-09-10 10:22:12.459 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 712428, 'name': 'Caleb', 'status': 'available', 'photoUrls': ['https://dummyimage.com/796x547'], 'category': {'id': 6, 'name': 'architecto'}, 'tags': [{'id': 26, 'name': 'placeat'}]}
+2026-09-10 10:22:12.465 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.8ms)
+2026-09-10 10:22:12.466 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/712428 | payload: None
+2026-09-10 10:22:12.472 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/712428 → 200 (5.5ms)
