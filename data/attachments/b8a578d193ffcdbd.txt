@@ -1,0 +1,27 @@
+2026-09-11 10:23:42.899 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 914370, 'name': 'Henrique', 'status': 'available', 'photoUrls': ['https://dummyimage.com/283x43'], 'category': {'id': 3, 'name': 'exercitationem'}, 'tags': [{'id': 72, 'name': 'ullam'}]}
+2026-09-11 10:23:42.969 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (68.6ms)
+2026-09-11 10:23:42.969 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-09-11 10:23:45.997 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 41700, 'name': 'Carolina', 'status': 'available', 'photoUrls': ['https://picsum.photos/829/459'], 'category': {'id': 6, 'name': 'ab'}, 'tags': [{'id': 38, 'name': 'quidem'}]}
+2026-09-11 10:23:46.067 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (69.2ms)
+2026-09-11 10:23:46.067 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-09-11 10:23:49.097 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 998114, 'name': 'João Miguel', 'status': 'available', 'photoUrls': ['https://placekittens.com/270/323'], 'category': {'id': 3, 'name': 'libero'}, 'tags': [{'id': 23, 'name': 'sequi'}]}
+2026-09-11 10:23:49.167 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (69.0ms)
+2026-09-11 10:23:49.167 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

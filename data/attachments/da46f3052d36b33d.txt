@@ -1,0 +1,18 @@
+2026-09-11 10:23:30.365 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/store/inventory | payload: None
+2026-09-11 10:23:30.435 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/store/inventory → 403 (69.1ms)
+2026-09-11 10:23:30.435 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-09-11 10:23:33.441 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/store/inventory | payload: None
+2026-09-11 10:23:33.511 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/store/inventory → 403 (69.4ms)
+2026-09-11 10:23:33.511 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

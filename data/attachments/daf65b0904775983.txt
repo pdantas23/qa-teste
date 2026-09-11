@@ -1,6 +1,0 @@
-2026-09-10 10:22:12.244 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 244584, 'name': 'Rafaela', 'status': 'available', 'photoUrls': ['https://picsum.photos/588/797'], 'category': {'id': 4, 'name': 'dignissimos'}, 'tags': [{'id': 33, 'name': 'mollitia'}]}
-2026-09-10 10:22:12.444 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (198.5ms)
-2026-09-10 10:22:12.450 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/244584 | payload: None
-2026-09-10 10:22:12.457 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/244584 → 200 (6.2ms)
-2026-09-10 10:22:12.463 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/244584 | payload: None
-2026-09-10 10:22:12.469 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/244584 → 200 (5.0ms)

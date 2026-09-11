@@ -1,0 +1,27 @@
+2026-09-11 10:23:55.419 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 465787, 'username': 'da-mataisis958', 'firstName': 'João Gabriel', 'lastName': 'das Neves', 'email': 'rmendonca@example.com', 'password': '$5!H6UOhn7PQ', 'phone': '+55 75 5377-8285', 'userStatus': 1}
+2026-09-11 10:23:55.488 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 403 (68.4ms)
+2026-09-11 10:23:55.488 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-09-11 10:23:58.496 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 716481, 'username': 'davi-luiz23597', 'firstName': 'Fernando', 'lastName': 'Vasconcelos', 'email': 'da-rosaana-vitoria@example.org', 'password': ')+l)5CYpnaNb', 'phone': '+55 82 4206-5553', 'userStatus': 1}
+2026-09-11 10:23:58.566 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 403 (68.8ms)
+2026-09-11 10:23:58.566 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-09-11 10:24:01.572 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 48871, 'username': 'nataliada-mota567', 'firstName': 'José Pedro', 'lastName': 'Dias', 'email': 'kda-rocha@example.com', 'password': '#LFbY9a)F3Uk', 'phone': '11 7545-8206', 'userStatus': 1}
+2026-09-11 10:24:01.641 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 403 (68.5ms)
+2026-09-11 10:24:01.642 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

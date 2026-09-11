@@ -1,0 +1,18 @@
+2026-09-11 10:23:24.146 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/findByStatus | payload: None
+2026-09-11 10:23:24.218 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold → 403 (71.6ms)
+2026-09-11 10:23:24.219 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-09-11 10:23:27.224 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/findByStatus | payload: None
+2026-09-11 10:23:27.297 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold → 403 (71.9ms)
+2026-09-11 10:23:27.297 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

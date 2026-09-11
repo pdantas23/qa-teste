@@ -1,0 +1,18 @@
+2026-09-11 10:23:36.594 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 946856, 'name': 'Pedro', 'status': 'available', 'photoUrls': ['https://picsum.photos/1024/789'], 'category': {'id': 9, 'name': 'quas'}, 'tags': [{'id': 67, 'name': 'id'}]}
+2026-09-11 10:23:36.663 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (68.6ms)
+2026-09-11 10:23:36.663 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+2026-09-11 10:23:39.700 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 466413, 'name': 'José Miguel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/852x696'], 'category': {'id': 7, 'name': 'molestiae'}, 'tags': [{'id': 33, 'name': 'dicta'}]}
+2026-09-11 10:23:39.769 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (69.0ms)
+2026-09-11 10:23:39.769 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+

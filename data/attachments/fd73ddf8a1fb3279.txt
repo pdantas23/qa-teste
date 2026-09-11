@@ -1,0 +1,9 @@
+2026-09-11 10:23:30.368 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 244160, 'name': 'Maria Flor', 'status': 'available', 'photoUrls': ['https://dummyimage.com/675x924'], 'category': {'id': 10, 'name': 'quod'}, 'tags': [{'id': 10, 'name': 'fugiat'}]}
+2026-09-11 10:23:30.436 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 403 (67.6ms)
+2026-09-11 10:23:30.436 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
