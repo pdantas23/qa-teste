@@ -1,0 +1,6 @@
+2026-09-13 10:53:46.199 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 480728, 'name': 'Benício', 'status': 'available', 'photoUrls': ['https://dummyimage.com/305x897'], 'category': {'id': 1, 'name': 'reiciendis'}, 'tags': [{'id': 58, 'name': 'aliquam'}]}
+2026-09-13 10:53:46.595 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (394.5ms)
+2026-09-13 10:53:46.596 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/480728 | payload: None
+2026-09-13 10:53:46.647 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/480728 → 200 (50.1ms)
+2026-09-13 10:53:46.649 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/480728 | payload: None
+2026-09-13 10:53:46.699 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/480728 → 200 (49.8ms)

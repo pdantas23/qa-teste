@@ -1,0 +1,4 @@
+2026-09-13 10:53:46.589 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 497666, 'name': 'João Vitor', 'status': 'available', 'photoUrls': ['https://placekittens.com/12/531'], 'category': {'id': 3, 'name': 'dolorem'}, 'tags': [{'id': 86, 'name': 'accusamus'}]}
+2026-09-13 10:53:46.637 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (46.9ms)
+2026-09-13 10:53:46.637 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/497666 | payload: None
+2026-09-13 10:53:46.684 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/497666 → 200 (46.2ms)

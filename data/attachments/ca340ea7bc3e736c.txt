@@ -1,4 +1,0 @@
-2026-09-12 09:54:05.015 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 445877, 'name': 'Pietra', 'status': 'available', 'photoUrls': ['https://placekittens.com/369/775'], 'category': {'id': 7, 'name': 'earum'}, 'tags': [{'id': 62, 'name': 'quos'}]}
-2026-09-12 09:54:05.047 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (30.9ms)
-2026-09-12 09:54:05.047 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/445877 | payload: None
-2026-09-12 09:54:05.078 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/445877 → 200 (31.0ms)

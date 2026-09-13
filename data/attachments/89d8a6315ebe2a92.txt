@@ -1,6 +1,0 @@
-2026-09-12 09:54:04.744 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 400957, 'name': 'Luiz Otávio', 'status': 'available', 'photoUrls': ['https://picsum.photos/574/776'], 'category': {'id': 4, 'name': 'perspiciatis'}, 'tags': [{'id': 73, 'name': 'et'}]}
-2026-09-12 09:54:05.011 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (266.2ms)
-2026-09-12 09:54:05.012 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/400957 | payload: None
-2026-09-12 09:54:05.043 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/400957 → 200 (30.6ms)
-2026-09-12 09:54:05.045 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/400957 | payload: None
-2026-09-12 09:54:05.076 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/400957 → 200 (30.6ms)
