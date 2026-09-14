@@ -1,0 +1,6 @@
+2026-09-14 11:26:02.821 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 186002, 'name': 'Ravi', 'status': 'available', 'photoUrls': ['https://placekittens.com/698/852'], 'category': {'id': 7, 'name': 'omnis'}, 'tags': [{'id': 64, 'name': 'nam'}]}
+2026-09-14 11:26:03.228 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (404.8ms)
+2026-09-14 11:26:03.229 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/186002 | payload: None
+2026-09-14 11:26:03.285 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/186002 → 200 (55.3ms)
+2026-09-14 11:26:03.288 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/186002 | payload: None
+2026-09-14 11:26:03.344 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/186002 → 200 (55.2ms)
