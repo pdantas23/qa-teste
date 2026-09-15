@@ -1,4 +1,0 @@
-2026-09-14 11:26:03.353 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 339685, 'name': 'Ana Clara', 'status': 'available', 'photoUrls': ['https://dummyimage.com/923x182'], 'category': {'id': 7, 'name': 'aliquid'}, 'tags': [{'id': 79, 'name': 'deserunt'}]}
-2026-09-14 11:26:03.410 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (56.4ms)
-2026-09-14 11:26:03.411 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/339685 | payload: None
-2026-09-14 11:26:03.467 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/339685 → 200 (55.9ms)
