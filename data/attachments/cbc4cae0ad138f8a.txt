@@ -1,0 +1,6 @@
+2026-09-16 10:37:34.965 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 504294, 'name': 'Benicio', 'status': 'available', 'photoUrls': ['https://picsum.photos/269/287'], 'category': {'id': 10, 'name': 'nesciunt'}, 'tags': [{'id': 48, 'name': 'eveniet'}]}
+2026-09-16 10:37:35.160 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (192.5ms)
+2026-09-16 10:37:35.161 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/504294 | payload: None
+2026-09-16 10:37:35.167 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/504294 → 200 (4.3ms)
+2026-09-16 10:37:35.171 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/504294 | payload: None
+2026-09-16 10:37:35.176 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/504294 → 200 (4.1ms)

@@ -1,2 +1,0 @@
-2026-09-15 10:48:26.527 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 143673, 'name': 'José Pedro', 'status': 'available', 'photoUrls': ['https://placekittens.com/242/584'], 'category': {'id': 6, 'name': 'tempore'}, 'tags': [{'id': 53, 'name': 'aspernatur'}]}
-2026-09-15 10:48:27.009 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (479.0ms)

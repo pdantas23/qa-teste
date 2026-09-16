@@ -1,4 +1,0 @@
-2026-09-15 10:48:27.144 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 658886, 'name': 'Anthony Gabriel', 'status': 'available', 'photoUrls': ['https://picsum.photos/807/363'], 'category': {'id': 9, 'name': 'sapiente'}, 'tags': [{'id': 51, 'name': 'eaque'}]}
-2026-09-15 10:48:27.216 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (71.4ms)
-2026-09-15 10:48:27.217 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/658886 | payload: None
-2026-09-15 10:48:27.289 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/658886 → 200 (71.1ms)
