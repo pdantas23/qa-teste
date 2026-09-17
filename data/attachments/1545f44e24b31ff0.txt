@@ -1,0 +1,4 @@
+2026-09-17 10:46:52.778 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 584544, 'name': 'Maria Vitória', 'status': 'available', 'photoUrls': ['https://picsum.photos/816/499'], 'category': {'id': 7, 'name': 'qui'}, 'tags': [{'id': 27, 'name': 'excepturi'}]}
+2026-09-17 10:46:52.845 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (66.7ms)
+2026-09-17 10:46:52.846 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/584544 | payload: None
+2026-09-17 10:46:52.914 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/584544 → 200 (66.5ms)
