@@ -1,6 +1,0 @@
-2026-09-17 10:46:52.307 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 535109, 'name': 'Anthony Gabriel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/730x825'], 'category': {'id': 9, 'name': 'et'}, 'tags': [{'id': 92, 'name': 'eligendi'}]}
-2026-09-17 10:46:52.773 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (464.4ms)
-2026-09-17 10:46:52.774 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/535109 | payload: None
-2026-09-17 10:46:52.843 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/535109 → 200 (67.8ms)
-2026-09-17 10:46:52.848 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/535109 | payload: None
-2026-09-17 10:46:52.916 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/535109 → 200 (67.4ms)

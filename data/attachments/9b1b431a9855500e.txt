@@ -1,0 +1,4 @@
+2026-09-18 10:22:12.528 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 244784, 'name': 'Daniel', 'status': 'available', 'photoUrls': ['https://placekittens.com/718/103'], 'category': {'id': 5, 'name': 'omnis'}, 'tags': [{'id': 45, 'name': 'fugit'}]}
+2026-09-18 10:22:12.564 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (35.8ms)
+2026-09-18 10:22:12.565 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/244784 | payload: None
+2026-09-18 10:22:12.602 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/244784 → 200 (36.0ms)

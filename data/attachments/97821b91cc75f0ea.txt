@@ -1,6 +1,0 @@
-2026-09-17 10:46:52.306 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 839732, 'name': 'Murilo', 'status': 'available', 'photoUrls': ['https://picsum.photos/158/711'], 'category': {'id': 5, 'name': 'dolore'}, 'tags': [{'id': 16, 'name': 'accusamus'}]}
-2026-09-17 10:46:52.773 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (464.1ms)
-2026-09-17 10:46:52.774 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/pet | payload: {'id': 839732, 'name': 'Dom', 'status': 'sold', 'photoUrls': ['https://placekittens.com/394/312']}
-2026-09-17 10:46:52.843 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/pet → 200 (67.8ms)
-2026-09-17 10:46:52.845 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/839732 | payload: None
-2026-09-17 10:46:52.914 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/839732 → 200 (67.5ms)
