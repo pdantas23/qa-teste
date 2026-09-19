@@ -1,0 +1,4 @@
+2026-09-19 10:05:48.505 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 934892, 'name': 'Sophie', 'status': 'available', 'photoUrls': ['https://placekittens.com/581/196'], 'category': {'id': 5, 'name': 'aliquam'}, 'tags': [{'id': 5, 'name': 'voluptatibus'}]}
+2026-09-19 10:05:48.556 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (49.0ms)
+2026-09-19 10:05:48.556 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/934892 | payload: None
+2026-09-19 10:05:48.606 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/934892 → 200 (49.1ms)
