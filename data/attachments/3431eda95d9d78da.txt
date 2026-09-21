@@ -1,4 +1,0 @@
-2026-09-20 10:24:19.535 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 881943, 'name': 'Valentim', 'status': 'available', 'photoUrls': ['https://placekittens.com/85/1022'], 'category': {'id': 9, 'name': 'sapiente'}, 'tags': [{'id': 11, 'name': 'perspiciatis'}]}
-2026-09-20 10:24:19.602 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (64.9ms)
-2026-09-20 10:24:19.602 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/881943 | payload: None
-2026-09-20 10:24:19.667 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/881943 → 200 (64.6ms)
