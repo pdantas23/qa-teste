@@ -1,0 +1,2 @@
+2026-09-22 10:44:17.279 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 4150, 'name': 'Lívia', 'status': 'available', 'photoUrls': ['https://placekittens.com/186/116'], 'category': {'id': 10, 'name': 'assumenda'}, 'tags': [{'id': 62, 'name': 'quas'}]}
+2026-09-22 10:44:17.380 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (98.6ms)
