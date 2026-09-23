@@ -1,4 +1,0 @@
-2026-09-22 10:44:17.388 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 942244, 'name': 'José', 'status': 'available', 'photoUrls': ['https://dummyimage.com/331x944'], 'category': {'id': 5, 'name': 'magnam'}, 'tags': [{'id': 1, 'name': 'minima'}]}
-2026-09-22 10:44:17.394 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.1ms)
-2026-09-22 10:44:17.394 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/942244 | payload: None
-2026-09-22 10:44:17.401 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/942244 → 200 (5.9ms)

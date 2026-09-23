@@ -1,6 +1,0 @@
-2026-09-22 10:44:17.278 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 354309, 'name': 'Luísa', 'status': 'available', 'photoUrls': ['https://placekittens.com/89/246'], 'category': {'id': 10, 'name': 'asperiores'}, 'tags': [{'id': 84, 'name': 'harum'}]}
-2026-09-22 10:44:17.380 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (98.9ms)
-2026-09-22 10:44:17.381 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/354309 | payload: None
-2026-09-22 10:44:17.388 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/354309 → 200 (5.3ms)
-2026-09-22 10:44:17.392 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/354309 | payload: None
-2026-09-22 10:44:17.399 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/354309 → 200 (5.2ms)

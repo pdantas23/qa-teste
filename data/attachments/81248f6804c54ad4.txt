@@ -1,6 +1,0 @@
-2026-09-22 10:44:17.565 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 579284, 'username': 'isis20300', 'firstName': 'Pedro Henrique', 'lastName': 'Fogaça', 'email': 'davi-luiz87@example.com', 'password': 'W@1PpZLdnAwb', 'phone': '+55 82 8645-0680', 'userStatus': 1}
-2026-09-22 10:44:17.571 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (5.2ms)
-2026-09-22 10:44:17.572 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/user/isis20300 | payload: {'id': 579284, 'username': 'isis20300', 'firstName': 'NomeAtualizado', 'lastName': 'Fogaça', 'email': 'davi-luiz87@example.com', 'password': 'W@1PpZLdnAwb', 'phone': '+55 82 8645-0680', 'userStatus': 1}
-2026-09-22 10:44:17.579 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/user/isis20300 → 200 (5.5ms)
-2026-09-22 10:44:17.579 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/isis20300 | payload: None
-2026-09-22 10:44:17.585 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/isis20300 → 200 (5.2ms)
