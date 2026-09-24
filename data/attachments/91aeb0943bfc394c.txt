@@ -1,6 +1,0 @@
-2026-09-23 10:35:00.577 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 675864, 'name': 'Maysa', 'status': 'available', 'photoUrls': ['https://placekittens.com/241/879'], 'category': {'id': 10, 'name': 'incidunt'}, 'tags': [{'id': 89, 'name': 'doloremque'}]}
-2026-09-23 10:35:00.657 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (77.6ms)
-2026-09-23 10:35:00.658 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/675864 | payload: None
-2026-09-23 10:35:00.664 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/675864 → 200 (4.7ms)
-2026-09-23 10:35:00.668 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/675864 | payload: None
-2026-09-23 10:35:00.673 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/675864 → 200 (3.9ms)

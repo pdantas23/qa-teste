@@ -1,0 +1,7 @@
+2026-09-24 10:53:54.237 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 960374, 'name': 'Benjamim', 'status': 'available', 'photoUrls': ['https://picsum.photos/543/621'], 'category': {'id': 9, 'name': 'corporis'}, 'tags': [{'id': 71, 'name': 'rerum'}]}
+2026-09-24 10:53:54.294 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (55.9ms)
+2026-09-24 10:53:54.294 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/960374 | payload: None
+2026-09-24 10:53:54.351 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/960374 → 200 (55.5ms)
+2026-09-24 10:53:54.351 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/960374 | payload: None
+2026-09-24 10:53:54.408 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/960374 → 404 (55.8ms)
+2026-09-24 10:53:54.408 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

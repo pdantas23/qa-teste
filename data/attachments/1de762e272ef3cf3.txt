@@ -1,0 +1,4 @@
+2026-09-24 10:53:54.237 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 22282, 'name': 'Hellena', 'status': 'available', 'photoUrls': ['https://dummyimage.com/127x622'], 'category': {'id': 1, 'name': 'iste'}, 'tags': [{'id': 54, 'name': 'voluptatum'}]}
+2026-09-24 10:53:54.294 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (56.1ms)
+2026-09-24 10:53:54.294 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/22282 | payload: None
+2026-09-24 10:53:54.351 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/22282 → 200 (55.9ms)
