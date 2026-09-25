@@ -1,6 +1,0 @@
-2026-09-24 10:53:53.830 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 160233, 'name': 'Ágatha', 'status': 'available', 'photoUrls': ['https://picsum.photos/600/494'], 'category': {'id': 7, 'name': 'deleniti'}, 'tags': [{'id': 19, 'name': 'omnis'}]}
-2026-09-24 10:53:54.113 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (281.0ms)
-2026-09-24 10:53:54.114 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/160233 | payload: None
-2026-09-24 10:53:54.171 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/160233 → 200 (55.9ms)
-2026-09-24 10:53:54.173 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/160233 | payload: None
-2026-09-24 10:53:54.229 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/160233 → 200 (55.5ms)
