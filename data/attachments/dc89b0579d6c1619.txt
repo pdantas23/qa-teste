@@ -1,6 +1,0 @@
-2026-09-25 10:56:06.780 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 295899, 'name': 'Rael', 'status': 'available', 'photoUrls': ['https://picsum.photos/42/596'], 'category': {'id': 6, 'name': 'ipsum'}, 'tags': [{'id': 88, 'name': 'ipsam'}]}
-2026-09-25 10:56:06.877 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (95.1ms)
-2026-09-25 10:56:06.878 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/295899 | payload: None
-2026-09-25 10:56:06.884 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/295899 → 200 (4.3ms)
-2026-09-25 10:56:06.889 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/295899 | payload: None
-2026-09-25 10:56:06.894 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/295899 → 200 (4.7ms)

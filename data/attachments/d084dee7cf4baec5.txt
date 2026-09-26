@@ -1,4 +1,0 @@
-2026-09-25 10:56:06.887 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 472820, 'name': 'Danilo', 'status': 'available', 'photoUrls': ['https://picsum.photos/385/562'], 'category': {'id': 6, 'name': 'nemo'}, 'tags': [{'id': 25, 'name': 'corporis'}]}
-2026-09-25 10:56:06.894 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.7ms)
-2026-09-25 10:56:06.894 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/472820 | payload: None
-2026-09-25 10:56:06.900 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/472820 → 200 (4.5ms)

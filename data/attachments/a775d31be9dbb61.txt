@@ -1,4 +1,0 @@
-2026-09-25 10:56:06.898 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 94365, 'name': 'Jade', 'status': 'available', 'photoUrls': ['https://picsum.photos/777/138'], 'category': {'id': 5, 'name': 'amet'}, 'tags': [{'id': 87, 'name': 'accusantium'}]}
-2026-09-25 10:56:06.903 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.4ms)
-2026-09-25 10:56:06.904 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/94365 | payload: None
-2026-09-25 10:56:06.908 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/94365 → 200 (3.8ms)
