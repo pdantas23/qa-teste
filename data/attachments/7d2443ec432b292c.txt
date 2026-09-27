@@ -1,0 +1,4 @@
+2026-09-27 11:09:26.321 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 363644, 'name': 'João Gabriel', 'status': 'available', 'photoUrls': ['https://picsum.photos/478/759'], 'category': {'id': 6, 'name': 'ipsa'}, 'tags': [{'id': 38, 'name': 'repellat'}]}
+2026-09-27 11:09:26.373 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.0ms)
+2026-09-27 11:09:26.373 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/363644 | payload: None
+2026-09-27 11:09:26.425 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/363644 → 200 (51.1ms)
