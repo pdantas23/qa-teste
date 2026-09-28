@@ -1,4 +1,0 @@
-2026-09-27 11:09:26.214 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 983689, 'name': 'João Felipe', 'status': 'available', 'photoUrls': ['https://picsum.photos/392/543'], 'category': {'id': 1, 'name': 'nobis'}, 'tags': [{'id': 52, 'name': 'eaque'}]}
-2026-09-27 11:09:26.266 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.1ms)
-2026-09-27 11:09:26.267 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/983689 | payload: None
-2026-09-27 11:09:26.320 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/983689 → 200 (52.2ms)

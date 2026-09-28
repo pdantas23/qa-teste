@@ -1,0 +1,6 @@
+2026-09-28 12:35:23.367 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 690171, 'name': 'Pedro Henrique', 'status': 'available', 'photoUrls': ['https://dummyimage.com/668x543'], 'category': {'id': 8, 'name': 'impedit'}, 'tags': [{'id': 39, 'name': 'optio'}]}
+2026-09-28 12:35:23.643 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (274.9ms)
+2026-09-28 12:35:23.644 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/690171 | payload: None
+2026-09-28 12:35:23.698 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/690171 → 200 (53.6ms)
+2026-09-28 12:35:23.700 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/690171 | payload: None
+2026-09-28 12:35:23.752 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/690171 → 200 (51.7ms)
