@@ -1,4 +1,0 @@
-2026-09-28 12:35:23.650 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 164983, 'name': 'Ana Vitória', 'status': 'available', 'photoUrls': ['https://dummyimage.com/128x653'], 'category': {'id': 7, 'name': 'excepturi'}, 'tags': [{'id': 24, 'name': 'sunt'}]}
-2026-09-28 12:35:23.703 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (52.3ms)
-2026-09-28 12:35:23.703 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/164983 | payload: None
-2026-09-28 12:35:23.757 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/164983 → 200 (52.6ms)

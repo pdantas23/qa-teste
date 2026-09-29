@@ -1,4 +1,0 @@
-2026-09-28 12:35:23.754 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 361022, 'name': 'Lorenzo', 'status': 'available', 'photoUrls': ['https://picsum.photos/618/909'], 'category': {'id': 7, 'name': 'dicta'}, 'tags': [{'id': 95, 'name': 'voluptas'}]}
-2026-09-28 12:35:23.808 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (53.0ms)
-2026-09-28 12:35:23.808 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/361022 | payload: None
-2026-09-28 12:35:23.860 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/361022 → 200 (51.8ms)

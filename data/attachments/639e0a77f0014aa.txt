@@ -1,0 +1,4 @@
+2026-09-29 11:55:45.755 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 9525, 'name': 'Luna', 'status': 'available', 'photoUrls': ['https://picsum.photos/92/967'], 'category': {'id': 4, 'name': 'quisquam'}, 'tags': [{'id': 12, 'name': 'odio'}]}
+2026-09-29 11:55:45.807 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (50.1ms)
+2026-09-29 11:55:45.807 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/9525 | payload: None
+2026-09-29 11:55:45.857 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/9525 → 200 (49.7ms)
