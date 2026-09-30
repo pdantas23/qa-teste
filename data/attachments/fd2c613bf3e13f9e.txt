@@ -1,8 +1,0 @@
-2026-09-29 11:55:45.967 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 676932, 'name': 'Erick', 'status': 'available', 'photoUrls': ['https://picsum.photos/741/255'], 'category': {'id': 8, 'name': 'sit'}, 'tags': [{'id': 87, 'name': 'tempore'}]}
-2026-09-29 11:55:46.018 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (50.3ms)
-2026-09-29 11:55:46.018 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 270582, 'petId': 676932, 'quantity': 4, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
-2026-09-29 11:55:46.069 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (50.3ms)
-2026-09-29 11:55:46.070 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/270582 | payload: None
-2026-09-29 11:55:46.121 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/270582 → 200 (50.5ms)
-2026-09-29 11:55:46.121 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/676932 | payload: None
-2026-09-29 11:55:46.172 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/676932 → 200 (49.9ms)
