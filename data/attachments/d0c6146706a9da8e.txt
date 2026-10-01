@@ -1,0 +1,6 @@
+2026-10-01 12:12:15.338 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 555269, 'name': 'Vitor Gabriel', 'status': 'available', 'photoUrls': ['https://dummyimage.com/609x1003'], 'category': {'id': 8, 'name': 'expedita'}, 'tags': [{'id': 95, 'name': 'at'}]}
+2026-10-01 12:12:15.556 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (216.9ms)
+2026-10-01 12:12:15.557 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/555269 | payload: None
+2026-10-01 12:12:15.563 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/555269 → 200 (5.0ms)
+2026-10-01 12:12:15.565 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/555269 | payload: None
+2026-10-01 12:12:15.571 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/555269 → 200 (4.7ms)

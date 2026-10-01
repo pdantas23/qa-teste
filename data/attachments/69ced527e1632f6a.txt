@@ -1,2 +1,0 @@
-2026-09-30 11:43:18.995 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 15275, 'name': 'Bento', 'status': 'available', 'photoUrls': ['https://picsum.photos/258/308'], 'category': {'id': 1, 'name': 'quaerat'}, 'tags': [{'id': 81, 'name': 'ullam'}]}
-2026-09-30 11:43:19.317 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (320.6ms)

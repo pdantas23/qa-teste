@@ -1,0 +1,4 @@
+2026-10-01 12:12:15.563 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 165964, 'name': 'Maria Liz', 'status': 'available', 'photoUrls': ['https://picsum.photos/916/1022'], 'category': {'id': 1, 'name': 'nostrum'}, 'tags': [{'id': 23, 'name': 'eos'}]}
+2026-10-01 12:12:15.569 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.6ms)
+2026-10-01 12:12:15.569 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/165964 | payload: None
+2026-10-01 12:12:15.575 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/165964 → 200 (4.7ms)
