@@ -1,6 +1,0 @@
-2026-10-01 12:12:15.577 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/999999999 | payload: None
-2026-10-01 12:12:15.583 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/999999999 → 200 (4.8ms)
-2026-10-01 12:12:18.618 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/999999999 | payload: None
-2026-10-01 12:12:18.624 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/999999999 → 200 (5.2ms)
-2026-10-01 12:12:21.630 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/999999999 | payload: None
-2026-10-01 12:12:21.636 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/999999999 → 200 (5.0ms)

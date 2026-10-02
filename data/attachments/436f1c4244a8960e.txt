@@ -1,0 +1,4 @@
+2026-10-02 11:42:03.145 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 982421, 'name': 'Thomas', 'status': 'available', 'photoUrls': ['https://placekittens.com/71/559'], 'category': {'id': 3, 'name': 'culpa'}, 'tags': [{'id': 53, 'name': 'harum'}]}
+2026-10-02 11:42:03.165 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (18.9ms)
+2026-10-02 11:42:03.165 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/982421 | payload: None
+2026-10-02 11:42:03.184 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/982421 → 200 (18.6ms)
