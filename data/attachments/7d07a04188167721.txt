@@ -1,4 +1,0 @@
-2026-10-02 11:42:03.187 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 470875, 'name': 'Ana Carolina', 'status': 'available', 'photoUrls': ['https://placekittens.com/262/108'], 'category': {'id': 2, 'name': 'quaerat'}, 'tags': [{'id': 96, 'name': 'fugit'}]}
-2026-10-02 11:42:03.207 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (19.0ms)
-2026-10-02 11:42:03.207 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/470875 | payload: None
-2026-10-02 11:42:03.227 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/470875 → 200 (18.9ms)

@@ -1,0 +1,2 @@
+2026-10-03 10:55:19.762 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 492222, 'name': 'Maria Fernanda', 'status': 'available', 'photoUrls': ['https://dummyimage.com/629x430'], 'category': {'id': 10, 'name': 'architecto'}, 'tags': [{'id': 23, 'name': 'eveniet'}]}
+2026-10-03 10:55:19.888 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (123.5ms)
