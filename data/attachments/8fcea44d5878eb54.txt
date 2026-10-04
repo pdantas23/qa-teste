@@ -1,6 +1,0 @@
-2026-10-03 10:55:19.761 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 413900, 'name': 'Ester', 'status': 'available', 'photoUrls': ['https://dummyimage.com/806x419'], 'category': {'id': 4, 'name': 'consequatur'}, 'tags': [{'id': 33, 'name': 'voluptates'}]}
-2026-10-03 10:55:19.887 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (123.9ms)
-2026-10-03 10:55:19.888 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/413900 | payload: None
-2026-10-03 10:55:19.894 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/413900 → 200 (4.9ms)
-2026-10-03 10:55:19.899 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/413900 | payload: None
-2026-10-03 10:55:19.905 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/413900 → 200 (5.0ms)
