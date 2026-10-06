@@ -1,4 +1,0 @@
-2026-10-05 13:15:46.717 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 579773, 'name': 'Mirella', 'status': 'available', 'photoUrls': ['https://picsum.photos/65/470'], 'category': {'id': 10, 'name': 'sint'}, 'tags': [{'id': 99, 'name': 'odio'}]}
-2026-10-05 13:15:46.787 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (68.9ms)
-2026-10-05 13:15:46.787 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/579773 | payload: None
-2026-10-05 13:15:46.857 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/579773 → 200 (68.9ms)

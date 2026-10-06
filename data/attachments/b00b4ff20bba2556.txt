@@ -1,6 +1,0 @@
-2026-10-05 13:15:46.234 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 741450, 'name': 'Davi Lucas', 'status': 'available', 'photoUrls': ['https://placekittens.com/106/802'], 'category': {'id': 6, 'name': 'fuga'}, 'tags': [{'id': 30, 'name': 'adipisci'}]}
-2026-10-05 13:15:46.581 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (344.3ms)
-2026-10-05 13:15:46.582 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/741450 | payload: None
-2026-10-05 13:15:46.655 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/741450 → 200 (72.8ms)
-2026-10-05 13:15:46.658 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/741450 | payload: None
-2026-10-05 13:15:46.732 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/741450 → 200 (72.9ms)
