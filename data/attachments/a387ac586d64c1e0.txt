@@ -1,6 +1,0 @@
-2026-10-06 12:33:25.031 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 505100, 'name': 'Olivia', 'status': 'available', 'photoUrls': ['https://picsum.photos/678/485'], 'category': {'id': 9, 'name': 'aut'}, 'tags': [{'id': 55, 'name': 'alias'}]}
-2026-10-06 12:33:25.177 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (144.3ms)
-2026-10-06 12:33:25.178 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/pet | payload: {'id': 505100, 'name': 'Breno', 'status': 'sold', 'photoUrls': ['https://placekittens.com/282/41']}
-2026-10-06 12:33:25.184 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/pet → 200 (4.6ms)
-2026-10-06 12:33:25.185 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/505100 | payload: None
-2026-10-06 12:33:25.191 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/505100 → 200 (4.7ms)

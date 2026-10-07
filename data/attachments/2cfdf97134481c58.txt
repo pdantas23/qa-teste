@@ -1,0 +1,4 @@
+2026-10-07 12:26:37.315 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 756401, 'name': 'Mariane', 'status': 'available', 'photoUrls': ['https://picsum.photos/508/738'], 'category': {'id': 5, 'name': 'ullam'}, 'tags': [{'id': 77, 'name': 'numquam'}]}
+2026-10-07 12:26:37.388 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (71.7ms)
+2026-10-07 12:26:37.388 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/756401 | payload: None
+2026-10-07 12:26:37.461 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/756401 → 200 (71.7ms)
