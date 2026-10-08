@@ -1,0 +1,2 @@
+2026-10-08 12:36:10.634 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 707527, 'name': 'Fernanda', 'status': 'available', 'photoUrls': ['https://placekittens.com/455/650'], 'category': {'id': 1, 'name': 'mollitia'}, 'tags': [{'id': 70, 'name': 'unde'}]}
+2026-10-08 12:36:10.706 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (70.5ms)

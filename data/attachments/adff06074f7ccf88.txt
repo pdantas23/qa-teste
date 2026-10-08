@@ -1,0 +1,4 @@
+2026-10-08 12:36:10.713 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 656491, 'name': 'Marcela', 'status': 'available', 'photoUrls': ['https://dummyimage.com/197x510'], 'category': {'id': 9, 'name': 'occaecati'}, 'tags': [{'id': 1, 'name': 'aspernatur'}]}
+2026-10-08 12:36:10.719 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.3ms)
+2026-10-08 12:36:10.719 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/656491 | payload: None
+2026-10-08 12:36:10.725 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/656491 → 200 (4.4ms)

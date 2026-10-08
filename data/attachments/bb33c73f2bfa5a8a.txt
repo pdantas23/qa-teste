@@ -1,6 +1,0 @@
-2026-10-07 12:26:36.940 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 659971, 'name': 'Natália', 'status': 'available', 'photoUrls': ['https://dummyimage.com/296x560'], 'category': {'id': 5, 'name': 'laudantium'}, 'tags': [{'id': 74, 'name': 'consectetur'}]}
-2026-10-07 12:26:37.291 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (348.5ms)
-2026-10-07 12:26:37.292 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/659971 | payload: None
-2026-10-07 12:26:37.362 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/659971 → 200 (69.5ms)
-2026-10-07 12:26:37.365 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/659971 | payload: None
-2026-10-07 12:26:37.435 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/659971 → 200 (69.1ms)

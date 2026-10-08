@@ -1,7 +1,0 @@
-2026-10-07 12:26:37.465 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 776693, 'name': 'Daniel', 'status': 'available', 'photoUrls': ['https://placekittens.com/423/751'], 'category': {'id': 6, 'name': 'numquam'}, 'tags': [{'id': 24, 'name': 'sit'}]}
-2026-10-07 12:26:37.537 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (71.2ms)
-2026-10-07 12:26:37.537 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/776693 | payload: None
-2026-10-07 12:26:37.610 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/776693 → 200 (71.1ms)
-2026-10-07 12:26:37.610 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/776693 | payload: None
-2026-10-07 12:26:37.683 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/776693 → 404 (72.4ms)
-2026-10-07 12:26:37.683 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
