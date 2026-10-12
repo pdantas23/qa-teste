@@ -1,6 +1,0 @@
-2026-10-11 11:55:30.112 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 225372, 'name': 'Ana Lívia', 'status': 'available', 'photoUrls': ['https://placekittens.com/183/67'], 'category': {'id': 10, 'name': 'eligendi'}, 'tags': [{'id': 64, 'name': 'vero'}]}
-2026-10-11 11:55:30.651 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (538.4ms)
-2026-10-11 11:55:30.652 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/225372 | payload: None
-2026-10-11 11:55:30.720 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/225372 → 200 (66.6ms)
-2026-10-11 11:55:30.722 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/225372 | payload: None
-2026-10-11 11:55:30.789 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/225372 → 200 (66.5ms)
