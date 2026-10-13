@@ -1,6 +1,0 @@
-2026-10-12 14:06:06.284 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 131428, 'name': 'Ana Lívia', 'status': 'available', 'photoUrls': ['https://dummyimage.com/161x32'], 'category': {'id': 9, 'name': 'culpa'}, 'tags': [{'id': 59, 'name': 'repudiandae'}]}
-2026-10-12 14:06:06.682 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (395.8ms)
-2026-10-12 14:06:06.683 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/pet | payload: {'id': 131428, 'name': 'Isadora', 'status': 'sold', 'photoUrls': ['https://dummyimage.com/539x49']}
-2026-10-12 14:06:06.752 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/pet → 200 (67.7ms)
-2026-10-12 14:06:06.752 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/131428 | payload: None
-2026-10-12 14:06:06.821 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/131428 → 200 (67.3ms)

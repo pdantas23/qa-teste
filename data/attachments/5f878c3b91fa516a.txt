@@ -1,2 +1,0 @@
-2026-10-12 14:06:06.284 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 988689, 'name': 'Natália', 'status': 'available', 'photoUrls': ['https://dummyimage.com/71x246'], 'category': {'id': 2, 'name': 'facere'}, 'tags': [{'id': 80, 'name': 'aspernatur'}]}
-2026-10-12 14:06:06.696 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (410.1ms)
