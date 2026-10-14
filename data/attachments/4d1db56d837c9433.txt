@@ -1,0 +1,4 @@
+2026-10-14 10:58:27.874 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 621179, 'name': 'Isaque', 'status': 'available', 'photoUrls': ['https://picsum.photos/672/903'], 'category': {'id': 4, 'name': 'suscipit'}, 'tags': [{'id': 63, 'name': 'fugit'}]}
+2026-10-14 10:58:27.884 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (8.5ms)
+2026-10-14 10:58:27.884 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/621179 | payload: None
+2026-10-14 10:58:27.893 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/621179 → 200 (8.2ms)

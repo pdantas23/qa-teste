@@ -1,4 +1,0 @@
-2026-10-13 13:18:39.444 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 29848, 'name': 'Maria Cecília', 'status': 'available', 'photoUrls': ['https://picsum.photos/276/195'], 'category': {'id': 6, 'name': 'molestias'}, 'tags': [{'id': 91, 'name': 'accusantium'}]}
-2026-10-13 13:18:39.501 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (55.5ms)
-2026-10-13 13:18:39.501 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/29848 | payload: None
-2026-10-13 13:18:39.559 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/29848 → 200 (56.1ms)
