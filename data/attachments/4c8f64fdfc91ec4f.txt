@@ -1,0 +1,4 @@
+2026-10-17 09:58:30.546 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 775057, 'name': 'Alexandre', 'status': 'available', 'photoUrls': ['https://dummyimage.com/394x756'], 'category': {'id': 7, 'name': 'aspernatur'}, 'tags': [{'id': 72, 'name': 'velit'}]}
+2026-10-17 09:58:30.603 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (55.4ms)
+2026-10-17 09:58:30.603 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/775057 | payload: None
+2026-10-17 09:58:30.659 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/775057 → 200 (55.0ms)

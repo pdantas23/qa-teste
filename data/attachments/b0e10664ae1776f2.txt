@@ -1,4 +1,0 @@
-2026-10-16 10:27:16.595 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 318825, 'name': 'Ana Liz', 'status': 'available', 'photoUrls': ['https://placekittens.com/74/817'], 'category': {'id': 4, 'name': 'molestias'}, 'tags': [{'id': 43, 'name': 'veniam'}]}
-2026-10-16 10:27:16.601 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.1ms)
-2026-10-16 10:27:16.601 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/318825 | payload: None
-2026-10-16 10:27:16.607 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/318825 → 200 (5.0ms)
