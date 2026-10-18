@@ -1,7 +1,0 @@
-2026-10-17 09:58:30.549 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 362702, 'name': 'Heloísa', 'status': 'available', 'photoUrls': ['https://picsum.photos/216/966'], 'category': {'id': 2, 'name': 'officiis'}, 'tags': [{'id': 15, 'name': 'veniam'}]}
-2026-10-17 09:58:30.604 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (54.7ms)
-2026-10-17 09:58:30.604 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/362702 | payload: None
-2026-10-17 09:58:30.660 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/362702 → 200 (55.1ms)
-2026-10-17 09:58:30.661 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/362702 | payload: None
-2026-10-17 09:58:30.717 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/362702 → 404 (55.0ms)
-2026-10-17 09:58:30.717 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
