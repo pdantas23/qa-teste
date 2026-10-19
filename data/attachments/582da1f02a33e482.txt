@@ -1,4 +1,0 @@
-2026-10-18 10:11:41.163 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 274120, 'name': 'Gustavo Henrique', 'status': 'available', 'photoUrls': ['https://placekittens.com/201/17'], 'category': {'id': 2, 'name': 'quas'}, 'tags': [{'id': 74, 'name': 'dolores'}]}
-2026-10-18 10:11:41.231 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (66.6ms)
-2026-10-18 10:11:41.231 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/274120 | payload: None
-2026-10-18 10:11:41.299 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/274120 → 200 (66.6ms)
