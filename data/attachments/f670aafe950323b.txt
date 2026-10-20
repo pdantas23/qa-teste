@@ -1,6 +1,0 @@
-2026-10-19 11:46:46.434 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 939185, 'name': 'Thales', 'status': 'available', 'photoUrls': ['https://picsum.photos/934/880'], 'category': {'id': 5, 'name': 'dolores'}, 'tags': [{'id': 68, 'name': 'blanditiis'}]}
-2026-10-19 11:46:46.690 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (254.2ms)
-2026-10-19 11:46:46.692 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/939185 | payload: None
-2026-10-19 11:46:46.698 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/939185 → 200 (4.9ms)
-2026-10-19 11:46:46.703 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/939185 | payload: None
-2026-10-19 11:46:46.710 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/939185 → 200 (5.3ms)

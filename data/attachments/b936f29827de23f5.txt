@@ -1,7 +1,0 @@
-2026-10-19 11:46:46.741 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 701622, 'name': 'Felipe', 'status': 'available', 'photoUrls': ['https://dummyimage.com/613x988'], 'category': {'id': 5, 'name': 'minima'}, 'tags': [{'id': 74, 'name': 'blanditiis'}]}
-2026-10-19 11:46:46.747 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.8ms)
-2026-10-19 11:46:46.748 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/701622 | payload: None
-2026-10-19 11:46:46.753 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/701622 → 200 (4.9ms)
-2026-10-19 11:46:46.754 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/701622 | payload: None
-2026-10-19 11:46:46.759 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/701622 → 404 (4.8ms)
-2026-10-19 11:46:46.759 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

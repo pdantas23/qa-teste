@@ -1,2 +1,0 @@
-2026-10-19 11:46:46.439 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 714235, 'name': 'Cauã', 'status': 'available', 'photoUrls': ['https://picsum.photos/467/20'], 'category': {'id': 4, 'name': 'natus'}, 'tags': [{'id': 5, 'name': 'quibusdam'}]}
-2026-10-19 11:46:46.691 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (250.3ms)
