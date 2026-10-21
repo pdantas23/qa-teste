@@ -1,0 +1,6 @@
+2026-10-21 10:58:01.468 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 997116, 'name': 'Raquel', 'status': 'available', 'photoUrls': ['https://placekittens.com/173/452'], 'category': {'id': 2, 'name': 'inventore'}, 'tags': [{'id': 98, 'name': 'voluptatum'}]}
+2026-10-21 10:58:01.658 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (188.0ms)
+2026-10-21 10:58:01.659 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/997116 | payload: None
+2026-10-21 10:58:01.668 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/997116 → 200 (7.6ms)
+2026-10-21 10:58:01.672 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/997116 | payload: None
+2026-10-21 10:58:01.682 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/997116 → 200 (8.6ms)

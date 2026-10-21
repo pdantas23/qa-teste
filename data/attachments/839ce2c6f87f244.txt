@@ -1,4 +1,0 @@
-2026-10-20 10:46:13.603 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 755392, 'name': 'José Pedro', 'status': 'available', 'photoUrls': ['https://placekittens.com/745/508'], 'category': {'id': 9, 'name': 'eveniet'}, 'tags': [{'id': 64, 'name': 'nam'}]}
-2026-10-20 10:46:13.608 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.7ms)
-2026-10-20 10:46:13.609 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/755392 | payload: None
-2026-10-20 10:46:13.613 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/755392 → 200 (3.8ms)
