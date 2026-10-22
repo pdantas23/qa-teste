@@ -1,0 +1,2 @@
+2026-10-22 10:57:17.128 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 454912, 'name': 'Ana Clara', 'status': 'available', 'photoUrls': ['https://picsum.photos/877/811'], 'category': {'id': 2, 'name': 'aliquid'}, 'tags': [{'id': 66, 'name': 'repudiandae'}]}
+2026-10-22 10:57:17.414 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (284.2ms)
