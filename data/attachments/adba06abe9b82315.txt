@@ -1,0 +1,7 @@
+2026-10-24 10:05:02.512 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 860398, 'name': 'Luiza', 'status': 'available', 'photoUrls': ['https://dummyimage.com/533x707'], 'category': {'id': 1, 'name': 'eligendi'}, 'tags': [{'id': 87, 'name': 'voluptates'}]}
+2026-10-24 10:05:02.518 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.7ms)
+2026-10-24 10:05:02.518 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/860398 | payload: None
+2026-10-24 10:05:02.523 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/860398 → 200 (4.4ms)
+2026-10-24 10:05:02.524 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/860398 | payload: None
+2026-10-24 10:05:02.534 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/860398 → 404 (9.3ms)
+2026-10-24 10:05:02.534 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
