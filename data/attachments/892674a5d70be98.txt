@@ -1,0 +1,2 @@
+2026-10-26 12:02:35.611 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 845788, 'name': 'Bento', 'status': 'available', 'photoUrls': ['https://placekittens.com/447/401'], 'category': {'id': 5, 'name': 'aliquid'}, 'tags': [{'id': 31, 'name': 'similique'}]}
+2026-10-26 12:02:35.879 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (266.6ms)
