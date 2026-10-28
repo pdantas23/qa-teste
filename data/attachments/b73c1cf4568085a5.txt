@@ -1,0 +1,4 @@
+2026-10-28 11:56:11.159 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 840754, 'name': 'Ana Vitória', 'status': 'available', 'photoUrls': ['https://picsum.photos/685/817'], 'category': {'id': 6, 'name': 'eligendi'}, 'tags': [{'id': 31, 'name': 'ea'}]}
+2026-10-28 11:56:11.194 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (34.5ms)
+2026-10-28 11:56:11.195 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/840754 | payload: None
+2026-10-28 11:56:11.229 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/840754 → 200 (34.2ms)
