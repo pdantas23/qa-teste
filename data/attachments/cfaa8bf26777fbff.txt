@@ -1,0 +1,4 @@
+2026-10-29 12:04:40.078 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 420299, 'name': 'Clarice', 'status': 'available', 'photoUrls': ['https://picsum.photos/397/978'], 'category': {'id': 8, 'name': 'ea'}, 'tags': [{'id': 41, 'name': 'possimus'}]}
+2026-10-29 12:04:40.130 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.4ms)
+2026-10-29 12:04:40.130 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/420299 | payload: None
+2026-10-29 12:04:40.182 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/420299 → 200 (51.0ms)
