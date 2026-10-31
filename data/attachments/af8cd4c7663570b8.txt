@@ -1,0 +1,4 @@
+2026-10-31 11:30:53.775 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 450420, 'name': 'Davi Luiz', 'status': 'available', 'photoUrls': ['https://picsum.photos/566/468'], 'category': {'id': 6, 'name': 'totam'}, 'tags': [{'id': 70, 'name': 'debitis'}]}
+2026-10-31 11:30:53.782 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.6ms)
+2026-10-31 11:30:53.782 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/450420 | payload: None
+2026-10-31 11:30:53.789 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/450420 → 200 (5.1ms)

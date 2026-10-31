@@ -1,0 +1,4 @@
+2026-10-31 11:30:53.782 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 636869, 'name': 'Vitor Hugo', 'status': 'available', 'photoUrls': ['https://placekittens.com/58/8'], 'category': {'id': 8, 'name': 'nulla'}, 'tags': [{'id': 98, 'name': 'dicta'}]}
+2026-10-31 11:30:53.789 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (5.4ms)
+2026-10-31 11:30:53.789 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/636869 | payload: None
+2026-10-31 11:30:53.796 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/636869 → 200 (5.2ms)

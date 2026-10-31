@@ -1,0 +1,6 @@
+2026-10-31 11:30:53.897 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user/createWithList | payload: [{'id': 861217, 'username': 'montenegromaria-isis729', 'firstName': 'Raul', 'lastName': 'Montenegro', 'email': 'montenegromaria@example.org', 'password': 't*4CeqZU!z1q', 'phone': '+55 18 6336-6989', 'userStatus': 1}, {'id': 512447, 'username': 'joao-miguelpacheco601', 'firstName': 'Clarice', 'lastName': 'da Cunha', 'email': 'milena31@example.com', 'password': 'L(7RTpmNE#)v', 'phone': '17 8504-8033', 'userStatus': 1}]
+2026-10-31 11:30:53.903 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user/createWithList → 200 (4.9ms)
+2026-10-31 11:30:53.903 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/montenegromaria-isis729 | payload: None
+2026-10-31 11:30:53.909 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/montenegromaria-isis729 → 200 (4.8ms)
+2026-10-31 11:30:53.909 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/joao-miguelpacheco601 | payload: None
+2026-10-31 11:30:53.915 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/joao-miguelpacheco601 → 200 (5.2ms)
