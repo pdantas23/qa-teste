@@ -1,7 +1,0 @@
-2026-11-01 12:28:13.443 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 98744, 'name': 'Gael Henrique', 'status': 'available', 'photoUrls': ['https://placekittens.com/880/855'], 'category': {'id': 9, 'name': 'assumenda'}, 'tags': [{'id': 13, 'name': 'fugiat'}]}
-2026-11-01 12:28:13.498 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (54.1ms)
-2026-11-01 12:28:13.499 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/98744 | payload: None
-2026-11-01 12:28:13.554 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/98744 → 200 (53.9ms)
-2026-11-01 12:28:13.554 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/98744 | payload: None
-2026-11-01 12:28:13.609 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/98744 → 404 (54.2ms)
-2026-11-01 12:28:13.609 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

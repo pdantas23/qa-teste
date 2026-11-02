@@ -1,0 +1,4 @@
+2026-11-02 14:26:55.529 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 947531, 'name': 'Luna', 'status': 'available', 'photoUrls': ['https://placekittens.com/260/772'], 'category': {'id': 5, 'name': 'hic'}, 'tags': [{'id': 29, 'name': 'pariatur'}]}
+2026-11-02 14:26:55.601 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (70.6ms)
+2026-11-02 14:26:55.601 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/947531 | payload: None
+2026-11-02 14:26:55.672 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/947531 → 200 (70.1ms)
