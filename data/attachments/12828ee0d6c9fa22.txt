@@ -1,0 +1,4 @@
+2026-11-03 13:24:48.645 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 383430, 'name': 'Cauê', 'status': 'available', 'photoUrls': ['https://dummyimage.com/270x776'], 'category': {'id': 10, 'name': 'qui'}, 'tags': [{'id': 6, 'name': 'sapiente'}]}
+2026-11-03 13:24:48.714 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (68.0ms)
+2026-11-03 13:24:48.715 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/383430 | payload: None
+2026-11-03 13:24:48.784 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/383430 → 200 (68.2ms)

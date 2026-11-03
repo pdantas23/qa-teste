@@ -1,0 +1,7 @@
+2026-11-03 13:24:48.635 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 486153, 'name': 'Milena', 'status': 'available', 'photoUrls': ['https://picsum.photos/856/52'], 'category': {'id': 4, 'name': 'placeat'}, 'tags': [{'id': 73, 'name': 'suscipit'}]}
+2026-11-03 13:24:48.702 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (65.1ms)
+2026-11-03 13:24:48.702 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/486153 | payload: None
+2026-11-03 13:24:48.772 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/486153 → 200 (69.2ms)
+2026-11-03 13:24:48.773 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/486153 | payload: None
+2026-11-03 13:24:48.838 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/486153 → 404 (65.0ms)
+2026-11-03 13:24:48.839 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
