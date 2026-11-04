@@ -1,6 +1,0 @@
-2026-11-03 13:24:48.181 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 369586, 'name': 'Giovanna', 'status': 'available', 'photoUrls': ['https://placekittens.com/786/34'], 'category': {'id': 8, 'name': 'quibusdam'}, 'tags': [{'id': 94, 'name': 'impedit'}]}
-2026-11-03 13:24:48.494 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (310.2ms)
-2026-11-03 13:24:48.495 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/369586 | payload: None
-2026-11-03 13:24:48.563 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/369586 → 200 (67.0ms)
-2026-11-03 13:24:48.568 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/369586 | payload: None
-2026-11-03 13:24:48.635 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/369586 → 200 (66.1ms)
