@@ -1,2 +1,0 @@
-2026-11-04 13:36:26.339 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 603223, 'name': 'Stella', 'status': 'available', 'photoUrls': ['https://placekittens.com/345/575'], 'category': {'id': 7, 'name': 'eius'}, 'tags': [{'id': 85, 'name': 'est'}]}
-2026-11-04 13:36:26.674 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (333.6ms)
