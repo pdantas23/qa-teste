@@ -1,4 +1,0 @@
-2026-11-05 13:49:17.949 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 668353, 'name': 'Sarah', 'status': 'available', 'photoUrls': ['https://picsum.photos/594/957'], 'category': {'id': 7, 'name': 'repellendus'}, 'tags': [{'id': 81, 'name': 'quo'}]}
-2026-11-05 13:49:17.990 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (39.4ms)
-2026-11-05 13:49:17.990 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/668353 | payload: None
-2026-11-05 13:49:18.030 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/668353 → 200 (39.6ms)
