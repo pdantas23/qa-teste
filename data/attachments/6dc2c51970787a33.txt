@@ -1,0 +1,4 @@
+2026-11-07 12:14:13.551 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 199412, 'name': 'Thiago', 'status': 'available', 'photoUrls': ['https://placekittens.com/11/771'], 'category': {'id': 7, 'name': 'dicta'}, 'tags': [{'id': 81, 'name': 'praesentium'}]}
+2026-11-07 12:14:13.588 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (35.8ms)
+2026-11-07 12:14:13.588 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/199412 | payload: None
+2026-11-07 12:14:13.625 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/199412 → 200 (36.0ms)

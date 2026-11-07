@@ -1,0 +1,2 @@
+2026-11-07 12:14:13.263 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 97508, 'name': 'Cauê', 'status': 'available', 'photoUrls': ['https://dummyimage.com/574x866'], 'category': {'id': 8, 'name': 'accusamus'}, 'tags': [{'id': 55, 'name': 'mollitia'}]}
+2026-11-07 12:14:13.546 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (281.5ms)
