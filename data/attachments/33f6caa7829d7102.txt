@@ -1,0 +1,4 @@
+2026-11-09 14:52:29.636 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 397537, 'name': 'Nina', 'status': 'available', 'photoUrls': ['https://picsum.photos/744/387'], 'category': {'id': 1, 'name': 'nihil'}, 'tags': [{'id': 29, 'name': 'corrupti'}]}
+2026-11-09 14:52:29.681 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (44.1ms)
+2026-11-09 14:52:29.681 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/397537 | payload: None
+2026-11-09 14:52:29.727 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/397537 → 200 (44.4ms)
