@@ -1,0 +1,2 @@
+2026-11-10 14:04:47.005 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 225932, 'name': 'Pedro Henrique', 'status': 'available', 'photoUrls': ['https://picsum.photos/478/185'], 'category': {'id': 8, 'name': 'dicta'}, 'tags': [{'id': 47, 'name': 'nihil'}]}
+2026-11-10 14:04:47.212 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (204.2ms)

@@ -1,4 +1,0 @@
-2026-11-09 14:52:29.732 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 79690, 'name': 'Valentim', 'status': 'available', 'photoUrls': ['https://dummyimage.com/603x799'], 'category': {'id': 9, 'name': 'distinctio'}, 'tags': [{'id': 34, 'name': 'repellendus'}]}
-2026-11-09 14:52:29.779 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (45.5ms)
-2026-11-09 14:52:29.779 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/79690 | payload: None
-2026-11-09 14:52:29.825 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/79690 → 200 (44.8ms)

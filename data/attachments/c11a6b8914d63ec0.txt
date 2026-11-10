@@ -1,7 +1,0 @@
-2026-11-09 14:52:29.732 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 299096, 'name': 'Ayla', 'status': 'available', 'photoUrls': ['https://picsum.photos/795/854'], 'category': {'id': 1, 'name': 'ducimus'}, 'tags': [{'id': 47, 'name': 'consequuntur'}]}
-2026-11-09 14:52:29.778 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (44.0ms)
-2026-11-09 14:52:29.778 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/299096 | payload: None
-2026-11-09 14:52:29.823 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/299096 → 200 (43.6ms)
-2026-11-09 14:52:29.823 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/299096 | payload: None
-2026-11-09 14:52:29.868 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/299096 → 404 (44.1ms)
-2026-11-09 14:52:29.869 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}
