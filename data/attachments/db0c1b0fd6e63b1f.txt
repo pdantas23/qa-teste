@@ -1,0 +1,8 @@
+2026-11-12 14:25:56.569 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 697583, 'name': 'Anna Liz', 'status': 'available', 'photoUrls': ['https://picsum.photos/133/127'], 'category': {'id': 3, 'name': 'commodi'}, 'tags': [{'id': 38, 'name': 'saepe'}]}
+2026-11-12 14:25:56.618 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (47.5ms)
+2026-11-12 14:25:56.618 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 434537, 'petId': 697583, 'quantity': 2, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
+2026-11-12 14:25:56.666 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (47.4ms)
+2026-11-12 14:25:56.667 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/434537 | payload: None
+2026-11-12 14:25:56.715 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/434537 → 200 (47.4ms)
+2026-11-12 14:25:56.715 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/697583 | payload: None
+2026-11-12 14:25:56.763 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/697583 → 200 (47.3ms)

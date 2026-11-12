@@ -1,0 +1,2 @@
+2026-11-12 14:25:55.870 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 526856, 'name': 'Vicente', 'status': 'available', 'photoUrls': ['https://dummyimage.com/69x428'], 'category': {'id': 8, 'name': 'vitae'}, 'tags': [{'id': 40, 'name': 'consectetur'}]}
+2026-11-12 14:25:56.151 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (278.5ms)
