@@ -1,8 +1,0 @@
-2026-11-12 14:25:56.365 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 326751, 'name': 'Eloah', 'status': 'available', 'photoUrls': ['https://dummyimage.com/242x175'], 'category': {'id': 10, 'name': 'quisquam'}, 'tags': [{'id': 27, 'name': 'sed'}]}
-2026-11-12 14:25:56.416 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (50.2ms)
-2026-11-12 14:25:56.417 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 761995, 'petId': 326751, 'quantity': 2, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
-2026-11-12 14:25:56.466 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (48.1ms)
-2026-11-12 14:25:56.467 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/761995 | payload: None
-2026-11-12 14:25:56.515 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/761995 → 200 (47.8ms)
-2026-11-12 14:25:56.516 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/326751 | payload: None
-2026-11-12 14:25:56.564 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/326751 → 200 (47.3ms)

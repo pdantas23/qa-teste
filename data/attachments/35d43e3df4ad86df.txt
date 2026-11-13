@@ -1,0 +1,4 @@
+2026-11-13 13:44:33.629 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 236756, 'username': 'stephanycasa-grande227', 'firstName': 'Gabrielly', 'lastName': 'Aragão', 'email': 'isaac56@example.com', 'password': '^1W$w8s*DlyV', 'phone': '77 3151-6652', 'userStatus': 1}
+2026-11-13 13:44:33.636 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (5.5ms)
+2026-11-13 13:44:33.636 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/stephanycasa-grande227 | payload: None
+2026-11-13 13:44:33.642 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/stephanycasa-grande227 → 200 (5.1ms)

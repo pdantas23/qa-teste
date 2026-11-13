@@ -1,4 +1,0 @@
-2026-11-12 14:25:56.460 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 648072, 'username': 'isisrocha799', 'firstName': 'Maria Helena', 'lastName': 'da Mata', 'email': 'matheusabreu@example.org', 'password': 'y8_*lzgX!DoR', 'phone': '86 8543-7878', 'userStatus': 1}
-2026-11-12 14:25:56.507 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (46.5ms)
-2026-11-12 14:25:56.508 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/isisrocha799 | payload: None
-2026-11-12 14:25:56.556 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/isisrocha799 → 200 (46.6ms)

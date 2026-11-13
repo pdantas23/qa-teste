@@ -1,0 +1,2 @@
+2026-11-13 13:44:33.372 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 356608, 'name': 'Davi Lucca', 'status': 'available', 'photoUrls': ['https://placekittens.com/193/856'], 'category': {'id': 9, 'name': 'nihil'}, 'tags': [{'id': 64, 'name': 'animi'}]}
+2026-11-13 13:44:33.436 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (63.0ms)
