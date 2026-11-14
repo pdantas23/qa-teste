@@ -1,0 +1,4 @@
+2026-11-14 12:48:52.397 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 780643, 'name': 'Igor', 'status': 'available', 'photoUrls': ['https://picsum.photos/10/56'], 'category': {'id': 3, 'name': 'adipisci'}, 'tags': [{'id': 1, 'name': 'officia'}]}
+2026-11-14 12:48:52.428 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (30.4ms)
+2026-11-14 12:48:52.428 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/780643 | payload: None
+2026-11-14 12:48:52.459 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/780643 → 200 (30.2ms)
