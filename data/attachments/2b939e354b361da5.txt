@@ -1,0 +1,2 @@
+2026-11-16 14:28:31.697 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 639577, 'name': 'Apollo', 'status': 'available', 'photoUrls': ['https://picsum.photos/99/262'], 'category': {'id': 7, 'name': 'laborum'}, 'tags': [{'id': 91, 'name': 'nihil'}]}
+2026-11-16 14:28:31.846 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (146.8ms)

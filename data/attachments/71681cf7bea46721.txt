@@ -1,0 +1,6 @@
+2026-11-16 14:28:31.697 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 280743, 'name': 'Benício', 'status': 'available', 'photoUrls': ['https://placekittens.com/292/736'], 'category': {'id': 6, 'name': 'aut'}, 'tags': [{'id': 97, 'name': 'ullam'}]}
+2026-11-16 14:28:31.846 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (147.5ms)
+2026-11-16 14:28:31.847 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/280743 | payload: None
+2026-11-16 14:28:31.853 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/280743 → 200 (4.4ms)
+2026-11-16 14:28:31.857 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/280743 | payload: None
+2026-11-16 14:28:31.864 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/280743 → 200 (5.5ms)
