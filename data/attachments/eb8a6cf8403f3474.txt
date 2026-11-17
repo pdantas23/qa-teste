@@ -1,6 +1,0 @@
-2026-11-16 14:28:32.038 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 246106, 'username': 'beatrizsilva731', 'firstName': 'Breno', 'lastName': 'da Cunha', 'email': 'isabellacunha@example.net', 'password': 'PX&8Wf(sRVOp', 'phone': '+55 97 0944-6430', 'userStatus': 1}
-2026-11-16 14:28:32.042 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (3.8ms)
-2026-11-16 14:28:32.043 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/user/beatrizsilva731 | payload: {'id': 246106, 'username': 'beatrizsilva731', 'firstName': 'NomeAtualizado', 'lastName': 'da Cunha', 'email': 'isabellacunha@example.net', 'password': 'PX&8Wf(sRVOp', 'phone': '+55 97 0944-6430', 'userStatus': 1}
-2026-11-16 14:28:32.048 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/user/beatrizsilva731 → 200 (4.2ms)
-2026-11-16 14:28:32.048 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/beatrizsilva731 | payload: None
-2026-11-16 14:28:32.053 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/beatrizsilva731 → 200 (4.0ms)

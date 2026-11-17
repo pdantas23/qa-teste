@@ -1,4 +1,0 @@
-2026-11-16 14:28:31.855 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 459044, 'name': 'Antonella', 'status': 'available', 'photoUrls': ['https://dummyimage.com/403x499'], 'category': {'id': 9, 'name': 'voluptatem'}, 'tags': [{'id': 53, 'name': 'officia'}]}
-2026-11-16 14:28:31.860 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (4.4ms)
-2026-11-16 14:28:31.861 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/459044 | payload: None
-2026-11-16 14:28:31.866 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/459044 → 200 (4.2ms)

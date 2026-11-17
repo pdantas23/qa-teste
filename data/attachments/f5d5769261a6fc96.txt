@@ -1,0 +1,2 @@
+2026-11-17 15:19:35.090 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 85961, 'name': 'Allana', 'status': 'available', 'photoUrls': ['https://placekittens.com/725/700'], 'category': {'id': 10, 'name': 'veritatis'}, 'tags': [{'id': 48, 'name': 'ab'}]}
+2026-11-17 15:19:35.339 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (247.4ms)
