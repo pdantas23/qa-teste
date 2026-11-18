@@ -1,0 +1,6 @@
+2026-11-18 14:54:54.792 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 897361, 'name': 'Agatha', 'status': 'available', 'photoUrls': ['https://dummyimage.com/306x323'], 'category': {'id': 9, 'name': 'voluptatem'}, 'tags': [{'id': 48, 'name': 'non'}]}
+2026-11-18 14:54:55.088 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (293.7ms)
+2026-11-18 14:54:55.089 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/897361 | payload: None
+2026-11-18 14:54:55.160 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/897361 → 200 (69.7ms)
+2026-11-18 14:54:55.163 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/897361 | payload: None
+2026-11-18 14:54:55.233 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/897361 → 200 (69.1ms)

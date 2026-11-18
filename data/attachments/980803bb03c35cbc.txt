@@ -1,8 +1,0 @@
-2026-11-17 15:19:35.509 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 485776, 'name': 'Gael Henrique', 'status': 'available', 'photoUrls': ['https://dummyimage.com/639x565'], 'category': {'id': 8, 'name': 'corrupti'}, 'tags': [{'id': 17, 'name': 'nobis'}]}
-2026-11-17 15:19:35.540 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (31.0ms)
-2026-11-17 15:19:35.541 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 514957, 'petId': 485776, 'quantity': 3, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
-2026-11-17 15:19:35.573 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (31.3ms)
-2026-11-17 15:19:35.573 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/514957 | payload: None
-2026-11-17 15:19:35.605 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/514957 → 200 (31.2ms)
-2026-11-17 15:19:35.605 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/485776 | payload: None
-2026-11-17 15:19:35.636 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/485776 → 200 (30.9ms)

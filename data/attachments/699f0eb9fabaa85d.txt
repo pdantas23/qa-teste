@@ -1,0 +1,4 @@
+2026-11-18 14:54:55.251 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 322330, 'name': 'Ravi Lucca', 'status': 'available', 'photoUrls': ['https://picsum.photos/101/1006'], 'category': {'id': 10, 'name': 'a'}, 'tags': [{'id': 82, 'name': 'culpa'}]}
+2026-11-18 14:54:55.324 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (72.1ms)
+2026-11-18 14:54:55.325 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/322330 | payload: None
+2026-11-18 14:54:55.397 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/322330 → 200 (71.8ms)

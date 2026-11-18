@@ -1,4 +1,0 @@
-2026-11-17 15:19:35.401 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 171278, 'name': 'Hellena', 'status': 'available', 'photoUrls': ['https://placekittens.com/488/127'], 'category': {'id': 4, 'name': 'itaque'}, 'tags': [{'id': 16, 'name': 'excepturi'}]}
-2026-11-17 15:19:35.433 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (31.1ms)
-2026-11-17 15:19:35.433 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/171278 | payload: None
-2026-11-17 15:19:35.465 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/171278 → 200 (30.8ms)

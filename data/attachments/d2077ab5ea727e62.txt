@@ -1,4 +1,0 @@
-2026-11-17 15:19:35.345 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 866761, 'name': 'Liam', 'status': 'available', 'photoUrls': ['https://picsum.photos/106/185'], 'category': {'id': 4, 'name': 'similique'}, 'tags': [{'id': 8, 'name': 'nobis'}]}
-2026-11-17 15:19:35.379 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (33.1ms)
-2026-11-17 15:19:35.379 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/866761 | payload: None
-2026-11-17 15:19:35.413 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/866761 → 200 (32.8ms)
