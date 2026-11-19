@@ -1,6 +1,0 @@
-2026-11-18 14:54:54.792 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 358705, 'name': 'Giovanna', 'status': 'available', 'photoUrls': ['https://dummyimage.com/524x324'], 'category': {'id': 7, 'name': 'assumenda'}, 'tags': [{'id': 87, 'name': 'voluptatibus'}]}
-2026-11-18 14:54:55.099 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (304.7ms)
-2026-11-18 14:54:55.100 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/pet | payload: {'id': 358705, 'name': 'Maria Eduarda', 'status': 'sold', 'photoUrls': ['https://picsum.photos/316/516']}
-2026-11-18 14:54:55.172 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/pet → 200 (71.8ms)
-2026-11-18 14:54:55.173 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/358705 | payload: None
-2026-11-18 14:54:55.246 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/358705 → 200 (72.0ms)

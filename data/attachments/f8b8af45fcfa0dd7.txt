@@ -1,0 +1,2 @@
+2026-11-19 15:00:37.045 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 581275, 'name': 'Maria Luiza', 'status': 'available', 'photoUrls': ['https://placekittens.com/904/209'], 'category': {'id': 9, 'name': 'numquam'}, 'tags': [{'id': 48, 'name': 'animi'}]}
+2026-11-19 15:00:37.524 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (477.0ms)

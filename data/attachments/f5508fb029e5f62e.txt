@@ -1,2 +1,0 @@
-2026-11-18 14:54:54.793 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 951304, 'name': 'Agatha', 'status': 'available', 'photoUrls': ['https://dummyimage.com/135x958'], 'category': {'id': 5, 'name': 'cum'}, 'tags': [{'id': 58, 'name': 'commodi'}]}
-2026-11-18 14:54:55.104 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (309.1ms)
