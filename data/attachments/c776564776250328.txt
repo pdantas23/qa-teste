@@ -1,6 +1,0 @@
-2026-11-19 15:00:37.033 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 177921, 'name': 'Benjamim', 'status': 'available', 'photoUrls': ['https://picsum.photos/295/484'], 'category': {'id': 4, 'name': 'maxime'}, 'tags': [{'id': 74, 'name': 'hic'}]}
-2026-11-19 15:00:37.536 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (501.6ms)
-2026-11-19 15:00:37.537 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/177921 | payload: None
-2026-11-19 15:00:37.609 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/177921 → 200 (71.1ms)
-2026-11-19 15:00:37.612 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/177921 | payload: None
-2026-11-19 15:00:37.684 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/177921 → 200 (70.7ms)

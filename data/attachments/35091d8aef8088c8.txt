@@ -1,0 +1,4 @@
+2026-11-20 14:43:22.732 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 121141, 'username': 'duartepedro-henrique180', 'firstName': 'Ravi Lucca', 'lastName': 'Rezende', 'email': 'marinacavalcanti@example.org', 'password': '#*M5KCvx+0G5', 'phone': '+55 16 2407-1829', 'userStatus': 1}
+2026-11-20 14:43:22.780 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (47.1ms)
+2026-11-20 14:43:22.780 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/duartepedro-henrique180 | payload: None
+2026-11-20 14:43:22.828 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/duartepedro-henrique180 → 200 (47.4ms)

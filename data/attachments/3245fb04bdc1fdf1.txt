@@ -1,0 +1,11 @@
+2026-11-20 14:43:22.865 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 70506, 'name': 'Maya', 'status': 'available', 'photoUrls': ['https://picsum.photos/224/648'], 'category': {'id': 6, 'name': 'quibusdam'}, 'tags': [{'id': 89, 'name': 'voluptatum'}]}
+2026-11-20 14:43:22.917 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (50.7ms)
+2026-11-20 14:43:22.917 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 337786, 'petId': 70506, 'quantity': 1, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
+2026-11-20 14:43:22.969 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (51.2ms)
+2026-11-20 14:43:22.969 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/337786 | payload: None
+2026-11-20 14:43:23.021 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/337786 → 200 (50.8ms)
+2026-11-20 14:43:23.021 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/70506 | payload: None
+2026-11-20 14:43:23.073 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/70506 → 200 (51.6ms)
+2026-11-20 14:43:23.073 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/store/order/337786 | payload: None
+2026-11-20 14:43:23.125 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/store/order/337786 → 404 (51.1ms)
+2026-11-20 14:43:23.125 +00:00 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Order not found"}
