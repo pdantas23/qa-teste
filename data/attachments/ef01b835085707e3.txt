@@ -1,7 +1,0 @@
-2026-11-20 14:43:22.531 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 940977, 'name': 'Cauê', 'status': 'available', 'photoUrls': ['https://placekittens.com/454/760'], 'category': {'id': 10, 'name': 'laboriosam'}, 'tags': [{'id': 11, 'name': 'harum'}]}
-2026-11-20 14:43:22.580 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (47.6ms)
-2026-11-20 14:43:22.580 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/940977 | payload: None
-2026-11-20 14:43:22.628 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/940977 → 200 (47.9ms)
-2026-11-20 14:43:22.629 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/940977 | payload: None
-2026-11-20 14:43:22.677 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/940977 → 404 (47.6ms)
-2026-11-20 14:43:22.677 +00:00 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

@@ -1,4 +1,0 @@
-2026-11-20 14:43:22.546 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 935450, 'name': 'Davi Lucas', 'status': 'available', 'photoUrls': ['https://picsum.photos/936/1006'], 'category': {'id': 7, 'name': 'perferendis'}, 'tags': [{'id': 77, 'name': 'in'}]}
-2026-11-20 14:43:22.598 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.1ms)
-2026-11-20 14:43:22.599 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/935450 | payload: None
-2026-11-20 14:43:22.650 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/935450 → 200 (51.0ms)

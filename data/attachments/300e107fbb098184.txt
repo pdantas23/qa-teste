@@ -1,8 +1,0 @@
-2026-11-20 14:43:22.654 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 58381, 'name': 'Antonella', 'status': 'available', 'photoUrls': ['https://dummyimage.com/217x420'], 'category': {'id': 6, 'name': 'vel'}, 'tags': [{'id': 59, 'name': 'minima'}]}
-2026-11-20 14:43:22.706 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (51.0ms)
-2026-11-20 14:43:22.706 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 40421, 'petId': 58381, 'quantity': 4, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
-2026-11-20 14:43:22.757 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (50.9ms)
-2026-11-20 14:43:22.758 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/40421 | payload: None
-2026-11-20 14:43:22.810 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/40421 → 200 (51.4ms)
-2026-11-20 14:43:22.811 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/58381 | payload: None
-2026-11-20 14:43:22.862 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/58381 → 200 (50.6ms)

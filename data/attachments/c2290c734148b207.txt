@@ -1,0 +1,6 @@
+2026-11-21 13:59:11.276 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 250309, 'name': 'Ian', 'status': 'available', 'photoUrls': ['https://placekittens.com/493/841'], 'category': {'id': 2, 'name': 'tenetur'}, 'tags': [{'id': 2, 'name': 'error'}]}
+2026-11-21 13:59:11.664 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (386.1ms)
+2026-11-21 13:59:11.664 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/250309 | payload: None
+2026-11-21 13:59:11.729 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/250309 → 200 (64.2ms)
+2026-11-21 13:59:11.731 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/250309 | payload: None
+2026-11-21 13:59:11.796 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/250309 → 200 (63.9ms)
