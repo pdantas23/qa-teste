@@ -1,6 +1,0 @@
-2026-11-21 13:59:12.262 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user/createWithList | payload: [{'id': 142979, 'username': 'theoleao477', 'firstName': 'Juan', 'lastName': 'Campos', 'email': 'novaismaria-isis@example.net', 'password': '%Z$G%Ciw6(Ph', 'phone': '+55 32 0574-2926', 'userStatus': 1}, {'id': 286078, 'username': 'kda-luz447', 'firstName': 'Melissa', 'lastName': 'Costa', 'email': 'das-neveslorenzo@example.net', 'password': 'C%MDuO^*(e8R', 'phone': '+55 86 6218-4149', 'userStatus': 1}]
-2026-11-21 13:59:12.327 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user/createWithList → 200 (63.8ms)
-2026-11-21 13:59:12.327 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/theoleao477 | payload: None
-2026-11-21 13:59:12.392 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/theoleao477 → 200 (63.6ms)
-2026-11-21 13:59:12.392 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/kda-luz447 | payload: None
-2026-11-21 13:59:12.456 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/kda-luz447 → 200 (63.7ms)

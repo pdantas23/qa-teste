@@ -1,0 +1,4 @@
+2026-11-22 13:53:06.985 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 874255, 'name': 'Brayan', 'status': 'available', 'photoUrls': ['https://dummyimage.com/27x1022'], 'category': {'id': 4, 'name': 'dolor'}, 'tags': [{'id': 46, 'name': 'incidunt'}]}
+2026-11-22 13:53:07.022 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (36.7ms)
+2026-11-22 13:53:07.023 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/874255 | payload: None
+2026-11-22 13:53:07.060 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/874255 → 200 (37.2ms)
