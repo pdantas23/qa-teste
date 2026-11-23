@@ -1,6 +1,0 @@
-2026-11-22 13:53:06.717 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 702262, 'name': 'Maria Liz', 'status': 'available', 'photoUrls': ['https://dummyimage.com/756x300'], 'category': {'id': 6, 'name': 'sunt'}, 'tags': [{'id': 99, 'name': 'occaecati'}]}
-2026-11-22 13:53:06.946 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (227.3ms)
-2026-11-22 13:53:06.947 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/702262 | payload: None
-2026-11-22 13:53:06.978 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/702262 → 200 (29.9ms)
-2026-11-22 13:53:06.981 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/702262 | payload: None
-2026-11-22 13:53:07.011 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/702262 → 200 (29.8ms)

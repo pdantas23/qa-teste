@@ -1,2 +1,0 @@
-2026-11-22 13:53:06.727 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 691086, 'name': 'Maria Flor', 'status': 'available', 'photoUrls': ['https://placekittens.com/529/732'], 'category': {'id': 4, 'name': 'porro'}, 'tags': [{'id': 6, 'name': 'similique'}]}
-2026-11-22 13:53:06.979 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (251.2ms)
