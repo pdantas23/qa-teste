@@ -1,4 +1,0 @@
-2026-11-23 17:01:24.758 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 943651, 'name': 'Alexia', 'status': 'available', 'photoUrls': ['https://picsum.photos/916/571'], 'category': {'id': 5, 'name': 'similique'}, 'tags': [{'id': 24, 'name': 'cupiditate'}]}
-2026-11-23 17:01:24.795 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (36.7ms)
-2026-11-23 17:01:24.796 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/943651 | payload: None
-2026-11-23 17:01:24.832 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/943651 → 200 (35.5ms)
