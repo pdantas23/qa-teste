@@ -1,0 +1,4 @@
+2026-11-25 16:37:05.460 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 656112, 'name': 'Davi Lucca', 'status': 'available', 'photoUrls': ['https://placekittens.com/947/230'], 'category': {'id': 9, 'name': 'accusantium'}, 'tags': [{'id': 94, 'name': 'voluptate'}]}
+2026-11-25 16:37:05.493 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (32.6ms)
+2026-11-25 16:37:05.494 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/656112 | payload: None
+2026-11-25 16:37:05.526 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/656112 → 200 (32.3ms)

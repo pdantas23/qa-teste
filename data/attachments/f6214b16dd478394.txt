@@ -1,4 +1,0 @@
-2026-11-24 16:49:09.524 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 416483, 'name': 'Pedro Lucas', 'status': 'available', 'photoUrls': ['https://placekittens.com/582/11'], 'category': {'id': 7, 'name': 'blanditiis'}, 'tags': [{'id': 69, 'name': 'porro'}]}
-2026-11-24 16:49:09.594 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (69.3ms)
-2026-11-24 16:49:09.595 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/416483 | payload: None
-2026-11-24 16:49:09.664 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/416483 → 200 (68.2ms)

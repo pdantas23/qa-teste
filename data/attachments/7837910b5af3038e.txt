@@ -1,0 +1,4 @@
+2026-11-25 16:37:05.378 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 76495, 'name': 'Bárbara', 'status': 'available', 'photoUrls': ['https://dummyimage.com/464x812'], 'category': {'id': 1, 'name': 'pariatur'}, 'tags': [{'id': 54, 'name': 'ullam'}]}
+2026-11-25 16:37:05.408 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (29.5ms)
+2026-11-25 16:37:05.408 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/76495 | payload: None
+2026-11-25 16:37:05.438 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/76495 → 200 (29.0ms)

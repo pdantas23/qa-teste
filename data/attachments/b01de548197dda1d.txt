@@ -1,8 +1,0 @@
-2026-11-24 16:49:09.956 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 170451, 'name': 'Pietra', 'status': 'available', 'photoUrls': ['https://dummyimage.com/916x861'], 'category': {'id': 2, 'name': 'assumenda'}, 'tags': [{'id': 10, 'name': 'eaque'}]}
-2026-11-24 16:49:10.025 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (68.1ms)
-2026-11-24 16:49:10.026 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/store/order | payload: {'id': 13389, 'petId': 170451, 'quantity': 4, 'shipDate': '2025-12-01T00:00:00.000Z', 'status': 'placed', 'complete': False}
-2026-11-24 16:49:10.094 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/store/order → 200 (67.6ms)
-2026-11-24 16:49:10.095 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/store/order/13389 | payload: None
-2026-11-24 16:49:10.163 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/store/order/13389 → 200 (67.5ms)
-2026-11-24 16:49:10.164 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/170451 | payload: None
-2026-11-24 16:49:10.232 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/170451 → 200 (67.6ms)
