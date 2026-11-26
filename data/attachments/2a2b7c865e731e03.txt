@@ -1,0 +1,2 @@
+2026-11-26 16:09:34.304 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 847356, 'name': 'Ester', 'status': 'available', 'photoUrls': ['https://dummyimage.com/371x932'], 'category': {'id': 4, 'name': 'ex'}, 'tags': [{'id': 28, 'name': 'itaque'}]}
+2026-11-26 16:09:34.417 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (110.9ms)
