@@ -1,0 +1,6 @@
+2026-11-27 15:56:16.597 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 948383, 'name': 'Manuela', 'status': 'available', 'photoUrls': ['https://picsum.photos/343/734'], 'category': {'id': 2, 'name': 'vitae'}, 'tags': [{'id': 26, 'name': 'pariatur'}]}
+2026-11-27 15:56:16.853 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (255.3ms)
+2026-11-27 15:56:16.854 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/948383 | payload: None
+2026-11-27 15:56:16.894 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/948383 → 200 (39.8ms)
+2026-11-27 15:56:16.896 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/948383 | payload: None
+2026-11-27 15:56:16.936 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/948383 → 200 (39.8ms)

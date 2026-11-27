@@ -1,0 +1,7 @@
+2026-11-27 15:56:16.936 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 102003, 'name': 'Eduardo', 'status': 'available', 'photoUrls': ['https://picsum.photos/833/457'], 'category': {'id': 10, 'name': 'pariatur'}, 'tags': [{'id': 66, 'name': 'tempore'}]}
+2026-11-27 15:56:16.975 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (38.5ms)
+2026-11-27 15:56:16.976 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/102003 | payload: None
+2026-11-27 15:56:17.015 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/102003 → 200 (38.2ms)
+2026-11-27 15:56:17.015 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → GET https://petstore.swagger.io/v2/pet/102003 | payload: None
+2026-11-27 15:56:17.054 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - GET https://petstore.swagger.io/v2/pet/102003 → 404 (38.6ms)
+2026-11-27 15:56:17.054 +00:00 | WARNING  | core.api.base_client:_registrar_resposta:24 - Corpo da resposta: {"code":1,"type":"error","message":"Pet not found"}

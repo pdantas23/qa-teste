@@ -1,0 +1,6 @@
+2026-11-27 15:56:17.385 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/user | payload: {'id': 228622, 'username': 'noahnunes432', 'firstName': 'José Pedro', 'lastName': 'Marques', 'email': 'marqueskaique@example.org', 'password': 'c!8Sy(BX(F_Q', 'phone': '69 4452-6848', 'userStatus': 1}
+2026-11-27 15:56:17.425 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/user → 200 (38.9ms)
+2026-11-27 15:56:17.426 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → PUT https://petstore.swagger.io/v2/user/noahnunes432 | payload: {'id': 228622, 'username': 'noahnunes432', 'firstName': 'NomeAtualizado', 'lastName': 'Marques', 'email': 'marqueskaique@example.org', 'password': 'c!8Sy(BX(F_Q', 'phone': '69 4452-6848', 'userStatus': 1}
+2026-11-27 15:56:17.465 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - PUT https://petstore.swagger.io/v2/user/noahnunes432 → 200 (38.4ms)
+2026-11-27 15:56:17.465 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/user/noahnunes432 | payload: None
+2026-11-27 15:56:17.504 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/user/noahnunes432 → 200 (38.7ms)
