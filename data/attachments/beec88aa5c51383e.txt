@@ -1,4 +1,0 @@
-2026-11-27 15:56:16.853 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 278582, 'name': 'Ísis', 'status': 'available', 'photoUrls': ['https://picsum.photos/318/100'], 'category': {'id': 5, 'name': 'cum'}, 'tags': [{'id': 82, 'name': 'nulla'}]}
-2026-11-27 15:56:16.892 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (38.6ms)
-2026-11-27 15:56:16.893 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/278582 | payload: None
-2026-11-27 15:56:16.932 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/278582 → 200 (38.5ms)

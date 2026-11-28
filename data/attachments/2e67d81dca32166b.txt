@@ -1,0 +1,4 @@
+2026-11-28 14:52:42.825 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → POST https://petstore.swagger.io/v2/pet | payload: {'id': 457810, 'name': 'Maria Sophia', 'status': 'available', 'photoUrls': ['https://picsum.photos/879/157'], 'category': {'id': 3, 'name': 'deserunt'}, 'tags': [{'id': 74, 'name': 'eum'}]}
+2026-11-28 14:52:42.830 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - POST https://petstore.swagger.io/v2/pet → 200 (3.8ms)
+2026-11-28 14:52:42.830 +00:00 | DEBUG    | core.api.base_client:_requisitar:28 - → DELETE https://petstore.swagger.io/v2/pet/457810 | payload: None
+2026-11-28 14:52:42.834 +00:00 | INFO     | core.api.base_client:_registrar_resposta:16 - DELETE https://petstore.swagger.io/v2/pet/457810 → 200 (3.3ms)
